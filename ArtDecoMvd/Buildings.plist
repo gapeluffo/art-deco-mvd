@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Buildings</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Don Boutique Hotel Montevideo</string>
+			<key>address</key>
+			<string>Piedras 234</string>
+			<key>author</key>
+			<string></string>
+			<key>year</key>
+			<string></string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906180</string>
+				<key>longitude</key>
+				<string>-56.211685</string>
+			</dict>
+			<key>images</key>
+			<array>
+				<string></string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bar Los Beatles</string>
+			<key>address</key>
+			<string>Calle Perez Castellano 1424</string>
+			<key>author</key>
+			<string></string>
+			<key>year</key>
+			<string></string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906666</string>
+				<key>longitude</key>
+				<string>-56.211074</string>
+			</dict>
+			<key>images</key>
+			<array>
+				<string></string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Edificio Artigas</string>
+			<key>address</key>
+			<string>Rincón 487</string>
+			<key>author</key>
+			<string></string>
+			<key>year</key>
+			<string></string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906484</string>
+				<key>longitude</key>
+				<string>-56.205597</string>
+			</dict>
+			<key>images</key>
+			<array>
+				<string></string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comando General de la Armada Nacional</string>
+			<key>address</key>
+			<string>Rambla 25 de Agosto de 1825</string>
+			<key>author</key>
+			<string></string>
+			<key>year</key>
+			<string></string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905088</string>
+				<key>longitude</key>
+				<string>-56.212185</string>
+			</dict>
+			<key>images</key>
+			<array>
+				<string></string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
