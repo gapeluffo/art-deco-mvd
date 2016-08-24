@@ -59,15 +59,42 @@ extension MapViewController {
         var v = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseIdentifier)
         if(v == nil){
             v = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
-            v!.canShowCallout = true
+            v!.canShowCallout = false
             v!.calloutOffset = CGPoint(x: -5, y: 5)
             v!.image = UIImage(named: "Pin")
-            v!.rightCalloutAccessoryView = UIButton(type: UIButtonType.DetailDisclosure) as UIView
+            v!.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
         }else{
             v!.annotation = annotation
         }
         return v
 
+    }
+    
+    func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
+        
+        if view.annotation is MKUserLocation{
+            return
+        }
+        
+        let annotation = view.annotation!
+        let views = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)
+        
+        let buildingView = views[0] as! BuildingAnnotationView
+        buildingView.configure(annotation)
+    
+        buildingView.center = CGPointMake(view.bounds.size.width / 2, -buildingView.bounds.size.height*0.72)
+        
+        view.addSubview(buildingView)
+    }
+    
+    func mapView(mapView: MKMapView, didDeselectAnnotationView view: MKAnnotationView) {
+        if view.isKindOfClass(MKAnnotationView)
+        {
+            for subview in view.subviews
+            {
+                subview.removeFromSuperview()
+            }
+        }
     }
     
     

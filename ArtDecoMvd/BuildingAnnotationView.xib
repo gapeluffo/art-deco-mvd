@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="HhM-So-wcn" customClass="BuildingAnnotationView" customModule="ArtDecoMvd" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="306" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buildingThumbnail" translatesAutoresizingMaskIntoConstraints="NO" id="F7k-2M-gAA">
+                    <rect key="frame" x="0.0" y="0.0" width="79" height="68"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="184" translatesAutoresizingMaskIntoConstraints="NO" id="Rfq-LD-8Nv">
+                    <rect key="frame" x="91" y="13" width="183" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="183" id="72j-oN-hnq"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Edificio Artigas">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="17" name="Avenir-Medium"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lN-Uo-6rf">
+                    <rect key="frame" x="282" y="25" width="16" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="AkJ-3x-1BJ"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="arrowRight"/>
+                    <connections>
+                        <action selector="goToDetails:" destination="HhM-So-wcn" eventType="touchDown" id="acf-wq-vxY"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJT-x2-eH4">
+                    <rect key="frame" x="91" y="33" width="101" height="21"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Edificio Artigas">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name="Avenir-Light"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Rfq-LD-8Nv" firstAttribute="top" secondItem="HhM-So-wcn" secondAttribute="top" constant="13" id="DLK-iz-0xq"/>
+                <constraint firstAttribute="bottom" secondItem="KJT-x2-eH4" secondAttribute="bottom" constant="14" id="IX1-fd-hFw"/>
+                <constraint firstItem="1lN-Uo-6rf" firstAttribute="leading" secondItem="Rfq-LD-8Nv" secondAttribute="trailing" constant="73" id="WGN-aB-aed"/>
+                <constraint firstItem="Rfq-LD-8Nv" firstAttribute="leading" secondItem="F7k-2M-gAA" secondAttribute="trailing" constant="12" id="WHy-iZ-fUd"/>
+                <constraint firstAttribute="bottom" secondItem="F7k-2M-gAA" secondAttribute="bottom" id="YOe-iK-NHv"/>
+                <constraint firstItem="Rfq-LD-8Nv" firstAttribute="leading" secondItem="KJT-x2-eH4" secondAttribute="leading" id="Z9a-h3-YM0"/>
+                <constraint firstItem="1lN-Uo-6rf" firstAttribute="trailing" secondItem="HhM-So-wcn" secondAttribute="trailingMargin" id="Zp1-a9-Qly"/>
+                <constraint firstItem="F7k-2M-gAA" firstAttribute="top" secondItem="HhM-So-wcn" secondAttribute="top" id="dmN-x9-Ba7"/>
+                <constraint firstItem="1lN-Uo-6rf" firstAttribute="top" secondItem="HhM-So-wcn" secondAttribute="top" constant="25" id="eRq-a4-MBl"/>
+                <constraint firstItem="F7k-2M-gAA" firstAttribute="leading" secondItem="HhM-So-wcn" secondAttribute="leading" id="hvm-rp-nic"/>
+                <constraint firstItem="1lN-Uo-6rf" firstAttribute="leading" secondItem="KJT-x2-eH4" secondAttribute="trailing" constant="90" id="oan-LM-80P"/>
+                <constraint firstItem="KJT-x2-eH4" firstAttribute="top" secondItem="HhM-So-wcn" secondAttribute="top" constant="33" id="xFV-X1-YdM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buildingAddress" destination="KJT-x2-eH4" id="Ukm-Pm-234"/>
+                <outlet property="buildingName" destination="Rfq-LD-8Nv" id="DoG-Er-zgY"/>
+                <outlet property="image" destination="F7k-2M-gAA" id="yNX-Z1-zuI"/>
+            </connections>
+            <point key="canvasLocation" x="802" y="227"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrowRight" width="13" height="23"/>
+        <image name="buildingThumbnail" width="79" height="68"/>
+    </resources>
+</document>

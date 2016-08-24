@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().tintColor = UIColor.whiteColor()
         UINavigationBar.appearance().tintColor = Colors.mainColor
         UINavigationBar.appearance().backgroundColor = Colors.mainColor
+        UILabel.appearance().font = UIFont(name: "Avenir", size: 17.0)
         
         return true
     }
