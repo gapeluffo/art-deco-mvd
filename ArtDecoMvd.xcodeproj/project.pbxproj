@@ -22,6 +22,8 @@
 		0E497AAE1D6A5CC800F1C7C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AAD1D6A5CC800F1C7C2 /* Constants.swift */; };
 		0E497AB01D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AAF1D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift */; };
 		0E497AB41D6D1FA700F1C7C2 /* BuildingAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */; };
+		0E497AB61D6F9F0500F1C7C2 /* EdificiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB51D6F9F0500F1C7C2 /* EdificiosViewController.swift */; };
+		0E497AB81D6FAB7400F1C7C2 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		0E497AAD1D6A5CC800F1C7C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0E497AAF1D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingAnnotationView.swift; sourceTree = "<group>"; };
 		0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuildingAnnotationView.xib; sourceTree = "<group>"; };
+		0E497AB51D6F9F0500F1C7C2 /* EdificiosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdificiosViewController.swift; sourceTree = "<group>"; };
+		0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 				0E497AA61D6A374E00F1C7C2 /* MapViewController.swift */,
 				0E497AA51D6A374E00F1C7C2 /* ListViewController.swift */,
 				0E497A731D6A35EB00F1C7C2 /* ViewController.swift */,
+				0E497AB51D6F9F0500F1C7C2 /* EdificiosViewController.swift */,
+				0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -320,7 +326,9 @@
 				0E497A721D6A35EB00F1C7C2 /* AppDelegate.swift in Sources */,
 				0E497AAE1D6A5CC800F1C7C2 /* Constants.swift in Sources */,
 				0E497AB01D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift in Sources */,
+				0E497AB81D6FAB7400F1C7C2 /* NavViewController.swift in Sources */,
 				0E497AA91D6A374E00F1C7C2 /* ListViewController.swift in Sources */,
+				0E497AB61D6F9F0500F1C7C2 /* EdificiosViewController.swift in Sources */,
 				0E497AA81D6A374E00F1C7C2 /* BuildingTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

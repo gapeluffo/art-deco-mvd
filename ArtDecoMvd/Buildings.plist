@@ -10,9 +10,9 @@
 			<key>address</key>
 			<string>Piedras 234</string>
 			<key>author</key>
-			<string></string>
+			<string>Federico Giuria</string>
 			<key>year</key>
-			<string></string>
+			<string>1903</string>
 			<key>coordinates</key>
 			<dict>
 				<key>latitude</key>
@@ -31,9 +31,9 @@
 			<key>address</key>
 			<string>Calle Perez Castellano 1424</string>
 			<key>author</key>
-			<string></string>
+			<string>Gabriela Peluffo</string>
 			<key>year</key>
-			<string></string>
+			<string>1920</string>
 			<key>coordinates</key>
 			<dict>
 				<key>latitude</key>

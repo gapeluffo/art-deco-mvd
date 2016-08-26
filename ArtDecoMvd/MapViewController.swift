@@ -77,14 +77,17 @@ extension MapViewController {
         }
         
         let annotation = view.annotation!
-        let views = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)
-        
-        let buildingView = views[0] as! BuildingAnnotationView
-        buildingView.configure(annotation)
-    
-        buildingView.center = CGPointMake(view.bounds.size.width / 2, -buildingView.bounds.size.height*0.72)
+        var buildingView = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)[0] as! BuildingAnnotationView
         
         view.addSubview(buildingView)
+        
+        buildingView.configure(annotation)
+        buildingView.center = CGPointMake(view.bounds.size.width / 2, -buildingView.bounds.size.height*0.72)
+        
+        buildingView = view.subviews[0] as! BuildingAnnotationView
+        buildingView.buildingAddress.font = UIFont(name: "Avenir-Light", size: 11)
+        buildingView.buildingName.font = UIFont(name: "Avenir-Medium", size: 13)
+        
     }
     
     func mapView(mapView: MKMapView, didDeselectAnnotationView view: MKAnnotationView) {

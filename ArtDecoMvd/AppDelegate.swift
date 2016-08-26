@@ -22,6 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().backgroundColor = Colors.mainColor
         UILabel.appearance().font = UIFont(name: "Avenir", size: 17.0)
         
+        if let font = UIFont (name: "Avenir", size: 17) {
+            UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: font]
+        }
+        
         return true
     }
 

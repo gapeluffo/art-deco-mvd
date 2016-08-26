@@ -31,7 +31,7 @@ struct Building {
                 fullDescription: "",
                 shortDescription: "",
                 year: data["year"] as! String,
-                architect: "",
+                architect: data["author"] as! String,
                 location: getCoordinates(data)
             )
         }
