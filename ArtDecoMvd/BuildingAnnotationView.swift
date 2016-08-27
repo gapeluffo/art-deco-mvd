@@ -9,31 +9,29 @@ import UIKit
 import MapKit
 
 class BuildingAnnotationView : UIView, UIGestureRecognizerDelegate {
-    
+
     @IBOutlet var image: UIImageView!
     @IBOutlet var buildingName: UILabel!
     @IBOutlet var buildingAddress: UILabel!
-    
+
     @IBOutlet var favoriteButton: UIButton!
-    
-    var isFavorite: Bool = false
-    
+
     func toggleFavorite(recognizer: UITapGestureRecognizer) {
         isFavorite = !isFavorite
         let image = UIImage(named: isFavorite ? "fav_selected" : "fav")
         favoriteButton.setImage(image, forState: .Normal)
     }
-    
+
     @IBAction func goToDetails(sender: AnyObject) {
-        
+
     }
     
     func configure(building: BuildingPinAnnotation){
         buildingName.text    = building.title!
         buildingAddress.text = building.subtitle!
-        
+
         self.layer.cornerRadius = 15
-        
+
         let tap = UITapGestureRecognizer(target: self, action: #selector(toggleFavorite))
         tap.delegate = self
         
@@ -42,5 +40,4 @@ class BuildingAnnotationView : UIView, UIGestureRecognizerDelegate {
         favoriteButton.addGestureRecognizer(tap)
         favoriteButton.userInteractionEnabled = true
     }
-    
 }

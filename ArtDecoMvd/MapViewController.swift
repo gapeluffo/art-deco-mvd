@@ -53,6 +53,7 @@ class MapViewController: UIViewController {
     @IBAction func pinOptionsChanged(sender: AnyObject) {
         
     }
+}
 
 }
 
@@ -62,7 +63,7 @@ extension MapViewController : MKMapViewDelegate {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 2.0, regionRadius * 2.0)
         mapView.setRegion(coordinateRegion, animated: true)
     }
-    
+
     func addPins(){
         
         var annotation      : BuildingPinAnnotation
@@ -79,7 +80,7 @@ extension MapViewController : MKMapViewDelegate {
             mapView.addAnnotation(annotationView.annotation!)
         }
     }
-    
+
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
         var v = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseIdentifier)
         if(v == nil){
@@ -90,32 +91,30 @@ extension MapViewController : MKMapViewDelegate {
             v!.image = UIImage(named: buildingAnnotation.isFavorite ? "map_pin_favorite" : "map_pin")
             v!.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
         }else{
-            v!.annotation = annotation
+            auxView!.annotation = annotation
         }
-        return v
 
+        return auxView
     }
-    
+
     func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
-        
         if view.annotation is MKUserLocation{
             return
         }
         
         let annotation = view.annotation! as! BuildingPinAnnotation
         var buildingView = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)[0] as! BuildingAnnotationView
-        
+
         view.addSubview(buildingView)
-        
+
         buildingView.configure(annotation)
         buildingView.center = CGPointMake(view.bounds.size.width / 2, -buildingView.bounds.size.height*0.72)
-        
+
         buildingView = view.subviews[0] as! BuildingAnnotationView
-        buildingView.buildingAddress.font = UIFont(name: "Avenir-Light", size: 11)
-        buildingView.buildingName.font = UIFont(name: "Avenir-Medium", size: 13)
-        
+        buildingView.buildingAddress.font = UIFont(name: kFontLight, size: 11)
+        buildingView.buildingName.font = UIFont(name: kFontMedium, size: 13)
     }
-    
+
     func mapView(mapView: MKMapView, didDeselectAnnotationView view: MKAnnotationView) {
         
         if view.isKindOfClass(MKAnnotationView){

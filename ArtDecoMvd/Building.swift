@@ -11,7 +11,18 @@ import MapKit
 
 struct Building {
 
-    var id: Int
+    private enum BuildingKeys : String {
+      case Name = "name"
+      case Address = "address"
+      case ShortDesc = "shortDescription"
+      case FullDesc = "fullDescription"
+      case Year = "year"
+      case Author = "author"
+      case Coordinates = "coordinates"
+      case Latitude = "latitude"
+      case Longitude = "longitude"
+    }
+  
     var name: String
     var address: String
     var fullDescription: String
@@ -19,38 +30,28 @@ struct Building {
     var year: String
     var architect: String
     var location: CLLocationCoordinate2D
-    
-    static var allBuildings : [Building] = []
-    
+
     static func loadBuildings() -> [Building]{
-        
-        if(allBuildings.count > 0){
-            return allBuildings
-        }
-        
-        let buildingList : [String:AnyObject] = NSDictionary(contentsOfFile: NSBundle.mainBundle().pathForResource("Buildings", ofType: "plist")!) as! [String:AnyObject]
-        
-        let buildings = buildingList["Buildings"] as! [String:[String:AnyObject]]
-        
-        return buildings.keys.map{ (id:String) -> Building in
-            let building = buildings[id]! as [String:AnyObject]
+        let buildingList : [String:AnyObject] = NSDictionary(contentsOfFile: NSBundle.mainBundle().pathForResource(kBuildingsKey, ofType: "plist")!) as! [String:AnyObject]
+
+        let buildings = buildingList[kBuildingsKey] as! [[String:AnyObject]]
+
+        return buildings.map{ (data:[String:AnyObject]) -> Building in
             return Building(
-                id: Int(id)!,
-                name: building["name"] as! String,
-                address: building["address"] as! String,
+                name: data[BuildingKeys.Name.rawValue] as! String,
+                address: data[BuildingKeys.Address.rawValue] as! String,
                 fullDescription: "",
                 shortDescription: "",
-                year: building["year"] as! String,
-                architect: building["author"] as! String,
-                location: getCoordinates(building)
+                year: data[BuildingKeys.Year.rawValue] as! String,
+                architect: data[BuildingKeys.Author.rawValue] as! String,
+                location: getCoordinates(data[BuildingKeys.Coordinates.rawValue] as! [String : AnyObject])
             )
         }
-        
     }
-    
-    
+
     static func getCoordinates(buildingData:[String:AnyObject]) -> CLLocationCoordinate2D {
-        return CLLocationCoordinate2D(latitude: (buildingData["coordinates"]?["latitude"]?!.doubleValue)! , longitude: (buildingData["coordinates"]?["longitude"]?!.doubleValue)!)
+        return CLLocationCoordinate2D(latitude: (buildingData[BuildingKeys.Latitude.rawValue]!.doubleValue)!,
+                                     longitude: (buildingData[BuildingKeys.Longitude.rawValue]!.doubleValue)!)
     }
     
 }
