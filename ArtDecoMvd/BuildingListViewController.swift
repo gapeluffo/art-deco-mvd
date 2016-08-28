@@ -64,7 +64,7 @@ class BuildingListViewController: UIViewController {
     }
 }
 
-extension EdificiosViewController : UISearchResultsUpdating {
+extension BuildingListViewController : UISearchResultsUpdating, UISearchBarDelegate {
 
     func filterContentForSearchText(searchText: String, scope: String = "All") {
 

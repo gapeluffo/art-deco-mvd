@@ -12,32 +12,43 @@ import MapKit
 struct Building {
 
     private enum BuildingKeys : String {
-      case Name = "name"
-      case Address = "address"
-      case ShortDesc = "shortDescription"
-      case FullDesc = "fullDescription"
-      case Year = "year"
-      case Author = "author"
-      case Coordinates = "coordinates"
-      case Latitude = "latitude"
-      case Longitude = "longitude"
+      case Id           = "id"
+      case Name         = "name"
+      case Address      = "address"
+      case ShortDesc    = "shortDescription"
+      case FullDesc     = "fullDescription"
+      case Year         = "year"
+      case Author       = "author"
+      case Coordinates  = "coordinates"
+      case Latitude     = "latitude"
+      case Longitude    = "longitude"
     }
-  
-    var name: String
-    var address: String
+
+    var id:              Int
+    var name:            String
+    var address:         String
     var fullDescription: String
-    var shortDescription: String
-    var year: String
-    var architect: String
-    var location: CLLocationCoordinate2D
+    var shortDescription:String
+    var year:            String
+    var architect:       String
+    var location:        CLLocationCoordinate2D
+
+    static var allBuildings : [Building] = []
+
 
     static func loadBuildings() -> [Building]{
+        if allBuildings.count > 0{
+            return allBuildings
+        }
+
         let buildingList : [String:AnyObject] = NSDictionary(contentsOfFile: NSBundle.mainBundle().pathForResource(kBuildingsKey, ofType: "plist")!) as! [String:AnyObject]
 
-        let buildings = buildingList[kBuildingsKey] as! [[String:AnyObject]]
+        let buildings = buildingList[kBuildingsKey] as! [String:[String:AnyObject]]
 
-        return buildings.map{ (data:[String:AnyObject]) -> Building in
+        return buildings.keys.map{ (key:String) -> Building in
+            let data = buildings[key]!
             return Building(
+                id: Int(data[BuildingKeys.Id.rawValue] as! String)!,
                 name: data[BuildingKeys.Name.rawValue] as! String,
                 address: data[BuildingKeys.Address.rawValue] as! String,
                 fullDescription: "",

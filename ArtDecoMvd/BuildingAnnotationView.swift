@@ -13,11 +13,11 @@ class BuildingAnnotationView : UIView, UIGestureRecognizerDelegate {
     @IBOutlet var image: UIImageView!
     @IBOutlet var buildingName: UILabel!
     @IBOutlet var buildingAddress: UILabel!
-
     @IBOutlet var favoriteButton: UIButton!
 
+    var isFavorite: Bool = false
+
     func toggleFavorite(recognizer: UITapGestureRecognizer) {
-        isFavorite = !isFavorite
         let image = UIImage(named: isFavorite ? "fav_selected" : "fav")
         favoriteButton.setImage(image, forState: .Normal)
     }

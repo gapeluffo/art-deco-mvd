@@ -16,7 +16,7 @@ class Favorites {
     init(){
         let buildingList : [String:AnyObject] = NSDictionary(contentsOfFile: NSBundle.mainBundle().pathForResource("Buildings", ofType: "plist")!) as! [String:AnyObject]
         
-        let buildingListFavs = buildingList[BuildingConsts.favsIdentifier] as! [String]
+        let buildingListFavs = buildingList[favIdentifier] as! [String]
         favoriteBuildings = buildingListFavs.map({ (key:String) -> Int in
             return Int(key)!
         })

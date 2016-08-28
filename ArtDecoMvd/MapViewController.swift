@@ -11,20 +11,23 @@ import MapKit
 
 class MapViewController: UIViewController {
 
+    private enum PinOptions : Int{
+        case All        = 0
+        case Favorties  = 1
+    }
+
     @IBOutlet var optionsTab: UIView!
     @IBOutlet var searchBar: UISearchBar!
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet var mapOptions: UISegmentedControl!
     
     let regionRadius: CLLocationDistance = 1000
-    
     let reuseIdentifier = "pin"
+
     var buildings : [Building] = []
+    var allAnnotations : [MKAnnotation] = []
     
-    private enum PinOptions : Int{
-        case All        = 0
-        case Favorties  = 1
-    }
+
     
     
     //    TODOOOOO SET THIS TO USERS CURRENT LOCATION
@@ -43,19 +46,34 @@ class MapViewController: UIViewController {
         
     }
     
+
+    
+    @IBAction func pinOptionsChanged(sender: AnyObject) {
+        if mapOptions.selectedSegmentIndex == PinOptions.All.rawValue {
+            mapView.addAnnotations(filterAnnotations(true))
+
+        }else{
+            mapView.removeAnnotations(filterAnnotations(false))
+        }
+    }
+    
+
     func initializeLayout(){
         self.view.backgroundColor = Colors.mainColor
         optionsTab.backgroundColor = Colors.mainColor
-        
         centerMapOnLocation(initialLocation)
     }
-    
-    @IBAction func pinOptionsChanged(sender: AnyObject) {
-        
+
+    func filterAnnotations(favorites:Bool) -> [MKAnnotation]{
+        let annotations = allAnnotations
+        let filteredAnnotations = annotations.filter({ (annotation: MKAnnotation) -> Bool in
+            let buildingAnnotation = annotation as! BuildingPinAnnotation
+            return buildingAnnotation.isFavorite == favorites
+        })
+        return filteredAnnotations
     }
 }
 
-}
 
 extension MapViewController : MKMapViewDelegate {
     
@@ -78,18 +96,19 @@ extension MapViewController : MKMapViewDelegate {
             
             annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             mapView.addAnnotation(annotationView.annotation!)
+            allAnnotations.append(annotationView.annotation!)
         }
     }
 
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
-        var v = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseIdentifier)
-        if(v == nil){
+        var auxView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseIdentifier)
+        if(auxView == nil){
             let buildingAnnotation = annotation as! BuildingPinAnnotation
-            v = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
-            v!.canShowCallout = false
-            v!.calloutOffset = CGPoint(x: -5, y: 5)
-            v!.image = UIImage(named: buildingAnnotation.isFavorite ? "map_pin_favorite" : "map_pin")
-            v!.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
+            auxView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
+            auxView!.canShowCallout = false
+            auxView!.calloutOffset = CGPoint(x: -5, y: 5)
+            auxView!.image = UIImage(named: buildingAnnotation.isFavorite ? "map_pin_favorite" : "map_pin")
+            auxView!.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
         }else{
             auxView!.annotation = annotation
         }
