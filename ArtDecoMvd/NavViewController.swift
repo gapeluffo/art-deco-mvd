@@ -16,5 +16,6 @@ class NavViewController: UINavigationController {
         navBar.barTintColor = Colors.mainColor
         navBar.tintColor = UIColor.whiteColor()
         navBar.titleTextAttributes = NavBar.navBarSettings
+        navBar.backItem?.title = ""
     }
 }

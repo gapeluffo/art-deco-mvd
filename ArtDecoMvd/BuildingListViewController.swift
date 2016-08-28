@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EdificiosViewController: UIViewController {
+class BuildingListViewController: UIViewController {
     
     @IBOutlet var optionsTabView: UIView!
     @IBOutlet var buildingFilter: UISegmentedControl!
@@ -16,15 +16,18 @@ class EdificiosViewController: UIViewController {
     @IBOutlet var thisView: UIView!
     @IBOutlet var searchButton: UIBarButtonItem!
     
+    let buildingCellIdentifier      = "BuildingCell"
+    
+    var filteredBuildings   : [Building] = []
+    var buildingsList       : [Building] = []
+    
     let searchController = UISearchController(searchResultsController: nil)
-    var buildingsList : [Building] = []
-    let buildingCellIdentifier = "BuildingCell"
     
     override func viewDidLoad() {
         super.viewDidLoad();
         
-        optionsTabView.backgroundColor = Colors.mainColor
-        buildingFilter.backgroundColor = Colors.mainColor
+//        optionsTabView.backgroundColor = Colors.mainColor
+//        buildingFilter.backgroundColor = Colors.mainColor
         thisView.backgroundColor = Colors.mainColor
         
         
@@ -42,7 +45,8 @@ class EdificiosViewController: UIViewController {
         tableView.dataSource = self
         
         // load buildings
-        buildingsList = Building.loadBuildings()
+        buildingsList = Building.loadBuildings().sort({ $0.name < $1.name })
+
     }
     
 
@@ -58,21 +62,30 @@ class EdificiosViewController: UIViewController {
     @IBAction func showSearchBar(sender: AnyObject) {
         toggleSearchBar(false)
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if(segue.identifier == "goToDetails"){
+            _ = segue.destinationViewController as! BuildingDetailViewController
+            
+            
+        }
+    }
 }
 
-extension EdificiosViewController : UISearchResultsUpdating {
+extension BuildingListViewController : UISearchResultsUpdating, UISearchBarDelegate {
     
     func filterContentForSearchText(searchText: String, scope: String = "All") {
+        filteredBuildings = buildingsList.filter { building in
+            return building.name.lowercaseString.containsString(searchText.lowercaseString) || building.architect.lowercaseString.containsString(searchText.lowercaseString)
+        }
         
+        tableView.reloadData()
     }
     
     func updateSearchResultsForSearchController(searchController: UISearchController) {
         filterContentForSearchText(searchController.searchBar.text!)
     }
-
-}
-
-extension EdificiosViewController: UISearchBarDelegate {
+    
     func searchBar(searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
         filterContentForSearchText(searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
     }
@@ -80,11 +93,15 @@ extension EdificiosViewController: UISearchBarDelegate {
     func searchBarCancelButtonClicked(searchBar: UISearchBar) {
         toggleSearchBar(true)
     }
+
+    func isSearch() -> Bool {
+        return searchController.active && searchController.searchBar.text != ""
+    }
 }
 
-extension EdificiosViewController: UITableViewDelegate, UITableViewDataSource {
-    
-    
+
+
+extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
         // go to details
@@ -95,16 +112,14 @@ extension EdificiosViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return buildingsList.count
+        return isSearch() ? filteredBuildings.count : buildingsList.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(buildingCellIdentifier, forIndexPath: indexPath) as! BuildingTableViewCell
         
-        cell.configure(buildingsList[indexPath.row])
-        
+        cell.configure( isSearch() ? filteredBuildings[indexPath.row] : buildingsList[indexPath.row])
         return cell
-        
     }
     
 }

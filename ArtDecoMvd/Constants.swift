@@ -16,3 +16,8 @@ struct Colors {
 struct NavBar{
     static let navBarSettings = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont(name: "Avenir-Medium", size: 17)!]
 }
+
+struct BuildingConsts {
+    static let buildingIdentifier = "Buildings"
+    static let favsIdentifier = "Favs"
+}

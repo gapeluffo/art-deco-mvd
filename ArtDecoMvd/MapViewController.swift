@@ -9,30 +9,54 @@
 import UIKit
 import MapKit
 
-class MapViewController: UIViewController, MKMapViewDelegate {
+class MapViewController: UIViewController {
 
-    let regionRadius: CLLocationDistance = 1000
-    let initialLocation = CLLocation(latitude: -34.911025, longitude: -56.163031)
-
+    @IBOutlet var optionsTab: UIView!
+    @IBOutlet var searchBar: UISearchBar!
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet var mapOptions: UISegmentedControl!
+    
+    let regionRadius: CLLocationDistance = 1000
+    
     let reuseIdentifier = "pin"
-
     var buildings : [Building] = []
+    
+    private enum PinOptions : Int{
+        case All        = 0
+        case Favorties  = 1
+    }
+    
+    
+    //    TODOOOOO SET THIS TO USERS CURRENT LOCATION
+    let initialLocation = CLLocation(latitude: -34.911025, longitude: -56.163031)
+    //    TODOOOOO SET THIS TO USERS CURRENT LOCATION
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = Colors.mainColor
         
+        initializeLayout()
         mapView.delegate = self
-        centerMapOnLocation(initialLocation)
+        
         buildings = Building.loadBuildings()
         addPins()
+        
+    }
+    
+    func initializeLayout(){
+        self.view.backgroundColor = Colors.mainColor
+        optionsTab.backgroundColor = Colors.mainColor
+        
+        centerMapOnLocation(initialLocation)
+    }
+    
+    @IBAction func pinOptionsChanged(sender: AnyObject) {
+        
     }
 
 }
 
-extension MapViewController {
-    
+extension MapViewController : MKMapViewDelegate {
     
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 2.0, regionRadius * 2.0)
@@ -41,14 +65,15 @@ extension MapViewController {
     
     func addPins(){
         
-        var annotation      : MKPointAnnotation
+        var annotation      : BuildingPinAnnotation
         var annotationView  : MKAnnotationView
         
         for building in buildings{
-            annotation = MKPointAnnotation()
+            annotation = BuildingPinAnnotation()
             annotation.title = building.name
             annotation.subtitle = building.address
             annotation.coordinate = building.location
+            annotation.isFavorite = Favorites.sharedInstance.isFavorite(building)
             
             annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             mapView.addAnnotation(annotationView.annotation!)
@@ -58,10 +83,11 @@ extension MapViewController {
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
         var v = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseIdentifier)
         if(v == nil){
+            let buildingAnnotation = annotation as! BuildingPinAnnotation
             v = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             v!.canShowCallout = false
             v!.calloutOffset = CGPoint(x: -5, y: 5)
-            v!.image = UIImage(named: "Pin")
+            v!.image = UIImage(named: buildingAnnotation.isFavorite ? "map_pin_favorite" : "map_pin")
             v!.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
         }else{
             v!.annotation = annotation
@@ -76,7 +102,7 @@ extension MapViewController {
             return
         }
         
-        let annotation = view.annotation!
+        let annotation = view.annotation! as! BuildingPinAnnotation
         var buildingView = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)[0] as! BuildingAnnotationView
         
         view.addSubview(buildingView)
@@ -91,15 +117,12 @@ extension MapViewController {
     }
     
     func mapView(mapView: MKMapView, didDeselectAnnotationView view: MKAnnotationView) {
-        if view.isKindOfClass(MKAnnotationView)
-        {
-            for subview in view.subviews
-            {
+        
+        if view.isKindOfClass(MKAnnotationView){
+            for subview in view.subviews{
                 subview.removeFromSuperview()
             }
         }
     }
-    
-    
-    
 }
+

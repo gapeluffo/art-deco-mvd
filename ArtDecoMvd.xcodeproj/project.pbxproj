@@ -22,8 +22,12 @@
 		0E497AAE1D6A5CC800F1C7C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AAD1D6A5CC800F1C7C2 /* Constants.swift */; };
 		0E497AB01D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AAF1D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift */; };
 		0E497AB41D6D1FA700F1C7C2 /* BuildingAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */; };
-		0E497AB61D6F9F0500F1C7C2 /* EdificiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB51D6F9F0500F1C7C2 /* EdificiosViewController.swift */; };
+		0E497AB61D6F9F0500F1C7C2 /* BuildingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB51D6F9F0500F1C7C2 /* BuildingListViewController.swift */; };
 		0E497AB81D6FAB7400F1C7C2 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */; };
+		0E497ABA1D7069AD00F1C7C2 /* BuildingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB91D7069AD00F1C7C2 /* BuildingDetailViewController.swift */; };
+		0E497ABC1D70808400F1C7C2 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */; };
+		0E497AC01D70AD5700F1C7C2 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497ABF1D70AD5700F1C7C2 /* Favorites.swift */; };
+		0E70C5341D70F79B0046CE67 /* BuildingPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +69,12 @@
 		0E497AAD1D6A5CC800F1C7C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0E497AAF1D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingAnnotationView.swift; sourceTree = "<group>"; };
 		0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuildingAnnotationView.xib; sourceTree = "<group>"; };
-		0E497AB51D6F9F0500F1C7C2 /* EdificiosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdificiosViewController.swift; sourceTree = "<group>"; };
+		0E497AB51D6F9F0500F1C7C2 /* BuildingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingListViewController.swift; sourceTree = "<group>"; };
 		0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		0E497AB91D7069AD00F1C7C2 /* BuildingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingDetailViewController.swift; sourceTree = "<group>"; };
+		0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		0E497ABF1D70AD5700F1C7C2 /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingPinAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				0E497AA31D6A374E00F1C7C2 /* Building.swift */,
+				0E497ABF1D70AD5700F1C7C2 /* Favorites.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -156,11 +165,13 @@
 		0E497AA01D6A363B00F1C7C2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0E497AA61D6A374E00F1C7C2 /* MapViewController.swift */,
+				0E497AB91D7069AD00F1C7C2 /* BuildingDetailViewController.swift */,
+				0E497AB51D6F9F0500F1C7C2 /* BuildingListViewController.swift */,
+				0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */,
 				0E497AA51D6A374E00F1C7C2 /* ListViewController.swift */,
-				0E497A731D6A35EB00F1C7C2 /* ViewController.swift */,
-				0E497AB51D6F9F0500F1C7C2 /* EdificiosViewController.swift */,
+				0E497AA61D6A374E00F1C7C2 /* MapViewController.swift */,
 				0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */,
+				0E497A731D6A35EB00F1C7C2 /* ViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -171,6 +182,7 @@
 				0E497AA41D6A374E00F1C7C2 /* BuildingTableViewCell.swift */,
 				0E497AAF1D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift */,
 				0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */,
+				0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -320,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E497ABA1D7069AD00F1C7C2 /* BuildingDetailViewController.swift in Sources */,
 				0E497A741D6A35EB00F1C7C2 /* ViewController.swift in Sources */,
 				0E497AAA1D6A374E00F1C7C2 /* MapViewController.swift in Sources */,
 				0E497AA71D6A374E00F1C7C2 /* Building.swift in Sources */,
@@ -328,8 +341,11 @@
 				0E497AB01D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift in Sources */,
 				0E497AB81D6FAB7400F1C7C2 /* NavViewController.swift in Sources */,
 				0E497AA91D6A374E00F1C7C2 /* ListViewController.swift in Sources */,
-				0E497AB61D6F9F0500F1C7C2 /* EdificiosViewController.swift in Sources */,
+				0E497AB61D6F9F0500F1C7C2 /* BuildingListViewController.swift in Sources */,
+				0E70C5341D70F79B0046CE67 /* BuildingPinAnnotation.swift in Sources */,
+				0E497ABC1D70808400F1C7C2 /* FavoritesViewController.swift in Sources */,
 				0E497AA81D6A374E00F1C7C2 /* BuildingTableViewCell.swift in Sources */,
+				0E497AC01D70AD5700F1C7C2 /* Favorites.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

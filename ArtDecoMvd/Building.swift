@@ -11,6 +11,7 @@ import MapKit
 
 struct Building {
 
+    var id: Int
     var name: String
     var address: String
     var fullDescription: String
@@ -19,28 +20,37 @@ struct Building {
     var architect: String
     var location: CLLocationCoordinate2D
     
+    static var allBuildings : [Building] = []
+    
     static func loadBuildings() -> [Building]{
+        
+        if(allBuildings.count > 0){
+            return allBuildings
+        }
+        
         let buildingList : [String:AnyObject] = NSDictionary(contentsOfFile: NSBundle.mainBundle().pathForResource("Buildings", ofType: "plist")!) as! [String:AnyObject]
         
-        let buildings = buildingList["Buildings"] as! [[String:AnyObject]]
+        let buildings = buildingList["Buildings"] as! [String:[String:AnyObject]]
         
-        return buildings.map{ (data:[String:AnyObject]) -> Building in
+        return buildings.keys.map{ (id:String) -> Building in
+            let building = buildings[id]! as [String:AnyObject]
             return Building(
-                name: data["name"] as! String,
-                address: data["address"] as! String,
+                id: Int(id)!,
+                name: building["name"] as! String,
+                address: building["address"] as! String,
                 fullDescription: "",
                 shortDescription: "",
-                year: data["year"] as! String,
-                architect: data["author"] as! String,
-                location: getCoordinates(data)
+                year: building["year"] as! String,
+                architect: building["author"] as! String,
+                location: getCoordinates(building)
             )
         }
         
     }
     
+    
     static func getCoordinates(buildingData:[String:AnyObject]) -> CLLocationCoordinate2D {
         return CLLocationCoordinate2D(latitude: (buildingData["coordinates"]?["latitude"]?!.doubleValue)! , longitude: (buildingData["coordinates"]?["longitude"]?!.doubleValue)!)
     }
-    
     
 }

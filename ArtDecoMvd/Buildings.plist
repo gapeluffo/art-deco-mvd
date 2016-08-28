@@ -2,8 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Buildings</key>
+	<key>Favs</key>
 	<array>
+		<string>1</string>
+		<string>3</string>
+	</array>
+	<key>Buildings</key>
+	<dict>
+		<key>1</key>
 		<dict>
 			<key>name</key>
 			<string>Don Boutique Hotel Montevideo</string>
@@ -25,6 +31,7 @@
 				<string></string>
 			</array>
 		</dict>
+		<key>2</key>
 		<dict>
 			<key>name</key>
 			<string>Bar Los Beatles</string>
@@ -46,6 +53,7 @@
 				<string></string>
 			</array>
 		</dict>
+		<key>3</key>
 		<dict>
 			<key>name</key>
 			<string>Edificio Artigas</string>
@@ -67,6 +75,7 @@
 				<string></string>
 			</array>
 		</dict>
+		<key>4</key>
 		<dict>
 			<key>name</key>
 			<string>Comando General de la Armada Nacional</string>
@@ -88,6 +97,6 @@
 				<string></string>
 			</array>
 		</dict>
-	</array>
+	</dict>
 </dict>
 </plist>

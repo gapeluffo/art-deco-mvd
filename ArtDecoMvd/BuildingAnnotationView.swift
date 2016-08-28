@@ -16,6 +16,8 @@ class BuildingAnnotationView : UIView, UIGestureRecognizerDelegate {
     
     @IBOutlet var favoriteButton: UIButton!
     
+    var isFavorite: Bool = false
+    
     func toggleFavorite(recognizer: UITapGestureRecognizer) {
         isFavorite = !isFavorite
         let image = UIImage(named: isFavorite ? "fav_selected" : "fav")
@@ -26,9 +28,7 @@ class BuildingAnnotationView : UIView, UIGestureRecognizerDelegate {
         
     }
     
-    var isFavorite: Bool = false
-    
-    func configure(building: MKAnnotation){
+    func configure(building: BuildingPinAnnotation){
         buildingName.text    = building.title!
         buildingAddress.text = building.subtitle!
         
@@ -36,6 +36,9 @@ class BuildingAnnotationView : UIView, UIGestureRecognizerDelegate {
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(toggleFavorite))
         tap.delegate = self
+        
+        isFavorite = building.isFavorite
+        favoriteButton.setImage(UIImage(named: isFavorite ? "fav_selected" : "fav"), forState: .Normal)
         favoriteButton.addGestureRecognizer(tap)
         favoriteButton.userInteractionEnabled = true
     }
