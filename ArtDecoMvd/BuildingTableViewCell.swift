@@ -17,7 +17,7 @@ class BuildingTableViewCell: UITableViewCell {
     
     var building : Building? = nil
     var isFavorite: Bool = false
-    
+
     @IBAction func favoriteClicked(sender: AnyObject) {
         isFavorite = !isFavorite
         favoriteButton.setImage(UIImage(named: isFavorite ? "fav_selectedx2" : "favx2"), forState: .Normal)
@@ -25,7 +25,7 @@ class BuildingTableViewCell: UITableViewCell {
         Favorites.sharedInstance.toggleFavorite(building!)
         
     }
-    
+
     func configure(building:Building){
         self.building = building
         nameLabel.text = building.name
