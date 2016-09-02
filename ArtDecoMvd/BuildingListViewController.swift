@@ -32,6 +32,9 @@ class BuildingListViewController: UIViewController {
         // load buildings
         buildingsList = Building.loadBuildings().sort({ $0.name < $1.name })
 
+        tableView.delegate = self
+        tableView.dataSource = self
+
     }
 
     func toggleSearchBar(hide: Bool){
@@ -58,8 +61,8 @@ class BuildingListViewController: UIViewController {
     }
 
     private func setupBuildingsUI() {
-      optionsTabView.backgroundColor = Colors.mainColor
-      buildingFilter.backgroundColor = Colors.mainColor
+//      optionsTabView.backgroundColor = Colors.mainColor
+//      buildingFilter.backgroundColor = Colors.mainColor
       thisView.backgroundColor = Colors.mainColor
     }
 }
@@ -67,7 +70,15 @@ class BuildingListViewController: UIViewController {
 extension BuildingListViewController : UISearchResultsUpdating, UISearchBarDelegate {
 
     func filterContentForSearchText(searchText: String, scope: String = "All") {
+        if searchText == "" {
+            filteredBuildings = buildingsList
+        }else{
+            filteredBuildings = buildingsList.filter { building in
+                return building.name.lowercaseString.containsString(searchText.lowercaseString) || building.architect.lowercaseString.containsString(searchText.lowercaseString)
+            }
+        }
 
+        tableView.reloadData()
     }
 
     func updateSearchResultsForSearchController(searchController: UISearchController) {
@@ -104,5 +115,9 @@ extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource
         
         cell.configure( isSearch() ? filteredBuildings[indexPath.row] : buildingsList[indexPath.row])
         return cell
+    }
+
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
     }
 }

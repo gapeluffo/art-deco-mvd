@@ -8,8 +8,9 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
-class MapViewController: UIViewController {
+class MapViewController: UIViewController, CLLocationManagerDelegate {
 
     private enum PinOptions : Int{
         case All        = 0
@@ -20,98 +21,144 @@ class MapViewController: UIViewController {
     @IBOutlet var searchBar: UISearchBar!
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet var mapOptions: UISegmentedControl!
-    
+
+    // --------------------    variables    ---------------------------------
+
+    var locationManager : CLLocationManager!
+    let initialLocation = CLLocation(latitude: -34.911025, longitude: -56.163031)
+
     let regionRadius: CLLocationDistance = 1000
     let reuseIdentifier = "pin"
 
     var buildings : [Building] = []
     var allAnnotations : [MKAnnotation] = []
-    
 
-    
-    
-    //    TODOOOOO SET THIS TO USERS CURRENT LOCATION
-    let initialLocation = CLLocation(latitude: -34.911025, longitude: -56.163031)
-    //    TODOOOOO SET THIS TO USERS CURRENT LOCATION
-
+    // ----------------------------------------------------------------------
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        initializeLayout()
+
+        initializeLocationTracker()
+
         mapView.delegate = self
         
         buildings = Building.loadBuildings()
         addPins()
-        
-    }
-    
 
+        initializeLayout()
+
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        refreshMap();
+    }
     
     @IBAction func pinOptionsChanged(sender: AnyObject) {
-        if mapOptions.selectedSegmentIndex == PinOptions.All.rawValue {
-            mapView.addAnnotations(filterAnnotations(true))
-
-        }else{
-            mapView.removeAnnotations(filterAnnotations(false))
-        }
+        filterAnnotations(mapOptions.selectedSegmentIndex == PinOptions.All.rawValue)
     }
-    
+
 
     func initializeLayout(){
         self.view.backgroundColor = Colors.mainColor
         optionsTab.backgroundColor = Colors.mainColor
-        centerMapOnLocation(initialLocation)
+
+        mapOptions.setTitleTextAttributes( Fonts.segmentedControlFont, forState: .Normal)
+        mapOptions.backgroundColor = Colors.mainColor
     }
 
-    func filterAnnotations(favorites:Bool) -> [MKAnnotation]{
-        let annotations = allAnnotations
-        let filteredAnnotations = annotations.filter({ (annotation: MKAnnotation) -> Bool in
-            let buildingAnnotation = annotation as! BuildingPinAnnotation
-            return buildingAnnotation.isFavorite == favorites
-        })
-        return filteredAnnotations
+    func initializeLocationTracker(){
+
+        locationManager = CLLocationManager()
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+        locationManager.delegate = self;
+
+        let status = CLLocationManager.authorizationStatus()
+        if status == .NotDetermined || status == .Denied {
+            locationManager.requestWhenInUseAuthorization()
+        }
+
+        locationManager.startUpdatingLocation()
+        mapView.showsUserLocation = true
+
+        if let location = mapView.userLocation.location{
+            centerMapOnLocation(location)
+        }else{
+            centerMapOnLocation(initialLocation)
+        }
+
     }
 }
 
 
-extension MapViewController : MKMapViewDelegate {
-    
+extension MapViewController {
+
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 2.0, regionRadius * 2.0)
         mapView.setRegion(coordinateRegion, animated: true)
     }
 
     func addPins(){
-        
+
         var annotation      : BuildingPinAnnotation
         var annotationView  : MKAnnotationView
-        
+
         for building in buildings{
             annotation = BuildingPinAnnotation()
             annotation.title = building.name
             annotation.subtitle = building.address
             annotation.coordinate = building.location
             annotation.isFavorite = Favorites.sharedInstance.isFavorite(building)
-            
+
             annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             mapView.addAnnotation(annotationView.annotation!)
             allAnnotations.append(annotationView.annotation!)
         }
     }
 
+    func refreshMap(){
+        allAnnotations.removeAll()
+        mapView.removeAnnotations(mapView.annotations)
+        addPins()
+    }
+
+    func filterAnnotations(showAll:Bool) {
+        if showAll {
+            mapView.addAnnotations(getAnnotationsNotFavorites())
+        }else{
+            mapView.removeAnnotations(getAnnotationsNotFavorites())
+        }
+    }
+
+    func getAnnotationsNotFavorites() -> [MKAnnotation]{
+        let annotations = allAnnotations
+        let filteredAnnotations = annotations.filter({ (annotation: MKAnnotation) -> Bool in
+            let buildingAnnotation = annotation as! BuildingPinAnnotation
+            return !buildingAnnotation.isFavorite
+        })
+        return filteredAnnotations
+    }
+}
+
+extension MapViewController : MKMapViewDelegate {
+
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        if annotation is MKUserLocation{
+            return nil
+        }
+
+        let buildingAnnotation = annotation as! BuildingPinAnnotation
         var auxView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseIdentifier)
         if(auxView == nil){
-            let buildingAnnotation = annotation as! BuildingPinAnnotation
             auxView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             auxView!.canShowCallout = false
             auxView!.calloutOffset = CGPoint(x: -5, y: 5)
-            auxView!.image = UIImage(named: buildingAnnotation.isFavorite ? "map_pin_favorite" : "map_pin")
             auxView!.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
         }else{
+
             auxView!.annotation = annotation
         }
+
+        auxView!.image = UIImage(named: buildingAnnotation.isFavorite ? "map_pin_favorite" : "map_pin")
 
         return auxView
     }

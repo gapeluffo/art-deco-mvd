@@ -12,7 +12,6 @@ import MapKit
 struct Building {
 
     private enum BuildingKeys : String {
-      case Id           = "id"
       case Name         = "name"
       case Address      = "address"
       case ShortDesc    = "shortDescription"
@@ -48,7 +47,7 @@ struct Building {
         return buildings.keys.map{ (key:String) -> Building in
             let data = buildings[key]!
             return Building(
-                id: Int(data[BuildingKeys.Id.rawValue] as! String)!,
+                id: Int(key)!,
                 name: data[BuildingKeys.Name.rawValue] as! String,
                 address: data[BuildingKeys.Address.rawValue] as! String,
                 fullDescription: "",

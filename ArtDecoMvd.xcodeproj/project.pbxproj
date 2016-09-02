@@ -27,6 +27,9 @@
 		0E497ABC1D70808400F1C7C2 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */; };
 		0E497AC01D70AD5700F1C7C2 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497ABF1D70AD5700F1C7C2 /* Favorites.swift */; };
 		0E70C5341D70F79B0046CE67 /* BuildingPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */; };
+		75EB4FEAC07CB2AB504F18FC /* Pods_ArtDecoMvd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF255CF0469D11AA9464745 /* Pods_ArtDecoMvd.framework */; };
+		BEA54E597CBD219F9F3D36A3 /* Pods_ArtDecoMvdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6D62CAD4C1DC6E5B771AF4 /* Pods_ArtDecoMvdUITests.framework */; };
+		DFF6952ED46500BE8CA45D34 /* Pods_ArtDecoMvdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8ABAC758C92EE958D95FCB /* Pods_ArtDecoMvdTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,15 @@
 		0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		0E497ABF1D70AD5700F1C7C2 /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingPinAnnotation.swift; sourceTree = "<group>"; };
+		2BBF46006B7FC7FCA7944BCA /* Pods-ArtDecoMvdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvdUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvdUITests/Pods-ArtDecoMvdUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B8D3C54C9348167115069CC /* Pods-ArtDecoMvd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvd/Pods-ArtDecoMvd.debug.xcconfig"; sourceTree = "<group>"; };
+		6C2C9E6E422E2A0E1FA29898 /* Pods-ArtDecoMvdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvdTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvdTests/Pods-ArtDecoMvdTests.release.xcconfig"; sourceTree = "<group>"; };
+		7975BDB31B664B91A2A0E63E /* Pods-ArtDecoMvdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvdTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvdTests/Pods-ArtDecoMvdTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B8ABAC758C92EE958D95FCB /* Pods_ArtDecoMvdTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtDecoMvdTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF255CF0469D11AA9464745 /* Pods_ArtDecoMvd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtDecoMvd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA524003E5838C53004BBE /* Pods-ArtDecoMvdUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvdUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvdUITests/Pods-ArtDecoMvdUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E59930044463EA082D5C37A4 /* Pods-ArtDecoMvd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvd.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvd/Pods-ArtDecoMvd.release.xcconfig"; sourceTree = "<group>"; };
+		EE6D62CAD4C1DC6E5B771AF4 /* Pods_ArtDecoMvdUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtDecoMvdUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EB4FEAC07CB2AB504F18FC /* Pods_ArtDecoMvd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF6952ED46500BE8CA45D34 /* Pods_ArtDecoMvdTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA54E597CBD219F9F3D36A3 /* Pods_ArtDecoMvdUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +122,8 @@
 				0E497A851D6A35EB00F1C7C2 /* ArtDecoMvdTests */,
 				0E497A901D6A35EC00F1C7C2 /* ArtDecoMvdUITests */,
 				0E497A6F1D6A35EB00F1C7C2 /* Products */,
+				5BC2AFDD8D9D378FDA089A3B /* Pods */,
+				DF5A5399774ED2A4F7A9DC63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,7 +186,6 @@
 				0E497AA51D6A374E00F1C7C2 /* ListViewController.swift */,
 				0E497AA61D6A374E00F1C7C2 /* MapViewController.swift */,
 				0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */,
-				0E497A731D6A35EB00F1C7C2 /* ViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -177,10 +193,10 @@
 		0E497AA11D6A364500F1C7C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0E497AA41D6A374E00F1C7C2 /* BuildingTableViewCell.swift */,
 				0E497AAF1D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift */,
 				0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */,
 				0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */,
+				0E497AA41D6A374E00F1C7C2 /* BuildingTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -194,6 +210,29 @@
 				0E497AAD1D6A5CC800F1C7C2 /* Constants.swift */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		5BC2AFDD8D9D378FDA089A3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B8D3C54C9348167115069CC /* Pods-ArtDecoMvd.debug.xcconfig */,
+				E59930044463EA082D5C37A4 /* Pods-ArtDecoMvd.release.xcconfig */,
+				7975BDB31B664B91A2A0E63E /* Pods-ArtDecoMvdTests.debug.xcconfig */,
+				6C2C9E6E422E2A0E1FA29898 /* Pods-ArtDecoMvdTests.release.xcconfig */,
+				B2EA524003E5838C53004BBE /* Pods-ArtDecoMvdUITests.debug.xcconfig */,
+				2BBF46006B7FC7FCA7944BCA /* Pods-ArtDecoMvdUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF5A5399774ED2A4F7A9DC63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF255CF0469D11AA9464745 /* Pods_ArtDecoMvd.framework */,
+				9B8ABAC758C92EE958D95FCB /* Pods_ArtDecoMvdTests.framework */,
+				EE6D62CAD4C1DC6E5B771AF4 /* Pods_ArtDecoMvdUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FBB0EDD51D71BEEF00F4188F /* Storyboards */ = {
@@ -212,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E497A961D6A35EC00F1C7C2 /* Build configuration list for PBXNativeTarget "ArtDecoMvd" */;
 			buildPhases = (
+				81A554851BD8F7EB2467C5CA /* [CP] Check Pods Manifest.lock */,
 				0E497A6A1D6A35EB00F1C7C2 /* Sources */,
 				0E497A6B1D6A35EB00F1C7C2 /* Frameworks */,
 				0E497A6C1D6A35EB00F1C7C2 /* Resources */,
+				ECEE04EC40B3FD01E24EAD0A /* [CP] Embed Pods Frameworks */,
+				113198A4916D74F182C068B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E497A991D6A35EC00F1C7C2 /* Build configuration list for PBXNativeTarget "ArtDecoMvdTests" */;
 			buildPhases = (
+				EAAF8F2FBBF8FA1544C7D2B4 /* [CP] Check Pods Manifest.lock */,
 				0E497A7E1D6A35EB00F1C7C2 /* Sources */,
 				0E497A7F1D6A35EB00F1C7C2 /* Frameworks */,
 				0E497A801D6A35EB00F1C7C2 /* Resources */,
+				7191CB3D56FE826717195503 /* [CP] Embed Pods Frameworks */,
+				45D7623A0FEDEFAF5D6E96FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E497A9C1D6A35EC00F1C7C2 /* Build configuration list for PBXNativeTarget "ArtDecoMvdUITests" */;
 			buildPhases = (
+				106AA38415C4E1B45DC15708 /* [CP] Check Pods Manifest.lock */,
 				0E497A891D6A35EC00F1C7C2 /* Sources */,
 				0E497A8A1D6A35EC00F1C7C2 /* Frameworks */,
 				0E497A8B1D6A35EC00F1C7C2 /* Resources */,
+				D47849B79B7B154EBD58279C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -333,13 +380,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		106AA38415C4E1B45DC15708 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		113198A4916D74F182C068B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtDecoMvd/Pods-ArtDecoMvd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45D7623A0FEDEFAF5D6E96FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtDecoMvdTests/Pods-ArtDecoMvdTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7191CB3D56FE826717195503 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtDecoMvdTests/Pods-ArtDecoMvdTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A554851BD8F7EB2467C5CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D47849B79B7B154EBD58279C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtDecoMvdUITests/Pods-ArtDecoMvdUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAAF8F2FBBF8FA1544C7D2B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECEE04EC40B3FD01E24EAD0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtDecoMvd/Pods-ArtDecoMvd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E497A6A1D6A35EB00F1C7C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0E497ABA1D7069AD00F1C7C2 /* BuildingDetailViewController.swift in Sources */,
-				0E497A741D6A35EB00F1C7C2 /* ViewController.swift in Sources */,
 				0E497AAA1D6A374E00F1C7C2 /* MapViewController.swift in Sources */,
 				0E497AA71D6A374E00F1C7C2 /* Building.swift in Sources */,
 				0E497A721D6A35EB00F1C7C2 /* AppDelegate.swift in Sources */,
@@ -493,6 +662,7 @@
 		};
 		0E497A971D6A35EC00F1C7C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8D3C54C9348167115069CC /* Pods-ArtDecoMvd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ArtDecoMvd/Info.plist;
@@ -504,6 +674,7 @@
 		};
 		0E497A981D6A35EC00F1C7C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59930044463EA082D5C37A4 /* Pods-ArtDecoMvd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ArtDecoMvd/Info.plist;
@@ -515,6 +686,7 @@
 		};
 		0E497A9A1D6A35EC00F1C7C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7975BDB31B664B91A2A0E63E /* Pods-ArtDecoMvdTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArtDecoMvdTests/Info.plist;
@@ -527,6 +699,7 @@
 		};
 		0E497A9B1D6A35EC00F1C7C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2C9E6E422E2A0E1FA29898 /* Pods-ArtDecoMvdTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArtDecoMvdTests/Info.plist;
@@ -539,6 +712,7 @@
 		};
 		0E497A9D1D6A35EC00F1C7C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2EA524003E5838C53004BBE /* Pods-ArtDecoMvdUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ArtDecoMvdUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -550,6 +724,7 @@
 		};
 		0E497A9E1D6A35EC00F1C7C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BBF46006B7FC7FCA7944BCA /* Pods-ArtDecoMvdUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ArtDecoMvdUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

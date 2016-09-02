@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DZNEmptyDataSet
 
 class FavoritesViewController: UIViewController{
     
@@ -23,11 +24,14 @@ class FavoritesViewController: UIViewController{
         thisView.backgroundColor = Colors.mainColor
         navBar.barTintColor = Colors.mainColor
         navBar.tintColor = UIColor.whiteColor()
-        navBar.titleTextAttributes = NavBar.navBarSettings
+        navBar.titleTextAttributes = Fonts.navBarFont
         
         tableView.delegate = self
         tableView.dataSource = self
-        
+        tableView.emptyDataSetSource = self
+        tableView.emptyDataSetDelegate = self
+        tableView.tableFooterView = UIView()
+
         initializeFavorites()
     }
     
@@ -64,4 +68,38 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 157
     }
+}
+
+extension FavoritesViewController: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate{
+
+    func imageForEmptyDataSet(scrollView: UIScrollView!) -> UIImage! {
+        return UIImage(named: "star")
+    }
+
+    func titleForEmptyDataSet(scrollView: UIScrollView!) -> NSAttributedString! {
+        let text = "No tiene favoritos"
+        let attribs = [
+            NSFontAttributeName: UIFont.boldSystemFontOfSize(18),
+            NSForegroundColorAttributeName: UIColor.darkGrayColor()
+        ]
+
+        return NSAttributedString(string: text, attributes: attribs)
+    }
+
+    func descriptionForEmptyDataSet(scrollView: UIScrollView!) -> NSAttributedString! {
+        let text = "Puede marcar sus edificios favoritos desde el mapa o el listado"
+
+        let para = NSMutableParagraphStyle()
+        para.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        para.alignment = NSTextAlignment.Center
+
+        let attribs = [
+            NSFontAttributeName: UIFont.systemFontOfSize(14),
+            NSForegroundColorAttributeName: UIColor.lightGrayColor(),
+            NSParagraphStyleAttributeName: para
+        ]
+
+        return NSAttributedString(string: text, attributes: attribs)
+    }
+
 }

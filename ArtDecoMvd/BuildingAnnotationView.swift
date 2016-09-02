@@ -17,11 +17,14 @@ class BuildingAnnotationView : UIView, UIGestureRecognizerDelegate {
 
     var isFavorite: Bool = false
 
-    func toggleFavorite(recognizer: UITapGestureRecognizer) {
+    func toggleFavorite() {
         let image = UIImage(named: isFavorite ? "fav_selected" : "fav")
         favoriteButton.setImage(image, forState: .Normal)
     }
 
+    @IBAction func morite(sender: AnyObject) {
+        
+    }
     @IBAction func goToDetails(sender: AnyObject) {
 
     }
@@ -32,7 +35,9 @@ class BuildingAnnotationView : UIView, UIGestureRecognizerDelegate {
 
         self.layer.cornerRadius = 15
 
-        let tap = UITapGestureRecognizer(target: self, action: #selector(toggleFavorite))
+        let tap = UITapGestureRecognizer()
+        tap.addTarget(self, action: #selector(toggleFavorite))
+        tap.numberOfTapsRequired = 1
         tap.delegate = self
         
         isFavorite = building.isFavorite

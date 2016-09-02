@@ -16,10 +16,14 @@ let kFontHeavy = "Avenir-Heavy"
 
 struct Colors {
 
-    static let mainColor : UIColor = UIColor(red: 40/255, green: 59/255, blue: 105/255, alpha: 1)
+    static let mainColor    : UIColor = UIColor(red: 40/255, green: 59/255, blue: 105/255, alpha: 1)
+    static let mainColor50  : UIColor = UIColor(red: 40/255, green: 59/255, blue: 105/255, alpha: 0.5)
+    static let grey         : UIColor = UIColor(red: 105/255, green: 105/255, blue: 105/255, alpha: 1)
 }
 
-struct NavBar {
+struct Fonts {
 
-    static let navBarSettings = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont(name: kFontMedium, size: 17)!]
+    static let navBarFont = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont(name: kFontMedium, size: 17)!]
+
+    static let segmentedControlFont = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont(name: kFontLight, size: 14)!]
 }
