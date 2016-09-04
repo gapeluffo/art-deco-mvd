@@ -8,11 +8,12 @@
 
 import UIKit
 
-let kBuildingsKey = "Buildings"
-let kFontLight = "Avenir-Light"
-let kFontMedium = "Avenir-Medium"
-let kFontRegular = "Avenir"
-let kFontHeavy = "Avenir-Heavy"
+let kBuildingsKey  = "Buildings"
+let kFontLight     = "Avenir-Light"
+let kFontMedium    = "Avenir-Medium"
+let kFontRegular   = "Avenir"
+let kFontHeavy     = "Avenir-Heavy"
+
 
 struct Colors {
 
@@ -26,4 +27,15 @@ struct Fonts {
     static let navBarFont = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont(name: kFontMedium, size: 17)!]
 
     static let segmentedControlFont = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont(name: kFontLight, size: 14)!]
+}
+
+struct Images{
+    static let noImage            = "no_image"
+    static let favorite           = "fav_selectedx2"
+    static let notFavorite        = "favx2"
+    static let favoriteSmaller    = "fav_selected"
+    static let notFavoriteSmaller = "fav"
+    static let mapFavorite        = "map_pin_favorite"
+    static let mapNotFavorite     = "map_pin"
+    static let mapPinDetails      = "map_pin_details"
 }

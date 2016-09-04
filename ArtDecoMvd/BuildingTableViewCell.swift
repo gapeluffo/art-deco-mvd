@@ -1,9 +1,9 @@
 //
 //  BuildingTableViewCell.swift
-//  ARTDeco
+//  ArtDecoMvd
 //
-//  Created by Maxi Casal on 7/31/16.
-//  Copyright © 2016 MaxiCasal. All rights reserved.
+//  Created by Gabriela Peluffo on 8/21/16.
+//  Copyright © 2016 Gabriela Peluffo. All rights reserved.
 //
 
 import UIKit
@@ -20,7 +20,7 @@ class BuildingTableViewCell: UITableViewCell {
 
     @IBAction func favoriteClicked(sender: AnyObject) {
         isFavorite = !isFavorite
-        favoriteButton.setImage(UIImage(named: isFavorite ? "fav_selectedx2" : "favx2"), forState: .Normal)
+        favoriteButton.setImage(UIImage(named: isFavorite ? Images.favorite : Images.notFavorite), forState: .Normal)
         
         Favorites.sharedInstance.toggleFavorite(building!)
         
@@ -28,15 +28,22 @@ class BuildingTableViewCell: UITableViewCell {
 
     func configure(building:Building){
         self.building = building
+
         nameLabel.text = building.name
         descriptionLabel.text = "\(building.year) - \(building.architect)"
         
-        nameLabel.font = UIFont(name: "Avenir-Heavy", size: 18)
-        descriptionLabel.font = UIFont(name: "Avenir-Medium", size: 15)
+        nameLabel.font = UIFont(name: kFontHeavy, size: 18)
+        descriptionLabel.font = UIFont(name: kFontMedium, size: 15)
+
+        if let image = building.image{
+            backgroundImageView.image = UIImage(named:image)
+        } else {
+            backgroundImageView.image = UIImage(named:Images.noImage)
+        }
         
         if(favoriteButton != nil){
             isFavorite = Favorites.sharedInstance.isFavorite(building)
-            favoriteButton.setImage(UIImage(named: isFavorite ? "fav_selectedx2" : "favx2"), forState: .Normal)
+            favoriteButton.setImage(UIImage(named: isFavorite ? Images.favorite : Images.notFavorite), forState: .Normal)
         }
     }
 }

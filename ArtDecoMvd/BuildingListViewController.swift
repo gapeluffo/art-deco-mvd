@@ -101,10 +101,6 @@ extension BuildingListViewController : UISearchResultsUpdating, UISearchBarDeleg
 
 
 extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource {
-    
-    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
-        // go to details
-    }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return isSearch() ? filteredBuildings.count : buildingsList.count
@@ -113,11 +109,24 @@ extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(buildingCellIdentifier, forIndexPath: indexPath) as! BuildingTableViewCell
         
-        cell.configure( isSearch() ? filteredBuildings[indexPath.row] : buildingsList[indexPath.row])
+        cell.configure(getBuildingByIndexPath(indexPath))
         return cell
     }
 
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
+    }
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let cell = sender as? UITableViewCell,
+               indexPath = tableView.indexPathForCell(cell),
+               buildindDetailViewController = segue.destinationViewController as? BuildingDetailViewController
+        {
+            buildindDetailViewController.building = getBuildingByIndexPath(indexPath)
+        }
+    }
+
+    func getBuildingByIndexPath(indexPath:NSIndexPath) -> Building{
+        return isSearch() ? filteredBuildings[indexPath.row] : buildingsList[indexPath.row]
     }
 }
