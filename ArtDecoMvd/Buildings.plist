@@ -26,10 +26,8 @@
 				<key>longitude</key>
 				<string>-56.211685</string>
 			</dict>
-			<key>images</key>
-			<array>
-				<string></string>
-			</array>
+			<key>image</key>
+			<string>buildingExample</string>
 		</dict>
 		<key>2</key>
 		<dict>
@@ -48,10 +46,8 @@
 				<key>longitude</key>
 				<string>-56.211074</string>
 			</dict>
-			<key>images</key>
-			<array>
-				<string></string>
-			</array>
+			<key>image</key>
+			<string>no_image</string>
 		</dict>
 		<key>3</key>
 		<dict>
@@ -70,10 +66,8 @@
 				<key>longitude</key>
 				<string>-56.205597</string>
 			</dict>
-			<key>images</key>
-			<array>
-				<string></string>
-			</array>
+			<key>image</key>
+			<string>no_image</string>
 		</dict>
 		<key>4</key>
 		<dict>
@@ -92,10 +86,8 @@
 				<key>longitude</key>
 				<string>-56.212185</string>
 			</dict>
-			<key>images</key>
-			<array>
-				<string></string>
-			</array>
+			<key>image</key>
+			<string>no_image</string>
 		</dict>
 	</dict>
 </dict>

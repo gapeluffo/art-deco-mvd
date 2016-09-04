@@ -158,7 +158,7 @@ extension MapViewController : MKMapViewDelegate {
             auxView!.annotation = annotation
         }
 
-        auxView!.image = UIImage(named: buildingAnnotation.isFavorite ? "map_pin_favorite" : "map_pin")
+        auxView!.image = UIImage(named: buildingAnnotation.isFavorite ? Images.mapFavorite : Images.mapNotFavorite)
 
         return auxView
     }

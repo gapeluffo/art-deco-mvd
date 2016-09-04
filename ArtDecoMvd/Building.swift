@@ -21,6 +21,7 @@ struct Building {
       case Coordinates  = "coordinates"
       case Latitude     = "latitude"
       case Longitude    = "longitude"
+      case Image        = "image"
     }
 
     var id:              Int
@@ -31,6 +32,7 @@ struct Building {
     var year:            String
     var architect:       String
     var location:        CLLocationCoordinate2D
+    var image:           String?
 
     static var allBuildings : [Building] = []
 
@@ -54,7 +56,8 @@ struct Building {
                 shortDescription: "",
                 year: data[BuildingKeys.Year.rawValue] as! String,
                 architect: data[BuildingKeys.Author.rawValue] as! String,
-                location: getCoordinates(data[BuildingKeys.Coordinates.rawValue] as! [String : AnyObject])
+                location: getCoordinates(data[BuildingKeys.Coordinates.rawValue] as! [String : AnyObject]),
+                image: data[BuildingKeys.Image.rawValue] as? String
             )
         }
     }
