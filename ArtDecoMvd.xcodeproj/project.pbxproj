@@ -194,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				0E497AAF1D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift */,
-				0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */,
 				0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */,
 				0E497AA41D6A374E00F1C7C2 /* BuildingTableViewCell.swift */,
 			);
@@ -239,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				0E497A7A1D6A35EB00F1C7C2 /* LaunchScreen.storyboard */,
+				0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */,
 				0E497A751D6A35EB00F1C7C2 /* Main.storyboard */,
 			);
 			name = Storyboards;

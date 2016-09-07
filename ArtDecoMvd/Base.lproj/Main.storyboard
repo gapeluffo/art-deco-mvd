@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="20" width="600" height="55"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Cr-5T-ajf">
-                                        <rect key="frame" x="150" y="14" width="300" height="29"/>
+                                        <rect key="frame" x="200" y="14" width="200" height="29"/>
                                         <color key="backgroundColor" red="0.094117647060000004" green="0.1529411765" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="300" id="C3k-E8-lNp"/>
+                                            <constraint firstAttribute="width" constant="200" id="C3k-E8-lNp"/>
                                         </constraints>
                                         <segments>
                                             <segment title="Todos"/>
@@ -36,7 +36,7 @@
                                             <action selector="pinOptionsChanged:" destination="9pv-A4-QxB" eventType="valueChanged" id="OWT-lq-bta"/>
                                         </connections>
                                     </segmentedControl>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="002-Nb-xh8">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="002-Nb-xh8">
                                         <rect key="frame" x="565" y="18" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="5HP-Bd-q2D"/>
@@ -535,7 +535,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ors-xa-Wk3">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="5nr-oV-lXw">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="5nr-oV-lXw">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="203"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="203" id="kHy-Dt-WUz"/>
@@ -543,7 +543,7 @@
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDIFICIO ARTIGAS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auH-zV-cY5">
                                                 <rect key="frame" x="20" y="224" width="560" height="33"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                                 <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -668,7 +668,7 @@
                                             <constraint firstAttribute="height" constant="1000" id="RKJ-s7-dG7"/>
                                             <constraint firstAttribute="trailing" secondItem="fOB-Ws-mEQ" secondAttribute="trailing" constant="20" id="RrW-08-cjD"/>
                                             <constraint firstItem="UDt-ci-ghs" firstAttribute="leading" secondItem="tNI-b7-Sms" secondAttribute="trailing" constant="10" id="Sy3-QG-mmf"/>
-                                            <constraint firstItem="HHW-Nd-dyd" firstAttribute="top" secondItem="fOB-Ws-mEQ" secondAttribute="bottom" constant="21" id="W9p-p5-HhU"/>
+                                            <constraint firstItem="HHW-Nd-dyd" firstAttribute="top" relation="lessThanOrEqual" secondItem="fOB-Ws-mEQ" secondAttribute="bottom" constant="21" id="W9p-p5-HhU"/>
                                             <constraint firstItem="HHW-Nd-dyd" firstAttribute="top" secondItem="vMQ-zK-GJA" secondAttribute="bottom" constant="35" id="aNS-4w-occ"/>
                                             <constraint firstItem="tNI-b7-Sms" firstAttribute="top" secondItem="HHW-Nd-dyd" secondAttribute="bottom" constant="25" id="b4F-v3-wpl"/>
                                             <constraint firstItem="LK6-Yt-sJK" firstAttribute="leading" secondItem="ors-xa-Wk3" secondAttribute="leading" constant="20" id="dGX-qy-80O"/>
@@ -745,7 +745,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YiY-hq-O4w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2566" y="1310"/>
+            <point key="canvasLocation" x="1394" y="1674"/>
         </scene>
         <!--Edificios-->
         <scene sceneID="3RP-Bv-XfS">
@@ -759,8 +759,44 @@
                         <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0jE-7E-0hh">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="55"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rec-T0-ytA">
+                                        <rect key="frame" x="200" y="14" width="200" height="29"/>
+                                        <color key="backgroundColor" red="0.094117647060000004" green="0.1529411765" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="jrF-b1-ubF"/>
+                                        </constraints>
+                                        <segments>
+                                            <segment title="Por obras"/>
+                                            <segment title="Por autores"/>
+                                        </segments>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="buildingGroupOptionValueChanged:" destination="b74-eO-yvW" eventType="valueChanged" id="xBz-PY-Has"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                                <color key="backgroundColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="0bj-7I-cgZ"/>
+                                    <constraint firstAttribute="height" constant="55" id="5hf-Oi-kyd"/>
+                                    <constraint firstItem="rec-T0-ytA" firstAttribute="centerX" secondItem="0jE-7E-0hh" secondAttribute="centerX" id="Fed-Ub-IFB"/>
+                                    <constraint firstItem="rec-T0-ytA" firstAttribute="top" secondItem="0jE-7E-0hh" secondAttribute="top" constant="14" id="XJd-90-kL4"/>
+                                    <constraint firstAttribute="bottom" secondItem="rec-T0-ytA" secondAttribute="bottom" constant="13" id="XJr-vy-ntX"/>
+                                    <constraint firstAttribute="height" constant="55" id="g1T-1t-7CM"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="g1T-1t-7CM"/>
+                                        <exclude reference="0bj-7I-cgZ"/>
+                                    </mask>
+                                </variation>
+                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="158" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TjH-N7-5Vl">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
+                                <rect key="frame" x="0.0" y="55" width="600" height="432"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BuildingCell" rowHeight="158" id="1JS-o9-m7q" customClass="BuildingTableViewCell" customModule="ArtDecoMvd" customModuleProvider="target">
@@ -844,12 +880,15 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="TjH-N7-5Vl" firstAttribute="leading" secondItem="z4o-xe-Epd" secondAttribute="leading" id="LcP-ud-nLs"/>
-                            <constraint firstAttribute="trailing" secondItem="TjH-N7-5Vl" secondAttribute="trailing" id="ON9-kF-5Hr"/>
-                            <constraint firstItem="TjH-N7-5Vl" firstAttribute="bottom" secondItem="QgB-g0-Raq" secondAttribute="top" id="eMa-zg-QeZ"/>
-                            <constraint firstItem="TjH-N7-5Vl" firstAttribute="top" secondItem="9mm-Gb-TnU" secondAttribute="bottom" id="lDg-Vq-nPq"/>
+                            <constraint firstItem="TjH-N7-5Vl" firstAttribute="leading" secondItem="0jE-7E-0hh" secondAttribute="leading" id="BK4-BR-0ZP"/>
+                            <constraint firstAttribute="trailing" secondItem="0jE-7E-0hh" secondAttribute="trailing" id="CjX-ug-WdG"/>
+                            <constraint firstItem="TjH-N7-5Vl" firstAttribute="bottom" secondItem="QgB-g0-Raq" secondAttribute="top" id="c8b-t5-hlY"/>
+                            <constraint firstItem="0jE-7E-0hh" firstAttribute="top" secondItem="9mm-Gb-TnU" secondAttribute="bottom" id="iqw-OG-uYg"/>
+                            <constraint firstItem="TjH-N7-5Vl" firstAttribute="top" secondItem="0jE-7E-0hh" secondAttribute="bottom" id="kEq-kq-kX3"/>
+                            <constraint firstItem="0jE-7E-0hh" firstAttribute="leading" secondItem="z4o-xe-Epd" secondAttribute="leading" id="kkO-fT-EID"/>
+                            <constraint firstItem="TjH-N7-5Vl" firstAttribute="trailing" secondItem="0jE-7E-0hh" secondAttribute="trailing" id="uW9-pK-6EL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Edificios" id="RhL-de-evI">
@@ -861,6 +900,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="buildingGroupOptionView" destination="0jE-7E-0hh" id="ec7-Xk-a7o"/>
+                        <outlet property="buildingGroupOptions" destination="rec-T0-ytA" id="5MD-4i-PBb"/>
                         <outlet property="searchButton" destination="0As-om-1Tc" id="ONn-0w-alv"/>
                         <outlet property="tableView" destination="TjH-N7-5Vl" id="Fb3-XT-xgP"/>
                         <outlet property="thisView" destination="z4o-xe-Epd" id="qoC-CM-gFf"/>
@@ -979,6 +1020,7 @@
                                             <outlet property="backgroundImageView" destination="DTw-bs-vG0" id="k57-ue-n3m"/>
                                             <outlet property="descriptionLabel" destination="9gZ-rC-U9O" id="zf2-cJ-VMq"/>
                                             <outlet property="nameLabel" destination="SZx-qP-9sb" id="xSm-8r-ZAA"/>
+                                            <segue destination="qQQ-pd-Jif" kind="show" action="showDetailViewController:sender:" id="qA7-2w-RSA"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1046,4 +1088,7 @@
         <image name="tabBuilding" width="27" height="26"/>
         <image name="tabMap" width="25" height="26"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="HWe-rG-N2d"/>
+    </inferredMetricsTieBreakers>
 </document>

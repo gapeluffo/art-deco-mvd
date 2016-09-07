@@ -87,6 +87,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         }
 
     }
+    
 }
 
 
@@ -139,7 +140,7 @@ extension MapViewController {
     }
 }
 
-extension MapViewController : MKMapViewDelegate {
+extension MapViewController : MKMapViewDelegate, UIGestureRecognizerDelegate {
 
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
         if annotation is MKUserLocation{
@@ -151,8 +152,6 @@ extension MapViewController : MKMapViewDelegate {
         if(auxView == nil){
             auxView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             auxView!.canShowCallout = false
-            auxView!.calloutOffset = CGPoint(x: -5, y: 5)
-            auxView!.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
         }else{
 
             auxView!.annotation = annotation
@@ -179,6 +178,12 @@ extension MapViewController : MKMapViewDelegate {
         buildingView = view.subviews[0] as! BuildingAnnotationView
         buildingView.buildingAddress.font = UIFont(name: kFontLight, size: 11)
         buildingView.buildingName.font = UIFont(name: kFontMedium, size: 13)
+
+        let tap = UITapGestureRecognizer()
+        tap.addTarget(self, action: #selector(toggleFavorite))
+        tap.numberOfTapsRequired = 1
+        tap.delegate = self
+        buildingView.buildingName.addGestureRecognizer(tap)
     }
 
     func mapView(mapView: MKMapView, didDeselectAnnotationView view: MKAnnotationView) {
@@ -189,5 +194,11 @@ extension MapViewController : MKMapViewDelegate {
             }
         }
     }
+
+    func toggleFavorite(){
+
+    }
+
+    
 }
 

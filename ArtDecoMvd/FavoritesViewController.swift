@@ -68,6 +68,15 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 157
     }
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let cell = sender as? UITableViewCell,
+            indexPath = tableView.indexPathForCell(cell),
+            buildindDetailViewController = segue.destinationViewController as? BuildingDetailViewController
+        {
+            buildindDetailViewController.building = favorites[indexPath.row]
+        }
+    }
 }
 
 extension FavoritesViewController: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate{
