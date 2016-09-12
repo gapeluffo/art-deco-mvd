@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E02CD381D80F9A50075B196 /* BuildingAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02CD371D80F9A50075B196 /* BuildingAnnotationView.swift */; };
 		0E497A721D6A35EB00F1C7C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497A711D6A35EB00F1C7C2 /* AppDelegate.swift */; };
 		0E497A771D6A35EB00F1C7C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E497A751D6A35EB00F1C7C2 /* Main.storyboard */; };
 		0E497A791D6A35EB00F1C7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E497A781D6A35EB00F1C7C2 /* Assets.xcassets */; };
@@ -19,7 +20,7 @@
 		0E497AAA1D6A374E00F1C7C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AA61D6A374E00F1C7C2 /* MapViewController.swift */; };
 		0E497AAC1D6A582F00F1C7C2 /* Buildings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E497AAB1D6A582F00F1C7C2 /* Buildings.plist */; };
 		0E497AAE1D6A5CC800F1C7C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AAD1D6A5CC800F1C7C2 /* Constants.swift */; };
-		0E497AB01D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AAF1D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift */; };
+		0E497AB01D6A7F0D00F1C7C2 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AAF1D6A7F0D00F1C7C2 /* BuildingView.swift */; };
 		0E497AB41D6D1FA700F1C7C2 /* BuildingAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */; };
 		0E497AB61D6F9F0500F1C7C2 /* BuildingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB51D6F9F0500F1C7C2 /* BuildingListViewController.swift */; };
 		0E497AB81D6FAB7400F1C7C2 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E02CD371D80F9A50075B196 /* BuildingAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingAnnotationView.swift; sourceTree = "<group>"; };
 		0E497A6E1D6A35EB00F1C7C2 /* ArtDecoMvd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtDecoMvd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E497A711D6A35EB00F1C7C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E497A761D6A35EB00F1C7C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,7 +70,7 @@
 		0E497AA61D6A374E00F1C7C2 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0E497AAB1D6A582F00F1C7C2 /* Buildings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Buildings.plist; sourceTree = "<group>"; };
 		0E497AAD1D6A5CC800F1C7C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		0E497AAF1D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingAnnotationView.swift; sourceTree = "<group>"; };
+		0E497AAF1D6A7F0D00F1C7C2 /* BuildingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
 		0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuildingAnnotationView.xib; sourceTree = "<group>"; };
 		0E497AB51D6F9F0500F1C7C2 /* BuildingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingListViewController.swift; sourceTree = "<group>"; };
 		0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
@@ -193,9 +195,10 @@
 		0E497AA11D6A364500F1C7C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0E497AAF1D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift */,
+				0E02CD371D80F9A50075B196 /* BuildingAnnotationView.swift */,
 				0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */,
 				0E497AA41D6A374E00F1C7C2 /* BuildingTableViewCell.swift */,
+				0E497AAF1D6A7F0D00F1C7C2 /* BuildingView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -513,12 +516,13 @@
 				0E497AA71D6A374E00F1C7C2 /* Building.swift in Sources */,
 				0E497A721D6A35EB00F1C7C2 /* AppDelegate.swift in Sources */,
 				0E497AAE1D6A5CC800F1C7C2 /* Constants.swift in Sources */,
-				0E497AB01D6A7F0D00F1C7C2 /* BuildingAnnotationView.swift in Sources */,
+				0E497AB01D6A7F0D00F1C7C2 /* BuildingView.swift in Sources */,
 				0E497AB81D6FAB7400F1C7C2 /* NavViewController.swift in Sources */,
 				0E497AA91D6A374E00F1C7C2 /* ListViewController.swift in Sources */,
 				0E497AB61D6F9F0500F1C7C2 /* BuildingListViewController.swift in Sources */,
 				0E70C5341D70F79B0046CE67 /* BuildingPinAnnotation.swift in Sources */,
 				0E497ABC1D70808400F1C7C2 /* FavoritesViewController.swift in Sources */,
+				0E02CD381D80F9A50075B196 /* BuildingAnnotationView.swift in Sources */,
 				0E497AA81D6A374E00F1C7C2 /* BuildingTableViewCell.swift in Sources */,
 				0E497AC01D70AD5700F1C7C2 /* Favorites.swift in Sources */,
 			);

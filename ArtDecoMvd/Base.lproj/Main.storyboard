@@ -526,10 +526,10 @@
                         <viewControllerLayoutGuide type="bottom" id="ZEr-HY-UIW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tcP-Gb-FRO">
-                        <rect key="frame" x="0.0" y="64" width="600" height="936"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7n2-Mq-UBZ">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7n2-Mq-UBZ">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="887"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ors-xa-Wk3">
@@ -979,7 +979,7 @@
                                                         <constraint firstAttribute="height" constant="117" id="mVj-Q8-1Kd"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edificio Artigas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZx-qP-9sb">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Edificio Artigas" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZx-qP-9sb">
                                                     <rect key="frame" x="10" y="99" width="143" height="28"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1013,6 +1013,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="hBA-ab-h5Q" secondAttribute="bottom" id="ecs-or-kjP"/>
                                                 <constraint firstAttribute="trailing" secondItem="hBA-ab-h5Q" secondAttribute="trailing" id="iW1-E4-899"/>
                                                 <constraint firstItem="hBA-ab-h5Q" firstAttribute="leading" secondItem="kVh-eh-25d" secondAttribute="leading" id="lI9-eK-88z"/>
+                                                <constraint firstAttribute="trailing" secondItem="SZx-qP-9sb" secondAttribute="trailing" constant="10" id="nQk-87-BQp"/>
                                                 <constraint firstItem="SZx-qP-9sb" firstAttribute="leading" secondItem="kVh-eh-25d" secondAttribute="leading" constant="10" id="nvQ-ZG-0aW"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -1020,7 +1021,7 @@
                                             <outlet property="backgroundImageView" destination="DTw-bs-vG0" id="k57-ue-n3m"/>
                                             <outlet property="descriptionLabel" destination="9gZ-rC-U9O" id="zf2-cJ-VMq"/>
                                             <outlet property="nameLabel" destination="SZx-qP-9sb" id="xSm-8r-ZAA"/>
-                                            <segue destination="qQQ-pd-Jif" kind="show" action="showDetailViewController:sender:" id="qA7-2w-RSA"/>
+                                            <segue destination="qQQ-pd-Jif" kind="show" action="showDetailViewController:sender:" id="UU2-aF-OeP"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1089,6 +1090,6 @@
         <image name="tabMap" width="25" height="26"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HWe-rG-N2d"/>
+        <segue reference="UU2-aF-OeP"/>
     </inferredMetricsTieBreakers>
 </document>

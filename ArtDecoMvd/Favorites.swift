@@ -9,17 +9,13 @@
 import UIKit
 
 class Favorites {
-    
+
     var favoriteBuildings : [Int] = []
     private let favIdentifier = "Favs"
     
     init(){
-        let buildingList : [String:AnyObject] = NSDictionary(contentsOfFile: NSBundle.mainBundle().pathForResource("Buildings", ofType: "plist")!) as! [String:AnyObject]
-        
-        let buildingListFavs = buildingList[favIdentifier] as! [String]
-        favoriteBuildings = buildingListFavs.map({ (key:String) -> Int in
-            return Int(key)!
-        })
+        let defaults = NSUserDefaults.standardUserDefaults()
+        favoriteBuildings = defaults.objectForKey(favIdentifier) as? [Int] ?? [Int]()
     }
     
     
@@ -61,11 +57,17 @@ class Favorites {
     
     func toggleFavorite(building:Building){
         favoriteBuildings.contains(building.id) ? removeFavorite(building) : addFavorite(building)
+        saveFavorites()
     }
     
     
     func isFavorite(building:Building) -> Bool{
         return favoriteBuildings.contains(building.id)
+    }
+
+    func saveFavorites(){
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject(favoriteBuildings, forKey: favIdentifier)
     }
 
     
