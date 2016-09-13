@@ -98,7 +98,7 @@ class BuildingListViewController: UIViewController {
         buildingGroupOptionView.backgroundColor = Colors.mainColor
         buildingGroupOptions.backgroundColor = Colors.mainColor
         buildingGroupOptions.setTitleTextAttributes(Fonts.segmentedControlFont, forState: .Normal)
-        thisView.backgroundColor = Colors.mainColor
+//        thisView.backgroundColor = Colors.mainColor
     }
 
 

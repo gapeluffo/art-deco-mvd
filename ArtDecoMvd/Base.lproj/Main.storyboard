@@ -308,7 +308,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RFg-uU-b43" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3093" y="118"/>
+            <point key="canvasLocation" x="3905" y="118"/>
         </scene>
         <!--Building Detail View Controller-->
         <scene sceneID="3ae-oP-9WD">
@@ -515,7 +515,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yd6-Ub-POl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4400" y="1254"/>
+            <point key="canvasLocation" x="5212" y="1254"/>
         </scene>
         <!--Building detail-->
         <scene sceneID="30q-lv-Bu8">
@@ -526,10 +526,10 @@
                         <viewControllerLayoutGuide type="bottom" id="ZEr-HY-UIW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tcP-Gb-FRO">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="936"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7n2-Mq-UBZ">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7n2-Mq-UBZ">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="887"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ors-xa-Wk3">
@@ -745,7 +745,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YiY-hq-O4w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1394" y="1674"/>
+            <point key="canvasLocation" x="2206" y="1674"/>
         </scene>
         <!--Edificios-->
         <scene sceneID="3RP-Bv-XfS">
@@ -909,7 +909,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M5u-om-TUD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1670" y="558"/>
+            <point key="canvasLocation" x="2482" y="558"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -926,7 +926,7 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="O3A-Da-Utx" kind="relationship" relationship="viewControllers" id="oIQ-Ci-3t8"/>
-                        <segue destination="3UO-YX-cO3" kind="relationship" relationship="viewControllers" id="4Ak-eg-kO5"/>
+                        <segue destination="2hu-33-2Jr" kind="relationship" relationship="viewControllers" id="4Ak-eg-kO5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -942,17 +942,11 @@
                         <viewControllerLayoutGuide type="bottom" id="1wJ-0C-nHD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rCs-NV-nJx">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2E-RB-zTV">
-                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
-                                <items>
-                                    <navigationItem title="Favoritos" id="teo-lK-fkj"/>
-                                </items>
-                            </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qOO-uP-02t">
-                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavCell" rowHeight="158" id="zAp-c9-HFW" customClass="BuildingTableViewCell" customModule="ArtDecoMvd" customModuleProvider="target">
@@ -1008,6 +1002,7 @@
                                                 <constraint firstItem="9gZ-rC-U9O" firstAttribute="top" secondItem="SZx-qP-9sb" secondAttribute="bottom" id="846-rB-0rd"/>
                                                 <constraint firstAttribute="bottom" secondItem="DTw-bs-vG0" secondAttribute="bottom" id="ATJ-Ub-4Tb"/>
                                                 <constraint firstAttribute="trailing" secondItem="DTw-bs-vG0" secondAttribute="trailing" id="FOx-PZ-JYz"/>
+                                                <constraint firstItem="SZx-qP-9sb" firstAttribute="leading" secondItem="kVh-eh-25d" secondAttribute="leadingMargin" constant="2" id="V54-L2-iHN"/>
                                                 <constraint firstItem="DTw-bs-vG0" firstAttribute="top" secondItem="kVh-eh-25d" secondAttribute="top" id="YWg-0O-jcR"/>
                                                 <constraint firstItem="DTw-bs-vG0" firstAttribute="leading" secondItem="kVh-eh-25d" secondAttribute="leading" id="amq-qz-w4T"/>
                                                 <constraint firstAttribute="bottom" secondItem="hBA-ab-h5Q" secondAttribute="bottom" id="ecs-or-kjP"/>
@@ -1029,25 +1024,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Z2E-RB-zTV" secondAttribute="trailing" id="4AO-zB-ddC"/>
-                            <constraint firstItem="qOO-uP-02t" firstAttribute="top" secondItem="Z2E-RB-zTV" secondAttribute="bottom" id="8Bi-8K-7oq"/>
-                            <constraint firstItem="1wJ-0C-nHD" firstAttribute="top" secondItem="qOO-uP-02t" secondAttribute="bottom" id="CJp-AT-rcQ"/>
-                            <constraint firstItem="qOO-uP-02t" firstAttribute="leading" secondItem="rCs-NV-nJx" secondAttribute="leading" id="TXz-gz-vkr"/>
-                            <constraint firstAttribute="trailing" secondItem="qOO-uP-02t" secondAttribute="trailing" id="gEk-Q7-pAh"/>
-                            <constraint firstItem="Z2E-RB-zTV" firstAttribute="top" secondItem="aqr-JK-aZT" secondAttribute="bottom" id="o1Y-Hl-Qud"/>
-                            <constraint firstItem="Z2E-RB-zTV" firstAttribute="leading" secondItem="rCs-NV-nJx" secondAttribute="leading" id="wgk-bo-WAe"/>
+                            <constraint firstItem="qOO-uP-02t" firstAttribute="leading" secondItem="rCs-NV-nJx" secondAttribute="leading" id="Ai4-CP-7pI"/>
+                            <constraint firstItem="qOO-uP-02t" firstAttribute="bottom" secondItem="1wJ-0C-nHD" secondAttribute="top" id="Fhy-Os-0So"/>
+                            <constraint firstItem="qOO-uP-02t" firstAttribute="top" secondItem="aqr-JK-aZT" secondAttribute="bottom" id="Fpd-oW-2Vd"/>
+                            <constraint firstAttribute="trailing" secondItem="qOO-uP-02t" secondAttribute="trailing" id="tFt-fg-IMm"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Favoritos" image="fav" id="RaA-um-bHC"/>
+                    <navigationItem key="navigationItem" title="Favoritos" id="Tc6-5u-evP"/>
                     <connections>
-                        <outlet property="navBar" destination="Z2E-RB-zTV" id="BH3-Kh-8AB"/>
                         <outlet property="tableView" destination="qOO-uP-02t" id="hFX-d0-WfJ"/>
                         <outlet property="thisView" destination="rCs-NV-nJx" id="bFF-ye-zRe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nUY-2E-p7d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9" y="968"/>
+            <point key="canvasLocation" x="821" y="968"/>
         </scene>
         <!--Edificios-->
         <scene sceneID="aQs-Jl-SoS">
@@ -1072,7 +1063,28 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNH-dl-DVD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="858" y="558"/>
+            <point key="canvasLocation" x="1670" y="558"/>
+        </scene>
+        <!--Favoritos-->
+        <scene sceneID="gFe-2J-rxR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2hu-33-2Jr" customClass="NavViewController" customModule="ArtDecoMvd" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favoritos" image="fav" id="RaA-um-bHC"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="g1o-Fi-S4S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <outlet property="navBar" destination="g1o-Fi-S4S" id="PHE-E7-PNh"/>
+                        <segue destination="3UO-YX-cO3" kind="relationship" relationship="rootViewController" id="OOD-2o-3LY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eC1-8f-dJ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="968"/>
         </scene>
     </scenes>
     <resources>
@@ -1090,6 +1102,6 @@
         <image name="tabMap" width="25" height="26"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UU2-aF-OeP"/>
+        <segue reference="HWe-rG-N2d"/>
     </inferredMetricsTieBreakers>
 </document>
