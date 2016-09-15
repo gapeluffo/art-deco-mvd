@@ -87,6 +87,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         }
 
     }
+    
 }
 
 
@@ -102,7 +103,7 @@ extension MapViewController {
         var annotation      : BuildingPinAnnotation
         var annotationView  : MKAnnotationView
 
-        for building in buildings{
+        for building in buildings {
             annotation = BuildingPinAnnotation()
             annotation.title = building.name
             annotation.subtitle = building.address
@@ -139,22 +140,19 @@ extension MapViewController {
     }
 }
 
-extension MapViewController : MKMapViewDelegate {
+extension MapViewController : MKMapViewDelegate, UIGestureRecognizerDelegate {
 
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
-        if annotation is MKUserLocation{
+        if annotation is MKUserLocation {
             return nil
         }
 
         let buildingAnnotation = annotation as! BuildingPinAnnotation
         var auxView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseIdentifier)
-        if(auxView == nil){
-            auxView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
+        if (auxView == nil) {
+            auxView = BuildingAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             auxView!.canShowCallout = false
-            auxView!.calloutOffset = CGPoint(x: -5, y: 5)
-            auxView!.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
-        }else{
-
+        } else {
             auxView!.annotation = annotation
         }
 
@@ -169,25 +167,34 @@ extension MapViewController : MKMapViewDelegate {
         }
         
         let annotation = view.annotation! as! BuildingPinAnnotation
-        var buildingView = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)[0] as! BuildingAnnotationView
+        let buildingView = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)[0] as! BuildingView
 
         view.addSubview(buildingView)
 
         buildingView.configure(annotation)
         buildingView.center = CGPointMake(view.bounds.size.width / 2, -buildingView.bounds.size.height*0.72)
 
-        buildingView = view.subviews[0] as! BuildingAnnotationView
-        buildingView.buildingAddress.font = UIFont(name: kFontLight, size: 11)
-        buildingView.buildingName.font = UIFont(name: kFontMedium, size: 13)
+        let tap = UITapGestureRecognizer()
+        tap.addTarget(self, action: #selector(toggleFavorite))
+        tap.numberOfTapsRequired = 1
+        tap.delegate = self
+        buildingView.buildingName.addGestureRecognizer(tap)
     }
 
     func mapView(mapView: MKMapView, didDeselectAnnotationView view: MKAnnotationView) {
         
-        if view.isKindOfClass(MKAnnotationView){
+        if view.isKindOfClass(BuildingAnnotationView){
             for subview in view.subviews{
                 subview.removeFromSuperview()
             }
         }
     }
+
+    func toggleFavorite() {
+//        let image = UIImage(named: isFavorite ? Images.favoriteSmaller : Images.notFavoriteSmaller)
+//        favoriteButton.setImage(image, forState: .Normal)
+    }
+
+    
 }
 

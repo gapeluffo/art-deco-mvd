@@ -9,17 +9,27 @@
 import UIKit
 
 class BuildingListViewController: UIViewController {
-    
+
+    private enum TableOption : Int{
+        case ByBuilding = 0
+        case ByAuthor   = 1
+    }
+
     @IBOutlet var optionsTabView: UIView!
     @IBOutlet var buildingFilter: UISegmentedControl!
     @IBOutlet var tableView: UITableView!
     @IBOutlet var thisView: UIView!
     @IBOutlet var searchButton: UIBarButtonItem!
+    @IBOutlet var buildingGroupOptions: UISegmentedControl!
+    @IBOutlet var buildingGroupOptionView: UIView!
     
     let buildingCellIdentifier      = "BuildingCell"
     
-    var filteredBuildings   : [Building] = []
-    var buildingsList       : [Building] = []
+    private var filteredBuildings     : [Building] = []
+    private var buildingsList         : [Building] = []
+    private var buildingsByAuthor     : [String:[Building]]?
+    private var buildingsByAuthorKeys : [String] = []
+    private var builingListType       : TableOption = TableOption.ByBuilding
     
     let searchController = UISearchController(searchResultsController: nil)
     
@@ -31,43 +41,74 @@ class BuildingListViewController: UIViewController {
 
         // load buildings
         buildingsList = Building.loadBuildings().sort({ $0.name < $1.name })
+        buildingsByAuthor = groupBuildingsByAuthor()
 
         tableView.delegate = self
         tableView.dataSource = self
 
     }
 
-    func toggleSearchBar(hide: Bool){
-        let frame : CGRect = hide ? CGRectMake(0, 0, 320, 0.0) : CGRectMake(0, 0, 320, 44)
 
-        UIView.animateWithDuration(0.3) { 
-            self.searchController.searchBar.frame = frame
-            self.tableView.tableHeaderView = hide ? nil : self.searchController.searchBar
-        }
-    }
+//  -----------------------   events     ---------------------------------
 
     @IBAction func showSearchBar(sender: AnyObject) {
         toggleSearchBar(false)
     }
 
+    func toggleSearchBar(hide: Bool){
+        let frame : CGRect = hide ? CGRectMake(0, 0, 320, 0.0) : CGRectMake(0, 0, 320, 44)
+
+        UIView.animateWithDuration(0.3) {
+            self.searchController.searchBar.frame = frame
+            self.tableView.tableHeaderView = hide ? nil : self.searchController.searchBar
+        }
+    }
+
+    @IBAction func buildingGroupOptionValueChanged(sender: UISegmentedControl) {
+        builingListType = TableOption(rawValue: sender.selectedSegmentIndex)!
+        tableView.reloadData()
+    }
+
+
+//  -----------------------   layout     ---------------------------------
+
     private func setupSearchController() {
-      definesPresentationContext = true
-      searchController.searchResultsUpdater = self
-      searchController.dimsBackgroundDuringPresentation = false
-      searchController.searchBar.barTintColor = Colors.mainColor
-      searchController.searchBar.tintColor = UIColor.whiteColor()
-      searchController.searchBar.translucent = false
-      searchController.searchBar.delegate = self
+        definesPresentationContext = true
+        searchController.searchResultsUpdater = self
+        searchController.dimsBackgroundDuringPresentation = false
+        searchController.searchBar.backgroundColor = Colors.mainColor
+        searchController.searchBar.barTintColor = Colors.mainColor
+        searchController.searchBar.tintColor = UIColor.whiteColor()
+        searchController.searchBar.translucent = false
+        searchController.searchBar.delegate = self
+
+        //SearchBar Text
+        let textFieldInsideUISearchBar = searchController.searchBar.valueForKey("searchField") as? UITextField
+
+        //SearchBar Placeholder
+        let textFieldInsideUISearchBarLabel = textFieldInsideUISearchBar!.valueForKey("placeholderLabel") as? UILabel
+        textFieldInsideUISearchBarLabel?.text = "Buscar"
+        textFieldInsideUISearchBarLabel?.font = UIFont(name: kFontLight, size: 14)
+
+        searchController.searchBar.setValue("Cancelar", forKey:"_cancelButtonText")
+
     }
 
     private func setupBuildingsUI() {
-//      optionsTabView.backgroundColor = Colors.mainColor
-//      buildingFilter.backgroundColor = Colors.mainColor
-      thisView.backgroundColor = Colors.mainColor
+        buildingGroupOptionView.backgroundColor = Colors.mainColor
+        buildingGroupOptions.backgroundColor = Colors.mainColor
+        buildingGroupOptions.setTitleTextAttributes(Fonts.segmentedControlFont, forState: .Normal)
+//        thisView.backgroundColor = Colors.mainColor
     }
+
+
 }
 
 extension BuildingListViewController : UISearchResultsUpdating, UISearchBarDelegate {
+
+    //--------------------------------------------------------------------------------------
+    //                                  SEARCH BAR
+    //--------------------------------------------------------------------------------------
 
     func filterContentForSearchText(searchText: String, scope: String = "All") {
         if searchText == "" {
@@ -102,31 +143,112 @@ extension BuildingListViewController : UISearchResultsUpdating, UISearchBarDeleg
 
 extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource {
 
+    //--------------------------------------------------------------------------------------
+    //                                  TABLE SECTIONS
+    //--------------------------------------------------------------------------------------
+
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return isSearch() ? filteredBuildings.count : buildingsList.count
+
+        if isSearch() {
+            return filteredBuildings.count
+        }else if builingListType == TableOption.ByBuilding {
+            return buildingsList.count
+        }else{
+            let key = buildingsByAuthorKeys[section]
+            return (buildingsByAuthor![key]?.count)!
+        }
     }
+
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return isSearch() ? 1 : (builingListType == TableOption.ByBuilding ? 1 : buildingsByAuthor!.keys.count)
+    }
+
+
+    //--------------------------------------------------------------------------------------
+    //                                  TABLE HEADER
+    //--------------------------------------------------------------------------------------
+
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if !isSearch() && builingListType == TableOption.ByAuthor {
+            return 30
+        }
+        return 0
+    }
+
+    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if !isSearch() && builingListType == TableOption.ByAuthor {
+            return buildingsByAuthorKeys[section].uppercaseString
+        }
+        return ""
+    }
+
+    func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+
+        let header:UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView
+
+        header.textLabel!.textColor = Colors.mainColor50
+        header.textLabel!.font = UIFont(name: kFontMedium, size: 14)
+        header.textLabel!.frame = header.frame
+    }
+
+
+    //--------------------------------------------------------------------------------------
+    //                                  TABLE CELLS
+    //--------------------------------------------------------------------------------------
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(buildingCellIdentifier, forIndexPath: indexPath) as! BuildingTableViewCell
-        
+
         cell.configure(getBuildingByIndexPath(indexPath))
         return cell
     }
 
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
-    }
+}
+
+extension BuildingListViewController{
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let cell = sender as? UITableViewCell,
-               indexPath = tableView.indexPathForCell(cell),
-               buildindDetailViewController = segue.destinationViewController as? BuildingDetailViewController
+            indexPath = tableView.indexPathForCell(cell),
+            buildindDetailViewController = segue.destinationViewController as? BuildingDetailViewController
         {
             buildindDetailViewController.building = getBuildingByIndexPath(indexPath)
         }
     }
 
     func getBuildingByIndexPath(indexPath:NSIndexPath) -> Building{
-        return isSearch() ? filteredBuildings[indexPath.row] : buildingsList[indexPath.row]
+
+        if isSearch() {
+            return filteredBuildings[indexPath.row]
+        }else if builingListType == TableOption.ByBuilding {
+            return buildingsList[indexPath.row]
+        }else{
+            let key = buildingsByAuthorKeys[indexPath.section]
+            return buildingsByAuthor![key]![indexPath.row]
+        }
+    }
+
+    private func groupBuildingsByAuthor() -> [String:[Building]]{
+        var list = [String:[Building]]()
+
+        for building in buildingsList {
+            let key = building.architect == "" ? "Otros" : building.architect
+
+            if !list.keys.contains(key){
+                list[key] = []
+            }
+
+            list[key]?.append(building)
+        }
+
+        buildingsByAuthorKeys = Array(list.keys)
+        buildingsByAuthorKeys.sortInPlace({
+            $0 < $1 || $1 == "Otros"
+        })
+
+        buildingsByAuthorKeys.map { (key) in
+            list[key]!.sort({ $0.name < $1.name })
+        }
+        return list
     }
 }

@@ -10,8 +10,7 @@ import UIKit
 import DZNEmptyDataSet
 
 class FavoritesViewController: UIViewController{
-    
-    @IBOutlet var navBar: UINavigationBar!
+
     @IBOutlet var thisView: UIView!
     @IBOutlet var tableView: UITableView!
     
@@ -22,9 +21,6 @@ class FavoritesViewController: UIViewController{
         super.viewDidLoad()
         
         thisView.backgroundColor = Colors.mainColor
-        navBar.barTintColor = Colors.mainColor
-        navBar.tintColor = UIColor.whiteColor()
-        navBar.titleTextAttributes = Fonts.navBarFont
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -67,6 +63,15 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 157
+    }
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let cell = sender as? UITableViewCell,
+            indexPath = tableView.indexPathForCell(cell),
+            buildindDetailViewController = segue.destinationViewController as? BuildingDetailViewController
+        {
+            buildindDetailViewController.building = favorites[indexPath.row]
+        }
     }
 }
 
