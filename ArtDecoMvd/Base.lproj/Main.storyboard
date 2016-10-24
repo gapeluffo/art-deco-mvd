@@ -790,8 +790,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="g1T-1t-7CM"/>
                                         <exclude reference="0bj-7I-cgZ"/>
+                                        <exclude reference="g1T-1t-7CM"/>
                                     </mask>
                                 </variation>
                             </view>
