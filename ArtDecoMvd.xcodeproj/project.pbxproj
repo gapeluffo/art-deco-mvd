@@ -324,13 +324,16 @@
 					0E497A6D1D6A35EB00F1C7C2 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 637YQNU923;
+						LastSwiftMigration = 0800;
 					};
 					0E497A811D6A35EB00F1C7C2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 0E497A6D1D6A35EB00F1C7C2;
 					};
 					0E497A8C1D6A35EC00F1C7C2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 0E497A6D1D6A35EB00F1C7C2;
 					};
 				};
@@ -677,6 +680,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -692,6 +696,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -704,6 +709,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvdTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtDecoMvd.app/ArtDecoMvd";
 			};
 			name = Debug;
@@ -717,6 +723,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvdTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtDecoMvd.app/ArtDecoMvd";
 			};
 			name = Release;
@@ -729,6 +736,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvdUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = ArtDecoMvd;
 			};
 			name = Debug;
@@ -741,6 +749,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvdUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = ArtDecoMvd;
 			};
 			name = Release;

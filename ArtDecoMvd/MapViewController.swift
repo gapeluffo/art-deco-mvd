@@ -167,7 +167,7 @@ extension MapViewController : MKMapViewDelegate, UIGestureRecognizerDelegate {
         }
         
         let annotation = view.annotation! as! BuildingPinAnnotation
-        let buildingView = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)[0] as! BuildingView
+        let buildingView = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)![0] as! BuildingView
 
         view.addSubview(buildingView)
 
