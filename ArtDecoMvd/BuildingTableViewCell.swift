@@ -14,16 +14,14 @@ class BuildingTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet var favoriteButton: UIButton!
-    
+
     var building : Building? = nil
     var isFavorite: Bool = false
 
     @IBAction func favoriteClicked(sender: AnyObject) {
         isFavorite = !isFavorite
         favoriteButton.setImage(UIImage(named: isFavorite ? Images.favorite : Images.notFavorite), forState: .Normal)
-        
         Favorites.sharedInstance.toggleFavorite(building!)
-        
     }
 
     func configure(building:Building){
@@ -31,7 +29,7 @@ class BuildingTableViewCell: UITableViewCell {
 
         nameLabel.text = building.name
         descriptionLabel.text = "\(building.year) - \(building.architect)"
-        
+
         nameLabel.font = UIFont(name: kFontHeavy, size: 18)
         descriptionLabel.font = UIFont(name: kFontMedium, size: 15)
 
@@ -40,7 +38,7 @@ class BuildingTableViewCell: UITableViewCell {
         } else {
             backgroundImageView.image = UIImage(named:Images.noImage)
         }
-        
+
         if(favoriteButton != nil){
             isFavorite = Favorites.sharedInstance.isFavorite(building)
             favoriteButton.setImage(UIImage(named: isFavorite ? Images.favorite : Images.notFavorite), forState: .Normal)

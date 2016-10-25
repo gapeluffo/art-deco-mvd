@@ -22,52 +22,39 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet var mapOptions: UISegmentedControl!
 
-    // --------------------    variables    ---------------------------------
-
     var locationManager : CLLocationManager!
     let initialLocation = CLLocation(latitude: -34.911025, longitude: -56.163031)
-
     let regionRadius: CLLocationDistance = 1000
     let reuseIdentifier = "pin"
-
     var buildings : [Building] = []
     var allAnnotations : [MKAnnotation] = []
 
-    // ----------------------------------------------------------------------
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         initializeLocationTracker()
-
         mapView.delegate = self
-        
         buildings = Building.loadBuildings()
         addPins()
-
         initializeLayout()
-
     }
 
     override func viewWillAppear(animated: Bool) {
         refreshMap();
     }
-    
+
     @IBAction func pinOptionsChanged(sender: AnyObject) {
         filterAnnotations(mapOptions.selectedSegmentIndex == PinOptions.All.rawValue)
     }
 
-
-    func initializeLayout(){
+    func initializeLayout() {
         self.view.backgroundColor = Colors.mainColor
         optionsTab.backgroundColor = Colors.mainColor
-
         mapOptions.setTitleTextAttributes( Fonts.segmentedControlFont, forState: .Normal)
         mapOptions.backgroundColor = Colors.mainColor
     }
 
-    func initializeLocationTracker(){
-
+    func initializeLocationTracker() {
         locationManager = CLLocationManager()
         locationManager.desiredAccuracy = kCLLocationAccuracyBest;
         locationManager.delegate = self;
@@ -80,15 +67,13 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         mapView.showsUserLocation = true
 
-        if let location = mapView.userLocation.location{
+        if let location = mapView.userLocation.location {
             centerMapOnLocation(location)
-        }else{
+        } else {
             centerMapOnLocation(initialLocation)
         }
-
     }
 }
-
 
 extension MapViewController {
 
@@ -97,8 +82,7 @@ extension MapViewController {
         mapView.setRegion(coordinateRegion, animated: true)
     }
 
-    func addPins(){
-
+    func addPins() {
         var annotation      : BuildingPinAnnotation
         var annotationView  : MKAnnotationView
 
@@ -108,14 +92,13 @@ extension MapViewController {
             annotation.subtitle = building.address
             annotation.coordinate = building.location
             annotation.isFavorite = Favorites.sharedInstance.isFavorite(building)
-
             annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             mapView.addAnnotation(annotationView.annotation!)
             allAnnotations.append(annotationView.annotation!)
         }
     }
 
-    func refreshMap(){
+    func refreshMap() {
         allAnnotations.removeAll()
         mapView.removeAnnotations(mapView.annotations)
         addPins()
@@ -124,7 +107,7 @@ extension MapViewController {
     func filterAnnotations(showAll:Bool) {
         if showAll {
             mapView.addAnnotations(getAnnotationsNotFavorites())
-        }else{
+        } else {
             mapView.removeAnnotations(getAnnotationsNotFavorites())
         }
     }
@@ -135,6 +118,7 @@ extension MapViewController {
             let buildingAnnotation = annotation as! BuildingPinAnnotation
             return !buildingAnnotation.isFavorite
         })
+
         return filteredAnnotations
     }
 }
@@ -153,8 +137,7 @@ extension MapViewController : MKMapViewDelegate {
             auxView!.canShowCallout = false
             auxView!.calloutOffset = CGPoint(x: -5, y: 5)
             auxView!.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
-        }else{
-
+        } else {
             auxView!.annotation = annotation
         }
 
@@ -167,27 +150,23 @@ extension MapViewController : MKMapViewDelegate {
         if view.annotation is MKUserLocation{
             return
         }
-        
+
         let annotation = view.annotation! as! BuildingPinAnnotation
         var buildingView = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)[0] as! BuildingAnnotationView
 
         view.addSubview(buildingView)
-
         buildingView.configure(annotation)
         buildingView.center = CGPointMake(view.bounds.size.width / 2, -buildingView.bounds.size.height*0.72)
-
         buildingView = view.subviews[0] as! BuildingAnnotationView
         buildingView.buildingAddress.font = UIFont(name: kFontLight, size: 11)
         buildingView.buildingName.font = UIFont(name: kFontMedium, size: 13)
     }
 
     func mapView(mapView: MKMapView, didDeselectAnnotationView view: MKAnnotationView) {
-        
-        if view.isKindOfClass(MKAnnotationView){
-            for subview in view.subviews{
+        if view.isKindOfClass(MKAnnotationView) {
+            for subview in view.subviews {
                 subview.removeFromSuperview()
             }
         }
     }
 }
-

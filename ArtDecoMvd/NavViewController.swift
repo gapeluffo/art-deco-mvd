@@ -9,9 +9,9 @@
 import UIKit
 
 class NavViewController: UINavigationController {
-    
+
     @IBOutlet var navBar: UINavigationBar!
-    
+
     override func viewDidLoad() {
         navBar.barTintColor = Colors.mainColor
         navBar.tintColor = UIColor.whiteColor()

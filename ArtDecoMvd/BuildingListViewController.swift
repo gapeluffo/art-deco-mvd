@@ -9,20 +9,18 @@
 import UIKit
 
 class BuildingListViewController: UIViewController {
-    
+
     @IBOutlet var optionsTabView: UIView!
     @IBOutlet var buildingFilter: UISegmentedControl!
     @IBOutlet var tableView: UITableView!
     @IBOutlet var thisView: UIView!
     @IBOutlet var searchButton: UIBarButtonItem!
-    
+
     let buildingCellIdentifier      = "BuildingCell"
-    
     var filteredBuildings   : [Building] = []
     var buildingsList       : [Building] = []
-    
     let searchController = UISearchController(searchResultsController: nil)
-    
+
     override func viewDidLoad() {
         super.viewDidLoad();
 
@@ -34,12 +32,10 @@ class BuildingListViewController: UIViewController {
 
         tableView.delegate = self
         tableView.dataSource = self
-
     }
 
-    func toggleSearchBar(hide: Bool){
+    func toggleSearchBar(hide: Bool) {
         let frame : CGRect = hide ? CGRectMake(0, 0, 320, 0.0) : CGRectMake(0, 0, 320, 44)
-
         UIView.animateWithDuration(0.3) { 
             self.searchController.searchBar.frame = frame
             self.tableView.tableHeaderView = hide ? nil : self.searchController.searchBar
@@ -72,7 +68,7 @@ extension BuildingListViewController : UISearchResultsUpdating, UISearchBarDeleg
     func filterContentForSearchText(searchText: String, scope: String = "All") {
         if searchText == "" {
             filteredBuildings = buildingsList
-        }else{
+        } else {
             filteredBuildings = buildingsList.filter { building in
                 return building.name.lowercaseString.containsString(searchText.lowercaseString) || building.architect.lowercaseString.containsString(searchText.lowercaseString)
             }
@@ -98,8 +94,6 @@ extension BuildingListViewController : UISearchResultsUpdating, UISearchBarDeleg
     }
 }
 
-
-
 extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -108,8 +102,8 @@ extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(buildingCellIdentifier, forIndexPath: indexPath) as! BuildingTableViewCell
-        
         cell.configure(getBuildingByIndexPath(indexPath))
+
         return cell
     }
 

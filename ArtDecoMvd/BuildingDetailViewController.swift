@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 class BuildingDetailViewController: UIViewController {
-    
+
     @IBOutlet var buildingImage: UIImageView!
     @IBOutlet var buildingTitleLabel: UILabel!
     @IBOutlet var buildingArchitectLabel: UILabel!
@@ -30,25 +30,19 @@ class BuildingDetailViewController: UIViewController {
         initializeLayout();
     }
 
-    func initializeLayout(){
-
-        if let building = self.building{
+    func initializeLayout() {
+        if let building = self.building {
+            super.title = building.name
             if let image = self.building!.image{
                 buildingImage.image = UIImage(named: image)
             }
-
             buildingTitleLabel.text = building.name.uppercaseString
-            super.title = building.name
-            
             buildingArchitectLabel.text = "\(building.year) - \(building.architect)"
             buildingAddressLabel.text = building.address
-
             isFavorite = Favorites.sharedInstance.isFavorite(building)
             favoriteButton.setImage(UIImage(named: isFavorite ? Images.favorite : Images.notFavorite), forState: .Normal)
-
             addAnnotation(building)
         }
-
     }
 
     @IBAction func toggleFavorite(sender: AnyObject) {
@@ -62,8 +56,7 @@ class BuildingDetailViewController: UIViewController {
 
 extension BuildingDetailViewController: MKMapViewDelegate{
 
-    func addAnnotation(building:Building){
-
+    func addAnnotation(building:Building) {
         let annotation = BuildingPinAnnotation()
         annotation.title = building.name
         annotation.subtitle = building.address
@@ -78,19 +71,17 @@ extension BuildingDetailViewController: MKMapViewDelegate{
     }
 
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
-
         var auxView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseIdentifier)
-        if(auxView == nil){
+        if(auxView == nil) {
             auxView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             auxView!.canShowCallout = false
             auxView!.calloutOffset = CGPoint(x: -5, y: 5)
             auxView!.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
             auxView!.image = UIImage(named: Images.mapPinDetails)
-        }else{
-
+        } else {
             auxView!.annotation = annotation
         }
-        
+
         return auxView
     }
 }

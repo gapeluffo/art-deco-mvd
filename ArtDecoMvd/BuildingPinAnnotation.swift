@@ -10,7 +10,6 @@ import UIKit
 import MapKit
 
 class BuildingPinAnnotation : MKPointAnnotation{
-    
+
     var isFavorite : Bool = false
-    
 }

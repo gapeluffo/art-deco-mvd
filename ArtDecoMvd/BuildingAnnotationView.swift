@@ -22,14 +22,9 @@ class BuildingAnnotationView : UIView, UIGestureRecognizerDelegate {
         favoriteButton.setImage(image, forState: .Normal)
     }
 
-    @IBAction func morite(sender: AnyObject) {
-        
-    }
-    
     @IBAction func goToDetails(sender: AnyObject) {
-
     }
-    
+
     func configure(building: BuildingPinAnnotation){
         buildingName.text    = building.title!
         buildingAddress.text = building.subtitle!
@@ -40,7 +35,7 @@ class BuildingAnnotationView : UIView, UIGestureRecognizerDelegate {
         tap.addTarget(self, action: #selector(toggleFavorite))
         tap.numberOfTapsRequired = 1
         tap.delegate = self
-        
+
         isFavorite = building.isFavorite
         favoriteButton.setImage(UIImage(named: isFavorite ? Images.favoriteSmaller : Images.notFavoriteSmaller), forState: .Normal)
         favoriteButton.addGestureRecognizer(tap)

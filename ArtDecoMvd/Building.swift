@@ -36,18 +36,17 @@ struct Building {
 
     static var allBuildings : [Building] = []
 
-
     static func loadBuildings() -> [Building]{
         if allBuildings.count > 0{
             return allBuildings
         }
 
         let buildingList : [String:AnyObject] = NSDictionary(contentsOfFile: NSBundle.mainBundle().pathForResource(kBuildingsKey, ofType: "plist")!) as! [String:AnyObject]
-
         let buildings = buildingList[kBuildingsKey] as! [String:[String:AnyObject]]
 
         return buildings.keys.map{ (key:String) -> Building in
             let data = buildings[key]!
+
             return Building(
                 id: Int(key)!,
                 name: data[BuildingKeys.Name.rawValue] as! String,
@@ -66,5 +65,4 @@ struct Building {
         return CLLocationCoordinate2D(latitude: (buildingData[BuildingKeys.Latitude.rawValue]!.doubleValue)!,
                                      longitude: (buildingData[BuildingKeys.Longitude.rawValue]!.doubleValue)!)
     }
-    
 }
