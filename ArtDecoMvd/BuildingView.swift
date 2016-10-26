@@ -8,6 +8,10 @@
 import UIKit
 import MapKit
 
+protocol BuildingViewDelegate {
+    func openBuildingDetails(building:Building)
+}
+
 class BuildingView : UIView {
 
     @IBOutlet var image: UIImageView!
@@ -18,6 +22,7 @@ class BuildingView : UIView {
     var building: Building?
     var isFavorite: Bool = false
     var isSelected: Bool = false
+    var delegate: BuildingViewDelegate!
 
     @IBAction func favoriteTouchUp(sender: AnyObject) {
 
@@ -28,12 +33,9 @@ class BuildingView : UIView {
     }
 
     @IBAction func detailsTouchUp(sender: AnyObject) {
-        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-
-        let detailsController = storyBoard.instantiateViewControllerWithIdentifier("buildingDetailViewController") as! BuildingDetailViewController
-        detailsController.building = building
-        self.presentView
-
+        if delegate != nil {
+            delegate.openBuildingDetails(building!)
+        }
     }
 
     func configure(building: BuildingPinAnnotation){

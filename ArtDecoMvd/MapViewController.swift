@@ -173,13 +173,8 @@ extension MapViewController : MKMapViewDelegate, UIGestureRecognizerDelegate {
         view.addSubview(buildingView)
 
         buildingView.configure(annotation)
+        buildingView.delegate = self
         buildingView.center = CGPointMake(view.bounds.size.width / 2, -buildingView.bounds.size.height*0.72)
-
-        let tap = UITapGestureRecognizer()
-        tap.addTarget(self, action: #selector(toggleFavorite))
-        tap.numberOfTapsRequired = 1
-        tap.delegate = self
-        buildingView.buildingName.addGestureRecognizer(tap)
     }
 
     func mapView(mapView: MKMapView, didDeselectAnnotationView view: MKAnnotationView) {
@@ -190,12 +185,17 @@ extension MapViewController : MKMapViewDelegate, UIGestureRecognizerDelegate {
             }
         }
     }
-
-    func toggleFavorite() {
-//        let image = UIImage(named: isFavorite ? Images.favoriteSmaller : Images.notFavoriteSmaller)
-//        favoriteButton.setImage(image, forState: .Normal)
-    }
-
     
 }
+
+extension MapViewController : BuildingViewDelegate{
+    func openBuildingDetails(building: Building) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let buildingDetailViewController: BuildingDetailViewController = storyboard.instantiateViewControllerWithIdentifier("buildingDetailViewController") as! BuildingDetailViewController
+
+        buildingDetailViewController.building = building
+        self.showViewController(buildingDetailViewController, sender: self)
+    }
+}
+
 
