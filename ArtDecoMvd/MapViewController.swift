@@ -109,6 +109,7 @@ extension MapViewController {
             annotation.subtitle = building.address
             annotation.coordinate = building.location
             annotation.isFavorite = Favorites.sharedInstance.isFavorite(building)
+            annotation.building = building
 
             annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             mapView.addAnnotation(annotationView.annotation!)

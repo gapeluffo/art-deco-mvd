@@ -15,10 +15,29 @@ class BuildingView : UIView {
     @IBOutlet var buildingAddress: UILabel!
     @IBOutlet var favoriteButton: UIButton!
 
+    var building: Building?
     var isFavorite: Bool = false
     var isSelected: Bool = false
 
+    @IBAction func favoriteTouchUp(sender: AnyObject) {
+
+        Favorites.sharedInstance.toggleFavorite(building!)
+
+        isFavorite = !isFavorite
+        favoriteButton.setImage(UIImage(named: isFavorite ? Images.favoriteSmaller : Images.notFavoriteSmaller), forState: .Normal)
+    }
+
+    @IBAction func detailsTouchUp(sender: AnyObject) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+
+        let detailsController = storyBoard.instantiateViewControllerWithIdentifier("buildingDetailViewController") as! BuildingDetailViewController
+        detailsController.building = building
+        self.presentView
+
+    }
+
     func configure(building: BuildingPinAnnotation){
+        self.building = building.building
         buildingName.text    = building.title!
         buildingAddress.text = building.subtitle!
 

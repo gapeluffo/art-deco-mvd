@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Mapa-->
@@ -15,15 +16,15 @@
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="719-TE-ssQ">
-                                <rect key="frame" x="0.0" y="20" width="600" height="55"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="719-TE-ssQ">
+                                <frame key="frameInset" minY="20" width="600" height="55"/>
                                 <subviews>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Cr-5T-ajf">
-                                        <rect key="frame" x="200" y="14" width="200" height="29"/>
-                                        <color key="backgroundColor" red="0.094117647060000004" green="0.1529411765" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Cr-5T-ajf">
+                                        <frame key="frameInset" minX="200" minY="14" width="200" height="29"/>
+                                        <color key="backgroundColor" red="0.094117647060000004" green="0.1529411765" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="C3k-E8-lNp"/>
                                         </constraints>
@@ -31,13 +32,13 @@
                                             <segment title="Todos"/>
                                             <segment title="Favoritos"/>
                                         </segments>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="pinOptionsChanged:" destination="9pv-A4-QxB" eventType="valueChanged" id="OWT-lq-bta"/>
                                         </connections>
                                     </segmentedControl>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="002-Nb-xh8">
-                                        <rect key="frame" x="565" y="18" width="20" height="20"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="002-Nb-xh8">
+                                        <frame key="frameInset" minX="565" minY="18" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="5HP-Bd-q2D"/>
                                             <constraint firstAttribute="height" constant="20" id="C28-3c-hxW"/>
@@ -45,7 +46,7 @@
                                         <state key="normal" image="search"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.094117647060000004" green="0.1529411765" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.094117647060000004" green="0.1529411765" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="36W-5W-3al"/>
                                     <constraint firstAttribute="height" constant="55" id="3iT-eh-Hsx"/>
@@ -69,14 +70,14 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="RPA-wP-dut">
-                                <rect key="frame" x="0.0" y="75" width="600" height="476"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="RPA-wP-dut">
+                                <frame key="frameInset" minY="75" width="600" height="476"/>
                                 <connections>
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="dMp-yj-tzQ"/>
                                 </connections>
                             </mapView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="RPA-wP-dut" firstAttribute="top" secondItem="719-TE-ssQ" secondAttribute="bottom" id="799-0t-KKe"/>
                             <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="719-TE-ssQ" secondAttribute="bottom" constant="476" id="9lV-Sj-vhz"/>
@@ -146,26 +147,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="EGb-8c-QJG">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="203"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="203" id="RV1-ER-S8Q"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDIFICIO ARTIGAS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8N-kR-DiT">
-                                <rect key="frame" x="20" y="213" width="560" height="33"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
-                                <color key="textColor" red="0.054901960784313725" green="0.14901960784313725" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.054901960784313725" green="0.14901960784313725" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lj4-ln-yI7">
-                                <rect key="frame" x="0.0" y="303" width="600" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="oF9-dg-SYI"/>
                                 </constraints>
                             </mapView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="mWn-iC-Uxg">
-                                <rect key="frame" x="20" y="603" width="560" height="157"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="157" id="RUn-Yd-Dhh"/>
                                 </constraints>
@@ -174,8 +171,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Ci3-Oq-lkL">
-                                <rect key="frame" x="20" y="839" width="560" height="104"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="104" id="gEO-WV-0hP"/>
                                 </constraints>
@@ -184,59 +180,47 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1930 - Federico Giuria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fpf-xq-ljh">
-                                <rect key="frame" x="20" y="248" width="560" height="25"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
-                                <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="GW7-zu-FOQ">
-                                <rect key="frame" x="20" y="544" width="560" height="2"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="UFV-Un-57m">
-                                <rect key="frame" x="20" y="780" width="560" height="2"/>
-                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="GW7-zu-FOQ"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="UFV-Un-57m"/>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_building" translatesAutoresizingMaskIntoConstraints="NO" id="Vku-62-rNo">
-                                <rect key="frame" x="30" y="807" width="22" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="YN0-tD-H5D"/>
                                     <constraint firstAttribute="width" constant="22" id="bDE-9E-vCs"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DIRECCIÓN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBg-RQ-TAL">
-                                <rect key="frame" x="62" y="456" width="508" height="22"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                <color key="textColor" red="0.054901960784313725" green="0.14901960784313725" blue="0.35686274509803922" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.054901960784313725" green="0.14901960784313725" blue="0.35686274509803922" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_map" translatesAutoresizingMaskIntoConstraints="NO" id="Mfd-gM-VNp">
-                                <rect key="frame" x="30" y="456" width="22" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="22" id="83e-uK-2qY"/>
                                     <constraint firstAttribute="height" constant="22" id="fL2-Fe-g5d"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_info" translatesAutoresizingMaskIntoConstraints="NO" id="gso-MD-U8Z">
-                                <rect key="frame" x="30" y="571" width="22" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="6io-eq-YGV"/>
                                     <constraint firstAttribute="width" constant="22" id="AZH-71-kGS"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOBRE EL EDIFICIO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxO-Tw-nfP">
-                                <rect key="frame" x="62" y="571" width="508" height="22"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESTADO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzc-0e-MXF">
-                                <rect key="frame" x="62" y="807" width="508" height="22"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Av 18 de Julio 1111" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vYb-y8-Pw2">
-                                <rect key="frame" x="20" y="488" width="560" height="36"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="WDS-mG-V8P"/>
                                 </constraints>
@@ -244,7 +228,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="xBg-RQ-TAL" secondAttribute="trailing" constant="30" id="4Gs-6X-0jC"/>
                             <constraint firstItem="lj4-ln-yI7" firstAttribute="leading" secondItem="OdP-np-VWI" secondAttribute="leading" id="4zL-vC-7EA"/>
@@ -323,29 +307,23 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="geo-Hj-CIp">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="rbh-yT-d80">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="203"/>
-                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="rbh-yT-d80"/>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDIFICIO ARTIGAS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKV-E8-QOW">
-                                        <rect key="frame" x="20" y="213" width="560" height="33"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="33" id="lIC-E0-tL1"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
-                                        <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ipb-F4-gJp">
-                                        <rect key="frame" x="0.0" y="303" width="600" height="128"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="N7r-o9-iYb"/>
                                         </constraints>
                                     </mapView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="uQD-B9-TGr">
-                                        <rect key="frame" x="20" y="603" width="560" height="157"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="157" id="ukA-jP-uqk"/>
                                         </constraints>
@@ -354,8 +332,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="4lf-yD-UIE">
-                                        <rect key="frame" x="20" y="839" width="560" height="104"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="104" id="KPK-uW-3KF"/>
                                         </constraints>
@@ -364,62 +341,51 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1930 - Federico Giuria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4U-W4-T7n">
-                                        <rect key="frame" x="20" y="248" width="560" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="NFf-Mw-2cS"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
-                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="Pub-YK-Q6n">
-                                        <rect key="frame" x="20" y="544" width="560" height="2"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2" id="VZh-Rp-xoW"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="rKd-1J-fNo">
-                                        <rect key="frame" x="20" y="780" width="560" height="2"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2" id="cEv-Kd-0GG"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_building" translatesAutoresizingMaskIntoConstraints="NO" id="aFu-0o-fHj">
-                                        <rect key="frame" x="30" y="807" width="22" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="hcV-Fy-Bbs"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DIRECCIÓN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNf-0O-gEq">
-                                        <rect key="frame" x="62" y="456" width="508" height="22"/>
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                        <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_map" translatesAutoresizingMaskIntoConstraints="NO" id="klo-XQ-vQA">
-                                        <rect key="frame" x="30" y="456" width="22" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="22" id="eVN-sZ-8C5"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_info" translatesAutoresizingMaskIntoConstraints="NO" id="8pz-86-QyM">
-                                        <rect key="frame" x="30" y="571" width="22" height="22"/>
-                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_info" translatesAutoresizingMaskIntoConstraints="NO" id="8pz-86-QyM"/>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOBRE EL EDIFICIO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwO-9I-Y5e">
-                                        <rect key="frame" x="62" y="571" width="508" height="22"/>
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                        <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESTADO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whz-cd-bmc">
-                                        <rect key="frame" x="62" y="807" width="508" height="22"/>
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                        <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Av 18 de Julio 1111" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="P3y-5V-MSm">
-                                        <rect key="frame" x="20" y="488" width="560" height="36"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="36" id="2bZ-Ey-ge3"/>
                                         </constraints>
@@ -427,7 +393,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="zwO-9I-Y5e" firstAttribute="trailing" secondItem="Whz-cd-bmc" secondAttribute="trailing" id="010-UK-VBd"/>
                                     <constraint firstItem="rKd-1J-fNo" firstAttribute="leading" secondItem="4lf-yD-UIE" secondAttribute="leading" id="1JM-PA-qyw"/>
@@ -520,7 +486,7 @@
         <!--Building detail-->
         <scene sceneID="30q-lv-Bu8">
             <objects>
-                <viewController title="Building detail" id="qQQ-pd-Jif" customClass="BuildingDetailViewController" customModule="ArtDecoMvd" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="buildingDetailViewController" title="Building detail" id="qQQ-pd-Jif" customClass="BuildingDetailViewController" customModule="ArtDecoMvd" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5gf-eJ-elz"/>
                         <viewControllerLayoutGuide type="bottom" id="ZEr-HY-UIW"/>
@@ -530,32 +496,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7n2-Mq-UBZ">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="887"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ors-xa-Wk3">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="5nr-oV-lXw">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="203"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="203" id="kHy-Dt-WUz"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDIFICIO ARTIGAS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auH-zV-cY5">
-                                                <rect key="frame" x="20" y="224" width="560" height="33"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
-                                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HHW-Nd-dyd">
-                                                <rect key="frame" x="0.0" y="303" width="600" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="8Jj-S0-l2R"/>
                                                 </constraints>
                                             </mapView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="LK6-Yt-sJK">
-                                                <rect key="frame" x="20" y="603" width="560" height="157"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="157" id="qcc-Ee-FRJ"/>
                                                 </constraints>
@@ -564,8 +524,7 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="bte-8a-X3j">
-                                                <rect key="frame" x="20" y="839" width="560" height="104"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="104" id="Zmh-fW-yR1"/>
                                                 </constraints>
@@ -574,59 +533,47 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1930 - Federico Giuria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOB-Ws-mEQ">
-                                                <rect key="frame" x="20" y="257" width="560" height="25"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="ixp-ga-yRT">
-                                                <rect key="frame" x="20" y="544" width="560" height="2"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="re9-P4-nHu">
-                                                <rect key="frame" x="20" y="780" width="560" height="2"/>
-                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="ixp-ga-yRT"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="re9-P4-nHu"/>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_building" translatesAutoresizingMaskIntoConstraints="NO" id="R3P-n9-JiD">
-                                                <rect key="frame" x="30" y="807" width="22" height="22"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="22" id="DWT-Tx-CDe"/>
                                                     <constraint firstAttribute="width" constant="22" id="MUY-lh-8Vt"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DIRECCIÓN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDt-ci-ghs">
-                                                <rect key="frame" x="62" y="456" width="508" height="22"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_map" translatesAutoresizingMaskIntoConstraints="NO" id="tNI-b7-Sms">
-                                                <rect key="frame" x="30" y="456" width="22" height="22"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="22" id="Evx-aU-50s"/>
                                                     <constraint firstAttribute="width" constant="22" id="OrA-6g-Svj"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_info" translatesAutoresizingMaskIntoConstraints="NO" id="fG9-lp-MrB">
-                                                <rect key="frame" x="30" y="571" width="22" height="22"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="22" id="2O3-OV-uVS"/>
                                                     <constraint firstAttribute="height" constant="22" id="ZVz-5r-bvX"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOBRE EL EDIFICIO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2T-9S-wNS">
-                                                <rect key="frame" x="62" y="571" width="508" height="22"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESTADO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgZ-Xs-hkB">
-                                                <rect key="frame" x="62" y="807" width="508" height="22"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Av 18 de Julio 1111" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XvX-di-m0Y">
-                                                <rect key="frame" x="20" y="488" width="560" height="36"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="k0L-sd-lFf"/>
                                                 </constraints>
@@ -634,7 +581,6 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMQ-zK-GJA">
-                                                <rect key="frame" x="550" y="238" width="30" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="DwS-gW-8qy"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="MYM-eM-mim"/>
@@ -642,14 +588,14 @@
                                                     <constraint firstAttribute="width" constant="30" id="wIJ-MX-0Ti"/>
                                                 </constraints>
                                                 <state key="normal" image="favx2">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="toggleFavorite:" destination="qQQ-pd-Jif" eventType="touchUpInside" id="cqo-dj-Fdf"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="LK6-Yt-sJK" firstAttribute="top" secondItem="o2T-9S-wNS" secondAttribute="bottom" constant="10" id="2Jb-Ot-93X"/>
                                             <constraint firstItem="o2T-9S-wNS" firstAttribute="leading" secondItem="fG9-lp-MrB" secondAttribute="trailing" constant="10" id="3NI-Yk-LLr"/>
@@ -721,7 +667,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="7n2-Mq-UBZ" firstAttribute="leading" secondItem="tcP-Gb-FRO" secondAttribute="leading" id="0sr-UU-sqM"/>
                             <constraint firstAttribute="trailing" secondItem="7n2-Mq-UBZ" secondAttribute="trailing" id="9HB-qb-kJT"/>
@@ -756,15 +702,15 @@
                         <viewControllerLayoutGuide type="bottom" id="QgB-g0-Raq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="z4o-xe-Epd">
-                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0jE-7E-0hh">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="55"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0jE-7E-0hh">
+                                <frame key="frameInset" width="600" height="55"/>
                                 <subviews>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rec-T0-ytA">
-                                        <rect key="frame" x="200" y="14" width="200" height="29"/>
-                                        <color key="backgroundColor" red="0.094117647060000004" green="0.1529411765" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rec-T0-ytA">
+                                        <frame key="frameInset" minX="200" minY="14" width="200" height="29"/>
+                                        <color key="backgroundColor" red="0.094117647060000004" green="0.1529411765" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="jrF-b1-ubF"/>
                                         </constraints>
@@ -772,14 +718,14 @@
                                             <segment title="Por obras"/>
                                             <segment title="Por autores"/>
                                         </segments>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="buildingGroupOptionValueChanged:" destination="b74-eO-yvW" eventType="valueChanged" id="xBz-PY-Has"/>
                                         </connections>
                                     </segmentedControl>
                                 </subviews>
-                                <color key="backgroundColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="0bj-7I-cgZ"/>
                                     <constraint firstAttribute="height" constant="55" id="5hf-Oi-kyd"/>
@@ -795,40 +741,35 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="158" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TjH-N7-5Vl">
-                                <rect key="frame" x="0.0" y="55" width="600" height="432"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="158" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TjH-N7-5Vl">
+                                <frame key="frameInset" minY="55" width="600" height="432"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BuildingCell" rowHeight="158" id="1JS-o9-m7q" customClass="BuildingTableViewCell" customModule="ArtDecoMvd" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="158"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1JS-o9-m7q" id="fut-gd-tHA">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="157"/>
+                                            <frame key="frameInset" width="600" height="157"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buildingExample" translatesAutoresizingMaskIntoConstraints="NO" id="NHY-qt-URk">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="157"/>
-                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buildingExample" translatesAutoresizingMaskIntoConstraints="NO" id="NHY-qt-URk"/>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="AQh-SF-185">
-                                                    <rect key="frame" x="0.0" y="40" width="600" height="117"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="117" id="Hgb-e8-vZ1"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edificio Artigas" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DK2-ep-zyk">
-                                                    <rect key="frame" x="10" y="99" width="527" height="28"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1930 - Federico Guiria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNK-oc-o8a">
-                                                    <rect key="frame" x="10" y="127" width="527" height="22"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="24" id="E7N-rl-CRW"/>
                                                         <constraint firstAttribute="width" constant="162" id="eOO-ZL-D1w"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -838,13 +779,12 @@
                                                     </variation>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="926-Yy-BR7">
-                                                    <rect key="frame" x="557" y="114" width="30" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="30" id="Izl-Kd-G0O"/>
                                                         <constraint firstAttribute="height" constant="30" id="uzI-Zh-pwa"/>
                                                     </constraints>
                                                     <state key="normal" image="favx2">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
                                                         <action selector="favoriteClicked:" destination="1JS-o9-m7q" eventType="touchUpInside" id="IX0-9e-cnj"/>
@@ -880,7 +820,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="TjH-N7-5Vl" firstAttribute="leading" secondItem="0jE-7E-0hh" secondAttribute="leading" id="BK4-BR-0ZP"/>
                             <constraint firstAttribute="trailing" secondItem="0jE-7E-0hh" secondAttribute="trailing" id="CjX-ug-WdG"/>
@@ -919,9 +859,9 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.054901960784313725" green="0.14901960784313725" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="tintColor" red="0.99246460199356079" green="0.97750812768936157" blue="0.97701901197433472" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.054901960784313725" green="0.14901960784313725" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.99002379179000854" green="0.97129231691360474" blue="0.97108757495880127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
@@ -942,22 +882,21 @@
                         <viewControllerLayoutGuide type="bottom" id="1wJ-0C-nHD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rCs-NV-nJx">
-                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qOO-uP-02t">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qOO-uP-02t">
+                                <frame key="frameInset" width="600" height="487"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavCell" rowHeight="158" id="zAp-c9-HFW" customClass="BuildingTableViewCell" customModule="ArtDecoMvd" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="158"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zAp-c9-HFW" id="kVh-eh-25d">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="157"/>
+                                            <frame key="frameInset" width="600" height="157"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buildingExample" translatesAutoresizingMaskIntoConstraints="NO" id="DTw-bs-vG0">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="157"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="157" id="qgq-LO-oaC"/>
                                                     </constraints>
@@ -968,25 +907,23 @@
                                                     </variation>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="hBA-ab-h5Q">
-                                                    <rect key="frame" x="0.0" y="40" width="600" height="117"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="117" id="mVj-Q8-1Kd"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Edificio Artigas" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZx-qP-9sb">
-                                                    <rect key="frame" x="10" y="99" width="143" height="28"/>
+                                                    <frame key="frameInset" minX="10" minY="99" width="143" height="28"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1930 - Federico Guiria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gZ-rC-U9O">
-                                                    <rect key="frame" x="10" y="127" width="161" height="22"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="162" id="0sT-g5-he0"/>
                                                         <constraint firstAttribute="height" constant="24" id="fQT-nL-dn3"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -1022,7 +959,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="qOO-uP-02t" firstAttribute="leading" secondItem="rCs-NV-nJx" secondAttribute="leading" id="Ai4-CP-7pI"/>
                             <constraint firstItem="qOO-uP-02t" firstAttribute="bottom" secondItem="1wJ-0C-nHD" secondAttribute="top" id="Fhy-Os-0So"/>
@@ -1049,10 +986,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="dWW-IF-CE8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.094117647060000004" green="0.1529411765" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.094117647060000004" green="0.1529411765" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <color key="textShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1074,7 +1011,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="g1o-Fi-S4S">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
