@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class MapViewController: UIViewController, CLLocationManagerDelegate {
+class MapViewController: UIViewController {
 
     private enum PinOptions : Int{
         case All        = 0
@@ -18,7 +18,6 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     }
 
     @IBOutlet var optionsTab: UIView!
-    @IBOutlet var searchBar: UISearchBar!
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet var mapOptions: UISegmentedControl!
 
@@ -26,6 +25,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
 
     var locationManager : CLLocationManager!
     let initialLocation = CLLocation(latitude: -34.911025, longitude: -56.163031)
+    var userLocationSet : Bool = false
 
     let regionRadius: CLLocationDistance = 1000
     let reuseIdentifier = "pin"
@@ -33,12 +33,15 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     var buildings : [Building] = []
     var allAnnotations : [MKAnnotation] = []
 
+    var resultsSearchController : UISearchController? = nil
+
     // ----------------------------------------------------------------------
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         initializeLocationTracker()
+        initializeSearchController()
 
         mapView.delegate = self
         
@@ -77,15 +80,40 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.requestWhenInUseAuthorization()
         }
 
-        locationManager.startUpdatingLocation()
+        locationManager.requestLocation()
         mapView.showsUserLocation = true
 
-        if let location = mapView.userLocation.location{
-            centerMapOnLocation(location)
-        }else{
-            centerMapOnLocation(initialLocation)
-        }
+    }
 
+    func initializeSearchController() {
+
+        let locationSearchTable = storyboard!.instantiateViewControllerWithIdentifier("LocationSearchTable") as! LocationSearchTableViewController
+        locationSearchTable.delegate = self
+
+        resultsSearchController = UISearchController(searchResultsController: locationSearchTable)
+        resultsSearchController?.searchResultsUpdater = locationSearchTable
+        resultsSearchController?.hidesNavigationBarDuringPresentation = false
+        resultsSearchController?.dimsBackgroundDuringPresentation = true
+
+        definesPresentationContext = true
+
+        let searchBar = resultsSearchController?.searchBar
+        configureSearchBarLayout(searchBar)
+        navigationItem.titleView = searchBar
+    }
+
+    func configureSearchBarLayout(searchBar: UISearchBar?){
+        searchBar?.sizeToFit()
+        searchBar?.placeholder = "Buscar edificio"
+
+        searchBar?.translucent = false
+        let textFieldInsideSearchBar = searchBar?.valueForKey("searchField") as? UITextField
+        textFieldInsideSearchBar!.textColor = UIColor.whiteColor()
+        textFieldInsideSearchBar!.backgroundColor = Colors.mainColor
+        textFieldInsideSearchBar!.tintColor = Colors.mainColor
+
+        let textFieldInsideSearchBarLabel = textFieldInsideSearchBar!.valueForKey("placeholderLabel") as? UILabel
+        textFieldInsideSearchBarLabel?.textAlignment = NSTextAlignment.Left
     }
     
 }
@@ -109,6 +137,7 @@ extension MapViewController {
             annotation.subtitle = building.address
             annotation.coordinate = building.location
             annotation.isFavorite = Favorites.sharedInstance.isFavorite(building)
+            annotation.building = building
 
             annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
             mapView.addAnnotation(annotationView.annotation!)
@@ -167,18 +196,13 @@ extension MapViewController : MKMapViewDelegate, UIGestureRecognizerDelegate {
         }
         
         let annotation = view.annotation! as! BuildingPinAnnotation
-        let buildingView = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)[0] as! BuildingView
+        let buildingView = NSBundle.mainBundle().loadNibNamed("BuildingAnnotationView", owner: nil, options: nil)![0] as! BuildingView
 
         view.addSubview(buildingView)
 
         buildingView.configure(annotation)
+        buildingView.delegate = self
         buildingView.center = CGPointMake(view.bounds.size.width / 2, -buildingView.bounds.size.height*0.72)
-
-        let tap = UITapGestureRecognizer()
-        tap.addTarget(self, action: #selector(toggleFavorite))
-        tap.numberOfTapsRequired = 1
-        tap.delegate = self
-        buildingView.buildingName.addGestureRecognizer(tap)
     }
 
     func mapView(mapView: MKMapView, didDeselectAnnotationView view: MKAnnotationView) {
@@ -189,12 +213,57 @@ extension MapViewController : MKMapViewDelegate, UIGestureRecognizerDelegate {
             }
         }
     }
+    
+}
 
-    func toggleFavorite() {
-//        let image = UIImage(named: isFavorite ? Images.favoriteSmaller : Images.notFavoriteSmaller)
-//        favoriteButton.setImage(image, forState: .Normal)
+extension MapViewController : BuildingViewDelegate{
+    func openBuildingDetails(building: Building) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let buildingDetailViewController: BuildingDetailViewController = storyboard.instantiateViewControllerWithIdentifier("buildingDetailViewController") as! BuildingDetailViewController
+
+        buildingDetailViewController.building = building
+        self.navigationController?.pushViewController(buildingDetailViewController, animated: true)
+    }
+}
+
+extension MapViewController : CLLocationManagerDelegate {
+    func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
+        if status == .AuthorizedWhenInUse {
+            locationManager.requestLocation()
+        }
     }
 
-    
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if let location = locations.first{
+            if !userLocationSet {
+                centerMapOnLocation(location)
+                userLocationSet = true
+            }
+        }
+    }
+
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        print("error :: (error)")
+    }
+}
+
+
+extension MapViewController : LocationSearchDelegate {
+    func buildingSelected(building: Building) {
+        resultsSearchController?.searchBar.text = building.name
+        centerMapOnLocation(CLLocation(latitude: building.location.latitude, longitude: building.location.longitude))
+        selectAnnotation(building)
+    }
+
+    func selectAnnotation(buiding: Building)  {
+        let annotations = allAnnotations
+        let annotation = annotations.filter({ (annotation: MKAnnotation) -> Bool in
+            let buildingAnnotation = annotation as! BuildingPinAnnotation
+            return buildingAnnotation.building?.id == buiding.id
+        }).first
+
+        mapView.selectAnnotation(annotation!, animated: true)
+
+    }
 }
 

@@ -12,5 +12,5 @@ import MapKit
 class BuildingPinAnnotation : MKPointAnnotation{
     
     var isFavorite : Bool = false
-    
+    var building: Building?
 }
