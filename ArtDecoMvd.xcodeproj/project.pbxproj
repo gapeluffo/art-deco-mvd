@@ -27,6 +27,7 @@
 		0E497ABA1D7069AD00F1C7C2 /* BuildingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB91D7069AD00F1C7C2 /* BuildingDetailViewController.swift */; };
 		0E497ABC1D70808400F1C7C2 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */; };
 		0E497AC01D70AD5700F1C7C2 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497ABF1D70AD5700F1C7C2 /* Favorites.swift */; };
+		0E5ADF601DC1773900232604 /* LocationSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5ADF5F1DC1773900232604 /* LocationSearchTableViewController.swift */; };
 		0E70C5341D70F79B0046CE67 /* BuildingPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */; };
 		75EB4FEAC07CB2AB504F18FC /* Pods_ArtDecoMvd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF255CF0469D11AA9464745 /* Pods_ArtDecoMvd.framework */; };
 		BEA54E597CBD219F9F3D36A3 /* Pods_ArtDecoMvdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6D62CAD4C1DC6E5B771AF4 /* Pods_ArtDecoMvdUITests.framework */; };
@@ -77,6 +78,7 @@
 		0E497AB91D7069AD00F1C7C2 /* BuildingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingDetailViewController.swift; sourceTree = "<group>"; };
 		0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		0E497ABF1D70AD5700F1C7C2 /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		0E5ADF5F1DC1773900232604 /* LocationSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTableViewController.swift; sourceTree = "<group>"; };
 		0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingPinAnnotation.swift; sourceTree = "<group>"; };
 		2BBF46006B7FC7FCA7944BCA /* Pods-ArtDecoMvdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvdUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvdUITests/Pods-ArtDecoMvdUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B8D3C54C9348167115069CC /* Pods-ArtDecoMvd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvd/Pods-ArtDecoMvd.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		0E497AA01D6A363B00F1C7C2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0E5ADF5F1DC1773900232604 /* LocationSearchTableViewController.swift */,
 				0E497AB91D7069AD00F1C7C2 /* BuildingDetailViewController.swift */,
 				0E497AB51D6F9F0500F1C7C2 /* BuildingListViewController.swift */,
 				0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */,
@@ -318,7 +321,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Gabriela Peluffo";
 				TargetAttributes = {
 					0E497A6D1D6A35EB00F1C7C2 = {
@@ -522,6 +525,7 @@
 				0E497AAE1D6A5CC800F1C7C2 /* Constants.swift in Sources */,
 				0E497AB01D6A7F0D00F1C7C2 /* BuildingView.swift in Sources */,
 				0E497AB81D6FAB7400F1C7C2 /* NavViewController.swift in Sources */,
+				0E5ADF601DC1773900232604 /* LocationSearchTableViewController.swift in Sources */,
 				0E497AA91D6A374E00F1C7C2 /* ListViewController.swift in Sources */,
 				0E497AB61D6F9F0500F1C7C2 /* BuildingListViewController.swift in Sources */,
 				0E70C5341D70F79B0046CE67 /* BuildingPinAnnotation.swift in Sources */,
@@ -597,8 +601,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -643,8 +649,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -663,6 +671,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
