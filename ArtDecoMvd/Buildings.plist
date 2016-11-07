@@ -16,18 +16,18 @@
 			<key>address</key>
 			<string>Piedras 234</string>
 			<key>author</key>
-			<string>Federico Giuria</string>
+			<string>Constructores R. Pose e hijos (figura en fachada)</string>
 			<key>year</key>
-			<string>1903</string>
+			<string>Década del treinta</string>
 			<key>coordinates</key>
 			<dict>
 				<key>latitude</key>
-				<string>-34.906180</string>
+				<string>-34.906430</string>
 				<key>longitude</key>
-				<string>-56.211685</string>
+				<string>-56.201382</string>
 			</dict>
 			<key>image</key>
-			<string>buildingExample</string>
+			<string>no_image</string>
 		</dict>
 		<key>2</key>
 		<dict>
@@ -85,6 +85,1326 @@
 				<string>-34.905088</string>
 				<key>longitude</key>
 				<string>-56.212185</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>5</key>
+		<dict>
+			<key>name</key>
+			<string>Dirección Nacional de Aduanas</string>
+			<key>address</key>
+			<string>Rambla 25 de Agosto de 1825 entre Maciel  y Pérez Castellano</string>
+			<key>author</key>
+			<string>Arq. Jorge Herrán</string>
+			<key>year</key>
+			<string>1923 (concurso) Monumento Histórico Nacional desde 1975</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.903870</string>
+				<key>longitude</key>
+				<string>-56.211927</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>6</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Vignale</string>
+			<key>address</key>
+			<string>Pérez Castellano 1501-1507</string>
+			<key>author</key>
+			<string>Arq. Julio Gaggioni</string>
+			<key>year</key>
+			<string>1926</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.908477</string>
+				<key>longitude</key>
+				<string>-56.213561</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>7</key>
+		<dict>
+			<key>name</key>
+			<string>Garaje Rincón</string>
+			<key>address</key>
+			<string>Rincón 474-484</string>
+			<key>author</key>
+			<string>Arqtos. Jacobo Vázquez Varela y Daniel Rocco</string>
+			<key>year</key>
+			<string>1930 (permiso de construcción), 1931 (construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906931</string>
+				<key>longitude</key>
+				<string>-56.206061</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>8</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Sciarra</string>
+			<key>address</key>
+			<string>Sarandí 501-511</string>
+			<key>author</key>
+			<string>Arqtos. Antonio Chiarino y Bartolomé Triay</string>
+			<key>year</key>
+			<string>1930 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907345</string>
+				<key>longitude</key>
+				<string>-56.204859</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>9</key>
+		<dict>
+			<key>name</key>
+			<string>Palacio Piria</string>
+			<key>address</key>
+			<string>Treinta y Tres 1334-1336</string>
+			<key>author</key>
+			<string>Arqtos. Albérico Isola y Guillermo Armas</string>
+			<key>year</key>
+			<string>1928 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907784</string>
+				<key>longitude</key>
+				<string>-56.204677</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>10</key>
+		<dict>
+			<key>name</key>
+			<string>Casa Eugenio Barth (Ministerio de Trabajo y Seguridad Social)</string>
+			<key>address</key>
+			<string>25 de Mayo 737</string>
+			<key>author</key>
+			<string>Ing. Luis Topolansky y Arq. Carlos Surraco</string>
+			<key>year</key>
+			<string>1925-1927</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.904292</string>
+				<key>longitude</key>
+				<string>-56.200996</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>11</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio en Plaza Matriz</string>
+			<key>address</key>
+			<string>Juan Carlos Gómez 1386-1388-1390</string>
+			<key>author</key>
+			<string>Arqtos. Gonzalo Vázquez Barriere y Rafael Ruano</string>
+			<key>year</key>
+			<string>1931 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906184</string>
+				<key>longitude</key>
+				<string>-56.203056</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>12</key>
+		<dict>
+			<key>name</key>
+			<string>Museo Torres García (ex casa Brocqua y Scholberg)</string>
+			<key>address</key>
+			<string>Sarandí 687</string>
+			<key>author</key>
+			<string>Arq. Alfredo Baldomir</string>
+			<key>year</key>
+			<string>1927 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906430</string>
+				<key>longitude</key>
+				<string>-56.201382</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>13</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Manzanares</string>
+			<key>address</key>
+			<string>Pérez Castellanos 1532</string>
+			<key>author</key>
+			<string>Arq. Julio Gaggioni</string>
+			<key>year</key>
+			<string>1927 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907381</string>
+				<key>longitude</key>
+				<string>-56.210544</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>14</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Mac Lean</string>
+			<key>address</key>
+			<string>Solís 1531-1533</string>
+			<key>author</key>
+			<string>Arqtos. Jorge Herrán y Luis Crespi</string>
+			<key>year</key>
+			<string>1931 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905974</string>
+				<key>longitude</key>
+				<string>-56.208973</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>15</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Roccatagliata</string>
+			<key>address</key>
+			<string>25 de Mayo 102, Juan Lindolfo Cuestas 1442</string>
+			<key>author</key>
+			<string>Arqtos. Julio Bastos Kliche y Héctor Mondino</string>
+			<key>year</key>
+			<string>1931 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.908477</string>
+				<key>longitude</key>
+				<string>-56.213561</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>16</key>
+		<dict>
+			<key>name</key>
+			<string>Palacio Rinaldi</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 839-841, Plaza Independencia 1356-1358</string>
+			<key>author</key>
+			<string>Arqtos. Albérico Isola y Guillermo Armas</string>
+			<key>year</key>
+			<string>1927 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906224</string>
+				<key>longitude</key>
+				<string>-56.198474</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>17</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Laborde</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Plaza Independencia 828-830-832, San José 821-829</string>
+			<key>author</key>
+			<string>Balparda y Olivera Calamet, proyectistas</string>
+			<key>year</key>
+			<string>1929</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906681</string>
+				<key>longitude</key>
+				<string>-56.198774</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>18</key>
+		<dict>
+			<key>name</key>
+			<string>Bazar Mitre</string>
+			<key>program</key>
+			<string>Comercio</string>
+			<key>address</key>
+			<string>18 de Julio 885</string>
+			<key>author</key>
+			<string>Juan S. Genovese, Ing. Cayetano Carcavallo</string>
+			<key>year</key>
+			<string>1931 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906278</string>
+				<key>longitude</key>
+				<string>-56.197407</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>19</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio en Andes 1547</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Andes 1541-1545-1547, Paysandú 846-848</string>
+			<key>author</key>
+			<string>Arqtos. Albérico Isola y Guillermo Armas</string>
+			<key>year</key>
+			<string>Década del treinta</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.902952</string>
+				<key>longitude</key>
+				<string>-56.198523</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>20</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Arijón</string>
+			<key>program</key>
+			<string>Comercio, oficina y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 962</string>
+			<key>author</key>
+			<string>Ing. Luis Topolansky y Arq. Carlos Surraco</string>
+			<key>year</key>
+			<string>1925 (permiso de construcción) </string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905988</string>
+				<key>longitude</key>
+				<string>-56.195508</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>21</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Frugoni</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Uruguay 930-934</string>
+			<key>author</key>
+			<string>Arq. Mauricio Cravotto</string>
+			<key>year</key>
+			<string>1927 (permiso de construcción) </string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.903197</string>
+				<key>longitude</key>
+				<string>-56.196629</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>22</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Darnaud</string>
+			<key>program</key>
+			<string>Comercio, oficina y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 1089-1091</string>
+			<key>author</key>
+			<string>Arq. Fernando Pou Cardoso</string>
+			<key>year</key>
+			<string>1931 (permiso de construcción) </string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905821</string>
+				<key>longitude</key>
+				<string>-56.192711</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>23</key>
+		<dict>
+			<key>name</key>
+			<string>Cine Radio City</string>
+			<key>program</key>
+			<string>Originalmente cine, actualmente templo</string>
+			<key>address</key>
+			<string>Héctor Gutiérrez Ruiz 1269</string>
+			<key>author</key>
+			<string>Arq. Rafael Ruano</string>
+			<key>year</key>
+			<string>1936 (proyecto), 1937 (inauguración)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907748</string>
+				<key>longitude</key>
+				<string>-56.191166</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>24</key>
+		<dict>
+			<key>name</key>
+			<string>Cine Metro</string>
+			<key>program</key>
+			<string>Cine</string>
+			<key>address</key>
+			<string>San José 1211</string>
+			<key>author</key>
+			<string>Arq. Ing. Francisco Lasala</string>
+			<key>year</key>
+			<string>1936 (inauguración)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906683</string>
+				<key>longitude</key>
+				<string>-56.190093</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>25</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Confitería Americana</string>
+			<key>program</key>
+			<string>Confitería y vivienda de apartamentos</string>
+			<key>address</key>
+			<string>18 de Julio 1216-1218-1220</string>
+			<key>author</key>
+			<string>Arqtos. Alfredo Bouza, Eugenio Carlomagno y José González Fruniz</string>
+			<key>year</key>
+			<string>1937</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905847</string>
+				<key>longitude</key>
+				<string>-56.189879</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>26</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Goyret</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 1252, Carlos Quijano 1342-1344</string>
+			<key>author</key>
+			<string>Arq. Luis Aniceto Goyret</string>
+			<key>year</key>
+			<string>1931 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905971</string>
+				<key>longitude</key>
+				<string>-56.189063</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>27</key>
+		<dict>
+			<key>name</key>
+			<string>Vivienda Barella</string>
+			<key>program</key>
+			<string>Vivienda unifamiliar originalmente, oficinas en la actualidad</string>
+			<key>address</key>
+			<string>Carlos Quijano 1264</string>
+			<key>author</key>
+			<string>Arqtos. Alejandro Ruiz y Pedro Nadal</string>
+			<key>year</key>
+			<string>1927 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907194</string>
+				<key>longitude</key>
+				<string>-56.188891</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>28</key>
+		<dict>
+			<key>name</key>
+			<string>Palacio Díaz</string>
+			<key>program</key>
+			<string>Comercial, oficinas y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 1333</string>
+			<key>author</key>
+			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
+			<key>year</key>
+			<string>1929 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905420</string>
+				<key>longitude</key>
+				<string>-56.187413</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>29</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Parrella</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Ejido 1381-1385</string>
+			<key>author</key>
+			<string>Arqtos. Antonio Chiarino y Bartolome Tray</string>
+			<key>year</key>
+			<string>1929 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905051</string>
+				<key>longitude</key>
+				<string>-56.186855</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>30</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio del Castillo</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Plaza Independencia 1372-1374-1376</string>
+			<key>author</key>
+			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
+			<key>year</key>
+			<string>1928 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906142</string>
+				<key>longitude</key>
+				<string>-56.198797</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>31</key>
+		<dict>
+			<key>name</key>
+			<string>Casa de los Residentes de Artigas</string>
+			<key>program</key>
+			<string>Consultorio y vivienda unifamiliar. Uso actual asociación cultural</string>
+			<key>address</key>
+			<string>San José 885</string>
+			<key>author</key>
+			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano </string>
+			<key>year</key>
+			<string>1927 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907145</string>
+				<key>longitude</key>
+				<string>-56.197574</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>32</key>
+		<dict>
+			<key>name</key>
+			<string>Jockey Club</string>
+			<key>program</key>
+			<string>Club social</string>
+			<key>address</key>
+			<string>18 de Julio 857</string>
+			<key>author</key>
+			<string>Arq. José P Carré</string>
+			<key>year</key>
+			<string>1920 (concurso)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905975</string>
+				<key>longitude</key>
+				<string>-56.197735</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>33</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio anexo Florida Hotel</string>
+			<key>program</key>
+			<string>Comercio y hotel</string>
+			<key>address</key>
+			<string>Mercedes 822-826</string>
+			<key>author</key>
+			<string>Arq. Luis Noceto</string>
+			<key>year</key>
+			<string>1929 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.904427</string>
+				<key>longitude</key>
+				<string>-56.198976</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>34</key>
+		<dict>
+			<key>name</key>
+			<string>Auditorio del Sodre Nelly Goitiño (ex cine Eliseo)</string>
+			<key>program</key>
+			<string>Cine. Uso actual sala de espectáculos</string>
+			<key>address</key>
+			<string>18 de Julio 932</string>
+			<key>author</key>
+			<string>Arqtos. Rafael Ruano y Julio Pietropinto</string>
+			<key>year</key>
+			<string>Década del cuarenta</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906035</string>
+				<key>longitude</key>
+				<string>-56.196227</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>35</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Lapido</string>
+			<key>program</key>
+			<string>Comercio, sede de periódico y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 948-940</string>
+			<key>author</key>
+			<string>Arqtos. Juan Aubriot y Ricardo Valabrega</string>
+			<key>year</key>
+			<string>1929 (proyecto), 1933 (inauguración)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906253</string>
+				<key>longitude</key>
+				<string>-56.195885</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>36</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Rogberg</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>San José 939-941-943</string>
+			<key>author</key>
+			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
+			<key>year</key>
+			<string>1928 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907159</string>
+				<key>longitude</key>
+				<string>-56.195982</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>37</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Oliver Eirin</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>San José 920</string>
+			<key>author</key>
+			<string>Arqtos. Alejandro Ruiz y Pedro Nadal</string>
+			<key>year</key>
+			<string>1927 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907274</string>
+				<key>longitude</key>
+				<string>-56.196518</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>38</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Rey</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Rio Branco 1438</string>
+			<key>author</key>
+			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
+			<key>year</key>
+			<string>1927 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.902274</string>
+				<key>longitude</key>
+				<string>-56.196178</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>39</key>
+		<dict>
+			<key>name</key>
+			<string>Palacio Avenida</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Av. del Libertador 1442</string>
+			<key>author</key>
+			<string>Santiago Porro (figura en fachada)</string>
+			<key>year</key>
+			<string>Década del treinta</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.900887</string>
+				<key>longitude</key>
+				<string>-56.191878</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>40</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Vero</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta. Uso actual: comercio y hotel</string>
+			<key>address</key>
+			<string>18 de Julio 1101-1103</string>
+			<key>author</key>
+			<string>Arq. Enrique Stewart Vargas y Gonzalo García Otero</string>
+			<key>year</key>
+			<string>1928</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906002</string>
+				<key>longitude</key>
+				<string>-56.192451</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>41</key>
+		<dict>
+			<key>name</key>
+			<string>Palacio Tapié</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Santiago de Chile 1336</string>
+			<key>author</key>
+			<string>Arq. Francisco Vázquez Echeveste</string>
+			<key>year</key>
+			<string>1933 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907785</string>
+				<key>longitude</key>
+				<string>-56.185265</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>42</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Lux</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Constituyente 1661-1663-1665</string>
+			<key>author</key>
+			<string>Arqtos. Albérico Isola y Guillermo Armas</string>
+			<key>year</key>
+			<string>Década del treinta</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905998</string>
+				<key>longitude</key>
+				<string>-56.181080</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>43</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Parma</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 1645</string>
+			<key>author</key>
+			<string>Arq. Julio Gaggioni</string>
+			<key>year</key>
+			<string>1932</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.903720</string>
+				<key>longitude</key>
+				<string>-56.180598</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>44</key>
+		<dict>
+			<key>name</key>
+			<string>Centro de Almaceneros Minoristas</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 1701</string>
+			<key>author</key>
+			<string>Arq. Julio Vilamajó</string>
+			<key>year</key>
+			<string>1929 (concurso), 1930 (permiso de construcción) </string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.903236</string>
+				<key>longitude</key>
+				<string>-56.179428</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>45</key>
+		<dict>
+			<key>name</key>
+			<string>Centro de Almaceneros Minoristas</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 1701</string>
+			<key>author</key>
+			<string>Arq. Julio Vilamajó</string>
+			<key>year</key>
+			<string>1929 (concurso), 1930 (permiso de construcción) </string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.903236</string>
+				<key>longitude</key>
+				<string>-56.179428</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>46</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Palumbo y Satori</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 1745</string>
+			<key>author</key>
+			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
+			<key>year</key>
+			<string>1929 (permiso de construcción) </string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.902954</string>
+				<key>longitude</key>
+				<string>-56.178591</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>47</key>
+		<dict>
+			<key>name</key>
+			<string>Espacio Urbano El David</string>
+			<key>program</key>
+			<string>Monumento</string>
+			<key>address</key>
+			<string>Rivera, Arenal Grande y Jackson</string>
+			<key>author</key>
+			<string></string>
+			<key>year</key>
+			<string>Sin datos</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.902382</string>
+				<key>longitude</key>
+				<string>-56.173495</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>48</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Fernández</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 2041</string>
+			<key>author</key>
+			<string>Arqtos. Alejandro Ruíz y Pedro Nadal</string>
+			<key>year</key>
+			<string>1928 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.900182</string>
+				<key>longitude</key>
+				<string>-56.171231</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>49</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Crespi</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 2095-2099</string>
+			<key>author</key>
+			<string>Arq. Fernando Pou Cardoso</string>
+			<key>year</key>
+			<string>1930</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.899646</string>
+				<key>longitude</key>
+				<string>-56.169912</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>50</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Figari de Ruano</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 2102</string>
+			<key>author</key>
+			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
+			<key>year</key>
+			<string>1926 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.899549</string>
+				<key>longitude</key>
+				<string>-56.169762</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>51</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio en 18 de Julio esquina Paullier</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Juan Paullier 1604</string>
+			<key>author</key>
+			<string></string>
+			<key>year</key>
+			<string>1930</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.898357</string>
+				<key>longitude</key>
+				<string>-56.169144</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>52</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Mattiauda-Romero</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Mercedes 1188</string>
+			<key>author</key>
+			<string>Arq. Juan M Mariano</string>
+			<key>year</key>
+			<string>1931 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.903978</string>
+				<key>longitude</key>
+				<string>-56.190758</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>53</key>
+		<dict>
+			<key>name</key>
+			<string>Dependencias de la Contaduría General de la Nación</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta. Actualmente oficinas.</string>
+			<key>address</key>
+			<string>Mercedes 1227-1233</string>
+			<key>author</key>
+			<string>Juan Santos Genovesa</string>
+			<key>year</key>
+			<string>1926</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.903846</string>
+				<key>longitude</key>
+				<string>-56.189824</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>54</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Parodi</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Uruguay 1210-1212</string>
+			<key>author</key>
+			<string>Eusebio Perotti</string>
+			<key>year</key>
+			<string>1930 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.902975</string>
+				<key>longitude</key>
+				<string>-56.190361</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>55</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Michelini</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Zelmar Michelini 1297</string>
+			<key>author</key>
+			<string>Arq. Raúl Mainero</string>
+			<key>year</key>
+			<string>1930 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906869</string>
+				<key>longitude</key>
+				<string>-56.190150</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>56</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Vignale</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 1323-1327</string>
+			<key>author</key>
+			<string>Arq. Julio Gaggioni</string>
+			<key>year</key>
+			<string>1928 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905679</string>
+				<key>longitude</key>
+				<string>-56.187560</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>57</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Bianchi</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Mercedes 1401-1409</string>
+			<key>author</key>
+			<string>Arq. Alfredo Baldomir</string>
+			<key>year</key>
+			<string>1930 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.903661</string>
+				<key>longitude</key>
+				<string>-56.186156</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>58</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio en Requena esq. Rodó</string>
+			<key>program</key>
+			<string>Vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Joaquín Requena 1339</string>
+			<key>author</key>
+			<string></string>
+			<key>year</key>
+			<string>Década del treinta</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.903434</string>
+				<key>longitude</key>
+				<string>-56.168885</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>59</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Deltorchio</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 2267-2271</string>
+			<key>author</key>
+			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
+			<key>year</key>
+			<string>1926 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.898520</string>
+				<key>longitude</key>
+				<string>-56.167252</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>60</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Argul</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Colonia 2287-2289-2291</string>
+			<key>author</key>
+			<string>Arq. Luis Polanco Musso</string>
+			<key>year</key>
+			<string>1928 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.896994</string>
+				<key>longitude</key>
+				<string>-56.166421</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>61</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Rovira de Turell</string>
+			<key>program</key>
+			<string>Viviendas unifamiliares</string>
+			<key>address</key>
+			<string>18 de Julio 2329</string>
+			<key>author</key>
+			<string>Arq. Juan A. Scasso</string>
+			<key>year</key>
+			<string>1927 (permiso de construcción)</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.897685</string>
+				<key>longitude</key>
+				<string>-56.165245</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>62</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Plaza Zabala</string>
+			<key>program</key>
+			<string>Vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Durango 1409</string>
+			<key>author</key>
+			<string>Arq. Ricardo Valabrega</string>
+			<key>year</key>
+			<string>1930</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907482</string>
+				<key>longitude</key>
+				<string>-56.208523</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>63</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Alonso</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Sarandí 554-556</string>
+			<key>author</key>
+			<string>Arqtos. Julio Bastos Kliche y Héctor Mondino</string>
+			<key>year</key>
+			<string>1929 (permiso de construcción) </string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907167</string>
+				<key>longitude</key>
+				<string>-56.203743</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>64</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Carve Urioste</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>Ituzaingó 1307-1309-1311</string>
+			<key>author</key>
+			<string>Arq. Rafael Arocena</string>
+			<key>year</key>
+			<string>1928 (permiso de construcción) </string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.907988</string>
+				<key>longitude</key>
+				<string>-56.203526</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>65</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Vallarino</string>
+			<key>program</key>
+			<string>Comercio</string>
+			<key>address</key>
+			<string>Juan Carlos Gómez 1331-1337</string>
+			<key>author</key>
+			<string>Arq. Carlos Terra Urioste</string>
+			<key>year</key>
+			<string>1928 (permiso de construcción) </string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.905518</string>
+				<key>longitude</key>
+				<string>-56.203488</string>
 			</dict>
 			<key>image</key>
 			<string>no_image</string>
