@@ -22,19 +22,21 @@ struct Building {
       case Latitude     = "latitude"
       case Longitude    = "longitude"
       case Image        = "image"
+      case Program      = "program"
     }
 
     var id:              Int
     var name:            String
     var address:         String
-    var fullDescription: String
+    var fullDescription: String?
     var shortDescription:String
     var year:            String
     var architect:       String
     var location:        CLLocationCoordinate2D
     var image:           String?
+    var program:         String?
 
-    static var allBuildings : [Building] = []
+    static var allBuildings : [Building] = []   
 
 
     static func loadBuildings() -> [Building]{
@@ -52,12 +54,13 @@ struct Building {
                 id: Int(key)!,
                 name: data[BuildingKeys.Name.rawValue] as! String,
                 address: data[BuildingKeys.Address.rawValue] as! String,
-                fullDescription: "",
+                fullDescription: data[BuildingKeys.FullDesc.rawValue] as? String,
                 shortDescription: "",
                 year: data[BuildingKeys.Year.rawValue] as! String,
                 architect: data[BuildingKeys.Author.rawValue] as! String,
                 location: getCoordinates(data[BuildingKeys.Coordinates.rawValue] as! [String : AnyObject]),
-                image: data[BuildingKeys.Image.rawValue] as? String
+                image: data[BuildingKeys.Image.rawValue] as? String,
+                program: data[BuildingKeys.Program.rawValue] as? String
             )
         }
     }

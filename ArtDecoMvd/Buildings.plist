@@ -17,7 +17,11 @@
 			<string>Piedras 234</string>
 			<key>author</key>
 			<string>Constructores R. Pose e hijos (figura en fachada)</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio de renta con base comercial, construido a fines de los años 30. Se desarrolla en cuatro niveles. Originalmente la planta baja albergaba un local comercial y el acceso común para las viviendas que se desarrollaban en el primer, segundo y tercer nivel (cuatro por cada piso). La fachada presenta un tratamiento simétrico que suscribe a los lineamientos generales del Art Déco. En años recientes el edificio fue transformado en un hotel boutique conformándose en un destacado ejemplo de arquitectura Art Decó en óptimo estado de conservación.
+
+Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
+<key>year</key>
 			<string>Década del treinta</string>
 			<key>coordinates</key>
 			<dict>
@@ -37,7 +41,9 @@
 			<string>Calle Perez Castellano 1424</string>
 			<key>author</key>
 			<string>Gabriela Peluffo</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string></string>
+<key>year</key>
 			<string>1920</string>
 			<key>coordinates</key>
 			<dict>
@@ -56,9 +62,16 @@
 			<key>address</key>
 			<string>Rincón 487</string>
 			<key>author</key>
-			<string></string>
-			<key>year</key>
-			<string></string>
+			<string>Arqtos. Jacobo Vazquez Varela y Daniel Rocco</string>
+			<key>fullDescription</key>
+<string>Por su definición volumétrica y su decoración, evoca muchas construcciones norteamericanas de la época del New Deal en ciudades y poblaciones del Medio Oeste. Se adscribe a un Art Déco de filiación estadounidense, tardío austero y sin exuberancias decorativas.
+Adopta el tipo de edificio en altura, con planta baja, subsuelo y once pisos altos, destinados a oficinas. En su volumetría se identifican claramente tres sectores, un basamento que incluye la planta baja y el primer piso, revestidos de granito negro, un segundo tramo de desarrollo y uno de coronación retranqueado, que involucra los últimos cuatro pisos. Este último tramo contribuye a sugerir la idea de un volumen exento. La volumetría resultante, algo tosca en sus proporciones, enfatiza la verticalidad acusada a través de elementos estructurales continuos, intercalados entre los paños de vidrio y aluminio dispuestos en un plano posterior, entre los que se ubican elementos decorativos que reaparecen en algunos puntos particulares del basamento (sobre los accesos) y formando parle de las cornisas de coronación del plano de fachada en sus dos tramos.
+Las fachadas se organizan con un criterio ordenador racionalista, combinado con una sirnetrización y ordenación muy clásica en el basamento.
+Constituye un episodio urbano atípico en el tejido de la Ciudad Vieja, en tanto el edilicio se retranquea de la alineación de la cuadra en el frente sobre la calle Rincón, aparentemente con el objetivo de dar lugar a una proyectada y nunca construida estación de subterráneo No obstante ello, y pese a ubicarse en situación de esquina el edificio es indiferente a la misma, contando sólo con accesos desde Rincón.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
+			<string>1930 (permiso de construcción), 1931 (construcción)</string>
 			<key>coordinates</key>
 			<dict>
 				<key>latitude</key>
@@ -77,7 +90,9 @@
 			<string>Rambla 25 de Agosto de 1825</string>
 			<key>author</key>
 			<string></string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string></string>
+<key>year</key>
 			<string></string>
 			<key>coordinates</key>
 			<dict>
@@ -97,7 +112,19 @@
 			<string>Rambla 25 de Agosto de 1825 entre Maciel  y Pérez Castellano</string>
 			<key>author</key>
 			<string>Arq. Jorge Herrán</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>La Aduana de Montevideo constituye un ejemplo de Art Déco avant la lettre, ya que fue adjudicado por concurso dos años antes de la Exposición de Artes Decorativas de París de 1925, considerado por la historiografía el acontecimiento definidor del lenguaje Déco, y su difusor a nivel mundial.
+
+El fallo del jurado evidencia la temprana vigencia de las pautas compositivas Art Déco en nuestro medio, con particular significación por tratarse de un edilicio público representativo, de gran tamaño y privilegiada ubicación. Se adscribe a la tradicional tipología de edilicio patio exento, con la variante de que un sector edilicio subdivide el patio cuadrado en dos más estrechos.
+
+La imponente masa paralelepipédica se estructura según un basamento general que contiene importantes vanos de medio punto-con distintas dimensiones según la jerarquización funcional— terminado en un friso de pequeños vanos cuadrados y rediente general En las cuatro fachadas, rigurosamente simétricas, el recurso formal de los contrafuertes genera un ritmo de tramos verticales que jerarquiza -larga tradición académica francesa- el sector central y los dos extremos, que rematan en frontones geométricos propios de la estética Déco. El último nivel funciona corno coronamiento general en base a cornisas planas que lo delimitan, y a un tratamiento diferencial de los vanos con formas curvas
+
+La fachada principal acentúa su carácter protagónico al culminar en la espléndida torre que prolonga su
+tramo central, referencia urbana ineludible en la imagen de la Ciudad Vieja y del puerto, estructurada según volúmenes decrecientes y fuertes líneas ascensionales, que sustentan la refinada cúpula
+transparente de sorprendentes efectos lumínicos.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1923 (concurso) Monumento Histórico Nacional desde 1975</string>
 			<key>coordinates</key>
 			<dict>
@@ -117,7 +144,18 @@
 			<string>Pérez Castellano 1501-1507</string>
 			<key>author</key>
 			<string>Arq. Julio Gaggioni</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Un edificio esquina con estructuración clásica tripartita impacta por su potente volumetría basada en la incorporación en las plantas altas de cuerpos salientes de singular tratamiento Fuertes redientes laterales que arrancan y culminan en forma escalonada. producen poderosos efectos de luz y
+sombra, provocando un particular impacto visual.
+
+En la resolución de las fachadas se aprecia la voluntad de atenerse a una estructuración basada en la simetría lo que se logra parcialmente debido al manejo de la esquina propiamente dicha, esta se resuelve en las plantas altas mediante una amplia curva que insinúa el giro, generando un interesante efecto de desplazamiento. El manejo de la simetría se observa también en los pisos de apartamentos en base a un eje centrado en la circulación vertical que resuelve las plantas ignorando las diferencias generadas en uno de los apartamentos por la presencia del eje medianero.
+
+Pero el interés fundamental del edificio radica en su tratamiento volumétrico decorativo por su originalidad, dentro de pautas que se limitan al uso de planos y líneas, dejando traslucir una profunda raíz clásica en la mayoría de los recursos cornisamento, balaustres geometrizados en el remate, uso de la simetría total o parcial pero siempre reelaborados en clave Déco de base puramente geométrica. Franjas horizontales sobresalientes marcan la zona más baja del basamento en una sutil referencia a ejemplos de arquitectura holandesa.
+
+Debe señalarse además la presencia de una interesante herrería Art Déco, ya sea en balcones como en la puerta de acceso a los apartamentos, sobre la que se ubica además una excelente marquesina hoy lamentablemente deteriorada.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1926</string>
 			<key>coordinates</key>
 			<dict>
@@ -137,7 +175,18 @@
 			<string>Rincón 474-484</string>
 			<key>author</key>
 			<string>Arqtos. Jacobo Vázquez Varela y Daniel Rocco</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Se trata de uno de los primeros edificios construidos en el país con este programa radicalmente moderno, destinado para estacionamiento en varios pisos, hecho destacado por publicaciones de la época. Es notoria la influencia de realizaciones similares en Europa y Estados Unidos, difundidas
+localmente por revistas nacionales como Arquitectura y extranjeras corno L'Architecte, tanto en lo tipológico como en lo expresivo.
+
+Se implanta en un predio de grandes dimensiones en relación con el parcelario de la Ciudad Vieja, y su masa edificada se asocia sin rupturas con las construcciones linderas, en base a su configuración volumétrica global y a la singular fuerza del plano de fachada, que mantiene la alineación dominante en el tramo.
+
+Se resuelve interiormente según una solución que combina rampas con medios niveles alternados, lo que determina una sectorización de la edificación en un cuerpo anterior y uno posterior, al tiempo que una interesante interpenetración espacial entre los mismos. Se incorporaron importantes innovaciones tecnológicas como el elevador para automóviles. Con posterioridad se agregó a la edificación un nivel superior adicional.
+
+El edificio adopta un lenguaje renovador con elementos ornamentales claramente Art Déco, los que fueron dispuestos en el plano de fachada con un criterio austero y despojado. Su franca simetría y sus proporciones, claramente tributarias de la tradición académica. se subrayan con acentos Decó, que incluyen artefactos de iluminación, marquesinas y tipografía.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1930 (permiso de construcción), 1931 (construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -157,7 +206,11 @@
 			<string>Sarandí 501-511</string>
 			<key>author</key>
 			<string>Arqtos. Antonio Chiarino y Bartolomé Triay</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio de renta con base comercial construido en la década de 1930. Su expresión se inscribe dentro de una de las variantes del Art Déco más utilizadas en nuestro medio. El austero basamento de granito establece un contrapunto con los niveles superiores donde se observa un tratamiento más elaborado y con mayor peso ornamental. Se destacan los detalles de herrería, los rectángulos decorados asociados a las ventanas, así como el tratamiento del acceso y los vitrales que iluminan el núcleo de la circulación vertical. El edificio se conserva en buen estado.
+
+Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
+<key>year</key>
 			<string>1930 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -177,7 +230,11 @@
 			<string>Treinta y Tres 1334-1336</string>
 			<key>author</key>
 			<string>Arqtos. Albérico Isola y Guillermo Armas</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio de renta construido en el entorno de 1930. Se desarrolla en seis niveles donde el destino original de vivienda hoy es compartido con el de oficinas, mientras que la planta baja mantiene su carácter comercial. Se organiza en base a un eje de simetría, reforzado por la ubicación del acceso y el plano central que contiene unos balcones curvos que aportan gracia al conjunto. Su fachada, afiliada al lenguaje Déco en su vertiente francesa, integra hábilmente recursos más cercanos al clasicismo, tales como la loggia del último nivel. Se destacan la decoración y arquitectura interiores. El edificio se encuentra en buen estado de conservación.
+
+Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
+<key>year</key>
 			<string>1928 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -197,7 +254,11 @@
 			<string>25 de Mayo 737</string>
 			<key>author</key>
 			<string>Ing. Luis Topolansky y Arq. Carlos Surraco</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio construido hacia 1925 por el Arq. Surraco con destino comercial. Se desarrolla en cuatro niveles más una sobreelevación posterior retranqueada de la línea de edificación. La composición de fachada, de marcada geometría, presenta una fuerte caracterización del acceso, con un gran portal que abarca dos niveles. Una gran cornisa curva acompañada de otros elementos, como los redientes del plano y los vanos, completan este portal de amplias dimensiones y con tratamiento afiliado al Art Déco. Interesante ejemplo que combina innovación tecnológica con buen nivel de diseño. Se mantiene en buen estado.
+
+Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
+<key>year</key>
 			<string>1925-1927</string>
 			<key>coordinates</key>
 			<dict>
@@ -217,7 +278,11 @@
 			<string>Juan Carlos Gómez 1386-1388-1390</string>
 			<key>author</key>
 			<string>Arqtos. Gonzalo Vázquez Barriere y Rafael Ruano</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio construido a comienzos de la década de 1930, proyecto de los arquitectos Vázquez Barriere y Ruano. Se desarrolla en trece niveles, albergando dos locales comerciales en planta baja y 22 oficinas en los niveles superiores. Su fachada Art Déco simétrica, presenta un basamento de dos niveles, con un vano principal acartelado con una puerta de herrería y vidrio. Del desarrollo se destaca por el cuerpo central cuyo remate refuerza las verticalidad del conjunto. Flanquean el cuerpo central balcones a ambos lados, que se alivianan y reducen a medida que ganan altura. Se encuentra en buen estado de conservación.
+
+Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
+<key>year</key>
 			<string>1931 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -237,7 +302,11 @@
 			<string>Sarandí 687</string>
 			<key>author</key>
 			<string>Arq. Alfredo Baldomir</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio comercial construido en la década de 1920 que actualmente alberga al Museo Torres García. Se organiza interiormente en base a un sistema de pórticos que generan una planta libre, con los servicios ubicados al fondo, en cada uno de los niveles. La fachada, de lineamientos Art Decó, presenta una composición tripartira con una planta baja vidriada enmarcada por un revestimiento de granito oscuro, un gran bow-window central de tres niveles, con ventanas de carpintería metálica, y el nivel superior con un balcón y vanos con arco de medio punto. Todo ello remata en una cornisa con pretil. Posteriormente se agregó un nivel más a la altura del pretil y otro de techo liviano y estructura metálica donde funciona un taller de artes plásticas dependiente del museo. Se encuentra en buen estado de conservación.
+
+Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
+<key>year</key>
 			<string>1927 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -257,7 +326,11 @@
 			<string>Pérez Castellanos 1532</string>
 			<key>author</key>
 			<string>Arq. Julio Gaggioni</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio de renta destinado a vivienda con local comercial en planta baja, construido en la década de 1920. Las unidades en sus cuatro niveles son organizadas en torno a pozos de aire y luz. La fachada, de influencia francesa, se destaca por un bow-window que abarca los dos niveles superiores, los balcones de herrería y la decoración aplicada. El edificio se conserva en buen estado, formando un conjunto de igual altura con su lindero 2755.
+
+Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
+<key>year</key>
 			<string>1927 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -277,7 +350,11 @@
 			<string>Solís 1531-1533</string>
 			<key>author</key>
 			<string>Arqtos. Jorge Herrán y Luis Crespi</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>El edificio Mc. Lean, obra de los arquitectos Herrán y Crespi, fue construido en la década de 1930, ubicado sobre la calle Solís, enfrentando el gran volumen del Banco República. Se estructura en cuatro niveles destinado a oficinas con base comercial, conservando actualmente el mismo destino. Su fachada, que incorpora las corrientes de la arquitectura renovadora, recoge influencias Art Déco en una composición que refiere al teatro parisino de Champs Elysées, obra de Auguste Perret. Destaca el trabajo de herrería y los bajorrelieves de Antonio Pena, hoy parcialmente desdibujados por la aplicación de balai. Es el único padrón construido en una cuadra donde predomina el vacío producido por masivas demoliciones. Su estado de conservación es bueno.
+
+Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
+<key>year</key>
 			<string>1931 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -297,7 +374,11 @@
 			<string>25 de Mayo 102, Juan Lindolfo Cuestas 1442</string>
 			<key>author</key>
 			<string>Arqtos. Julio Bastos Kliche y Héctor Mondino</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio de renta, originalmente con locales comerciales en planta baja, construido en la década de 1930. Utilizando su fachada un lenguaje Art Déco, y a pesar de su carácter económico, se destaca por la composición a través de cuerpos verticales en forma de bow-window, la decoración en bajorrelieve y la presencia de balcones de hierro. Responde a las condicionantes urbanas de esquina y entorno.
+
+Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
+<key>year</key>
 			<string>1931 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -319,7 +400,18 @@
 			<string>18 de Julio 839-841, Plaza Independencia 1356-1358</string>
 			<key>author</key>
 			<string>Arqtos. Albérico Isola y Guillermo Armas</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Se trata de una obra de ubicación relevante, concebida previendo una conformación del entorno con alturas similares lo que no se concretó. Se configura partiendo de un prisma básico que mediante la disposición y tratamiento de los elementos intermedios y salientes, se deconstruye y redibuja al tiempo que logra un efecto de alivianamiento gradual a medida que se eleva.
+
+Las plantas tipo se repiten con ligeras variantes, con la finalidad de obtener un efecto plástico. Se organizan en torno a un núcleo central de servicios estructurado según el eje de simetría perpendicular a 18 de Julio, de acuerdo a un planteo básico que desconoce la desigualdad generada entre los apartamentos que se abren a la plaza y los que se enfrentan a la medianera.
+
+El edificio está integralmente adscripto a la modalidad «poliédrica» francesa del Art Déco. La verticalidad se resalta con continuidad desde los apoyos prismáticos en color contrastante, hasta los remates más elevados y con rehundidos lineales que acentúan el efecto. Existe cierta referencia clásica en la estructuración de bandas horizontales mediante el tratamiento diferencial de los balcones del primero, quinto y séptimo pisos, que permite leer una zona de basamento, una de desarrollo y una de coronamiento El último piso se recorta conformando espacios vacios y se lee como un volumen cruciforme retranqueado, con una altura aparente mayor que la real. Se constituye así en el remate volumétrico de todo el edificio, de carácter colosal.
+
+La típica impronta Déco se desarrolla en cada uno de los elementos formales y ornaméntales: redientes elementos geométricos, herrería artística, planchas de revoque con bajorrelieves, cartelas, cornisas y remates parciales. Destacan estos últimos en el contexto urbano por su peculiar tratamiento decorativo, que se resuelve por un apropiado uso del color mediante la aplicación de pastillas cerámicas de superficie brillante.
+
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1927 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -341,7 +433,15 @@
 			<string>Plaza Independencia 828-830-832, San José 821-829</string>
 			<key>author</key>
 			<string>Balparda y Olivera Calamet, proyectistas</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Este edificio, ubicado en la rinconada sur de la Plaza Independencia, se organiza de acuerdo a la clásica estructuración tripartita, siguiendo  además un estricto respeto de la simetría, lo que se reafirma mediante dos potentes bow windows laterales con un importante remate que confieren un marcado carácter ascensional al conjunto.
+El basamento sigue las líneas generales de la pasiva de la plaza, pero-utilizando acartelamientos, columnas facetadas y capiteles sintetizados muy propios del gusto Déco. El plano de desarrollo, caracterizado por los mencionados bow windows, presenta en su tramo central una sucesión de balcones, de mayores dimensiones en el primer y último nivel, que ofician de contenedores del mismo Los balcones intermedios presentan interesantes herrerías de claro diseño Déco.
+El coronamiento arranca en el sexto nivel, a partir del cual se interrumpen los bow windows que continúan virtualmente, señalados por potentes planos laterales que sobre elevan el volumen por encima del último nivel. Todo el planteo composicional y decorativo del edificio se asemeja sustancialmente al del Edificio Darnaud del arquitecto Pou Cardoso.
+
+La fachada a la calle San José, de menor altura, se organiza también simétricamente, sobre la base de un basamento de dos niveles, y un cuerpo superior que presenta dos bow windows laterales y un tramo central jalonado por balcones que pautan el sentido ascensional a través del uso de balaustres geometrizados en el primer nivel y de barandas en herrería con diseños geométricos Art Déco en los siguientes. El tratamiento de los vanos recurre al uso de redientes característicos propios de este lenguaje.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1929</string>
 			<key>coordinates</key>
 			<dict>
@@ -363,7 +463,21 @@
 			<string>18 de Julio 885</string>
 			<key>author</key>
 			<string>Juan S. Genovese, Ing. Cayetano Carcavallo</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Se trata de un edificio enteramente destinado a albergar las dependencias de una firma comercial. que,
+emplazado en un estrecho y profundísimo predio entre medianeras se adscribe a las pautas compositivas del Art Déco francés.
+
+La fachada rigurosamente simétrica presenta un basamento que transgrede la clásica pesantez, al resolverse como un gran hueco porticado que contenía en origen los volúmenes más bajos de las vidrieras, cuyos planos laterales delinean un vestíbulo de acceso muy profundo y receptivo. 
+
+Un alero de líneas quebradas y friso con el característico diseño Déco en zigzag, culmina el sector y prefigura la volumetría del plano de desarrollo estructurado sobre la base de un imponente bow window central de líneas quebradas flanqueado por otros dos más finos de planta triangular.
+
+Éstos, totalmente vidriados, abarcan tres pisos de gran altura e introducen un movimiento zigzagueante, en el que la agresividad de las aristas acentúa la ascensionalidad general. El resultado trasmite un fuerte efecto de pureza y transparencia que parece aludir a una piedra pulida y tallada geométricamente, con similares efectos de brillos, retracciones y reflejos. El sector culmina en un friso en zigzag que se pone en consonancia con su movimiento volumétrico, y repite el motivo del de planta baja.
+
+El último piso, parcial, conforma el remate horizontal del edificio, como versión plana y maciza del ritmo vertical tripartito. Tres aleros curvos sobre los vanos introducen - junto a estriados en horizontal y vertical- efectos de luz y sombra que singularizan el sector La cartelera vertical con tipografía Déco, materializa desde el basamento hasta la culminación del edilicio, el eje de simetría que estructura toda la composición.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA
+</string>
+<key>year</key>
 			<string>1931 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -385,7 +499,18 @@
 			<string>Andes 1541-1545-1547, Paysandú 846-848</string>
 			<key>author</key>
 			<string>Arqtos. Albérico Isola y Guillermo Armas</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Esta obra es uno de los ejemplos más interesantes de edificios de renta en altura que fueran resueltos con un diseño Art Déco. En esta realización, además del particular tratamiento de volúmenes salientes y la muy cuidada resolución de la esquina, se revela un extremo cuidado en diseño en la resolución de detalles, particularmente de elementos de herrería. 
+
+El edificio se resuelve en vertical con una planta baja que Incluye local comercial y el acceso principal y cinco plantas atlas destinadas a vivienda, la última de las cuales presenta algunas diferenciaciones parciales en la configuración de los volúmenes salientes.
+
+Los arquitectos Albérico Isola y Guillermo Armas O'Shannan, que realizaron un número importante de obras en estilo Art Déco(particularmente edilicios de renta), en este caso solucionan la composición con algunas simetrías parciales y ordenamiento de vanos y llenos en fachada con criterios netamente académicos. Es claramente moderna, sin embargo, la definición de las aberturas y el escalonamiento en los antepechos de los balcones.
+
+Es resaltable el conjunto de elementos y detalles de herrería, desde los más importantes corno la puerta de acceso principal hasta los de menor dimensión como algunas rejillas de ventilación. Este tratamiento combina dos criterios uno más abstracto y geometrizante en puertas y rejillas y otro más naturalista en los elementos que componen los balcones
+
+Fuente: Guía Art Decó de Montevideo, ELARQA
+</string>
+<key>year</key>
 			<string>Década del treinta</string>
 			<key>coordinates</key>
 			<dict>
@@ -407,7 +532,18 @@
 			<string>18 de Julio 962</string>
 			<key>author</key>
 			<string>Ing. Luis Topolansky y Arq. Carlos Surraco</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Se trata de un edificio emplazado en un estrecho y profundo predio entre medianeras, en el que muy tempranamente —ya que es contemporáneo de la Exposición de Paris de 1925—, se utilizan los estilos del Art Déco francés en combinación con motivos de raíz clásica.
+
+La fachada refleja en parle la diversidad programática, el basamento sensiblemente más alto que el resto de los niveles corresponde a un salón para negocio de planta libre, san un enorme paño vidriado, flanqueado por la puerta de acceso a  los restantes pisos en herrería artística. Sobre un friso geométrico el entrepiso en el que se dispone otro local comercial de iguales características que el de planta baja, presenta un vano acartelado según una suave curva, enmarcado por redientes y pautado por jambas decoradas con bajorrelieves Déco.
+	
+En fachada, el plano de desarrollo —correspondiente a las cuatro plantas tipo de dos apartamentos por piso- se estructura según tres fajas verticales, donde no se trasluce su carácter repetitivo. Tres bow windows idénticos que abarcan dos niveles, introducen el movimiento volumétrico y culminan en cuadros en bajorrelieve con motivos vegetales geometrizados.  El próximo nivel se aplana, conteniendo vanos rectangulares en correspondencia con los bow windows, y el siguiente se resuelve con ventanas en arco de medio punto muy clásicas, con casetones y redientes y provistas de pequeños balcones curvos con baranda en herrería artística.  El último nivel, que se retranquea dejando lugar a una loggia con pilares rectos —actualmente vidriada--, constituye el remate horizontal del edilicio culminado en un importante alero.
+
+La fachada emplea dramáticamente un estudiado juego de luces y sombras logrado en base a volados, retranqueos, huecos, calados, redientes y relieves, que realza el admirable equilibrio alcanzado entre formas y direcciones horizontales y verticales, y entre elementos lingüísticos de diversa filiación.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA
+</string>
+<key>year</key>
 			<string>1925 (permiso de construcción) </string>
 			<key>coordinates</key>
 			<dict>
@@ -429,7 +565,20 @@
 			<string>Uruguay 930-934</string>
 			<key>author</key>
 			<string>Arq. Mauricio Cravotto</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Un programa complejo que comprende tres plantas destinadas a comercio —incluyendo el subsuelo y tres a vivienda para renta es abordado por Mauricio Cravotto, revelando tempranamente varias constantes de su obra claridad, sencillez, e inspirada racionalidad. El resultado revela una cálida y exquisita sensibilidad que incorpora el Art Déco como lenguaje moderno.
+
+Una estructuración de inspiración clásica se descubre al analizar el diseño general del edificio, predominio total de la simetría y planteo tripartito de fachada con sugestivas variaciones que confieren singularidad a su imagen. En efecto, el bow window del primer piso jerarquiza el basamento e inicia el plano de desarrollo. Éste retoma su perfil en los pisos superiores mediante balcones que se corresponden con ahuecamientos del plano de fachada en su tramo central. El conjunto se aliviana además por el uso de barandas en herrería de diseño geométrico de clara inspiración Déco.
+
+Sin que exista un plano de coronamiento, se identifica un remate superior que eleva los cuerpos laterales escalonados hacia el centro de la fachada en un gesto que acentúa un discreto sentido ascensional. El diseño general apela a la simetría también en la organización planimétrica, lo que se reconoce en las
+sucesivas plantas ya sea en relación con la disposición de las circulaciones, accesos, lucernarios, como en la organización interna de los apartamentos.
+
+El edificio incorpora claros recursos propios de la arquitectura Déco, con predominio de motivos geométricos destacables en el bow window del primer piso por su zigzagueante vidriera con vitrales también Déco, en las barandas interiores y exteriores, y en particular todo el tratamiento del acceso central del comercio
+
+En la fachada sobre ambos accesos laterales, se incorporan bajorrelieves alusivos a la familia y el trabajo, realizados por el escultor Severino Pose.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1927 (permiso de construcción) </string>
 			<key>coordinates</key>
 			<dict>
@@ -451,7 +600,16 @@
 			<string>18 de Julio 1089-1091</string>
 			<key>author</key>
 			<string>Arq. Fernando Pou Cardoso</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Este edificio de gran altura entre medianeras se adscribe plenamente a las pautas compositivas y lingüísticas de un Art Déco francés muy clásico y sobrio.
+La fachada se estructura según la tripartición clásica en sectores horizontales claramente definidos, basamento culminado en importante friso con motivo zigzagueante, plano de desarrollo que se inicia en un entrepiso de vanos acartelados, y remate general. Una simetría absoluta rige la composición del edificio en su totalidad, de tal modo que todas las plantas se desarrollan especularmente respecto al eje con dos locales comerciales en planta baja y entrepiso, y dos lujosos apartamentos servidos por un amplio patio central de aire y luz en las plantas tipo.
+
+Esa simetría comanda la  resolución en fachada, en la que el tramo vertical central se jerarquiza con los espléndidos trabajos en herrería artística en los que aparece como motivo recurrente el típico estilema decorativo de los catálogos franceses Déco la «canasta con flores» con distintos grados de estilización.
+Dos tramos laterales —fuertes acentos verticales—, resueltos como bow windows de cinco pisos de altura, enmarcan el sector central, con guardas geométricas en zigzag —versión en menor escala del friso general— en los antepechos de sus vanos. Los dos últimos niveles —plantas tipo en las que se han suprimido los bow windows — reciben un tratamiento diferencial para convertirse en el remate general del edilicio, sin abandonar la estructuración en tres sectores verticales y con alguna sutil inversión de los recursos lingüísticos (como los balcones curvos en herrería artística en los laterales y la eliminación de herrería en el central). Los dos sectores extremos culminan con una figura humana alegórica en relieve cada uno - también simetrizadas respecto al eje genera-	y rematan con potentes redientes verticales que, como un eco de los bow windows, prolongan su ascensionalidad.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA
+</string>
+<key>year</key>
 			<string>1931 (permiso de construcción) </string>
 			<key>coordinates</key>
 			<dict>
@@ -473,7 +631,17 @@
 			<string>Héctor Gutiérrez Ruiz 1269</string>
 			<key>author</key>
 			<string>Arq. Rafael Ruano</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>La obra se relaciona con el auge del cine como entretenimiento masivo, con -multiplicación de nuevos y más lujosos recintos para este fin, tanto en el Centro como en los barrios. Se ubica en un lote particularmente amplio, e impone su presencia con la contundencia de la masa prismática edificada.
+
+La fachada se resuelve como un pórtico monumental pautado por el fuerte ritmo de pilares. Por detrás del plano virtual que éstos generan se extiende la gran superficie vidriada —que vincula los tres niveles interiores correspondientes a los foyers— y culmina en un colosal friso con bajorrelieves representando episodios del mundo de la escena y la ficción. La imponente marquesina horizontal establece un abrupto corte de la direccionalidad vertical propuesta por la pantalla de pilares, y dramatiza la sensación de "acceso", al dar paso a un espacio interior de triple altura. Toda la fachada fue pensada para ofrecer un aspecto impresionante al ser iluminada por la noche, con focos especialmente dispuestos para recortar el plano posterior con relación a la pantalla de pilares, y a la vez destacar la marquesina, que contiene elementos de iluminación dispuestos en nichos de definición circular.
+
+La espacialidad interna juega un papel relevante, con un amplio foyer de triple altura que une los diferentes niveles y la gran sala en la que se disponen las butacas en "bandejas". En el foyer acentuando el efecto simétrico que rige toda la composición, se destacan las dos ramas de la monumental escalera y la gran portada de acceso a la platea intermedia, enmarcada por placas de bronce que interpretan los signos del zodíaco, obra del escultor José Belloni ,flanqueada por dos falsas columnas. En la sala (al igual que en el foyer) y como único elemento decorativo, se disponen unas buñas verticales en los flancos de la pantalla insinuando la conformación de sendas pilastras monumentales.
+La adscripción estilística a un lenguaje Art Déco se realiza por medio de acentos decorativos cuidadamente dispuestos en la fachada y en los ámbitos interiores, así como por algunas particularidades de su configuración volumétrica, y muy claramente en el caso de su remate superior.
+
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1936 (proyecto), 1937 (inauguración)</string>
 			<key>coordinates</key>
 			<dict>
@@ -495,7 +663,16 @@
 			<string>San José 1211</string>
 			<key>author</key>
 			<string>Arq. Ing. Francisco Lasala</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Este edificio presumiblemente diseñado en los Estados Unidos, responde a su ubicación en un predio esquina conformando una curva en el sector que contiene el acceso, el que remata en el volumen prismático y ciego que evidencia ser el contenedor de la sala.
+La composición se basa en un riguroso planteo de simetría axial apropiado para un predio entre medianeras, que se adapta a la situación de esquina con el desplazamiento del hall de entrada. Una vez flanqueado éste, el edilicio se revela como plenamente simétrico, lo que se resalta con la organización de las circulaciones, el equipamiento y la decoración.
+El lenguaje con que se trata la envolvente exterior es vagamente clásico y muy depurado. Eran de resolución claramente Art Déco la importante marquesina que originalmente rodeaba la esquina y el característico cartel vertical de la compañía Metro que posteriormente fuera suprimido.
+La importancia atribuida a la de decoración y equipamiento interior se revela en la cuidada resolución de pavimentos, alfombrados, revestimientos, artefactos de iluminación, butacas y elementos de mobiliario en general. Todo esto está vinculado con una sensibilidad que incluye al Art Déco pero que no se restringe a él.
+Donde sí se manifiesta plenamente el carácter Art Déco es en el tratamiento de la sala, la que se lee como el interior de una inmensa caja revestida por diseños geométricos —que provocan efectos ópticos cambiantes según la posición del espectador—que envuelven el cielorraso y tos paramentos dentados en tonos dorado, mostaza, rojo y turquesa, con un tratamiento singular de la pantalla, enmarcada por dos columnas monumentales y un entablamento tubular. La concepción unitaria de la envolvente interior se complementa en las luminarias, magníficos ejemplos de diseño Déco.
+
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1936 (inauguración)</string>
 			<key>coordinates</key>
 			<dict>
@@ -517,7 +694,15 @@
 			<string>18 de Julio 1216-1218-1220</string>
 			<key>author</key>
 			<string>Arqtos. Alfredo Bouza, Eugenio Carlomagno y José González Fruniz</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Inserto en un predio entre medianeras, el edificio mantiene la alineación frontal del tramo incorporando sutiles curvaturas al plano de fachada y, a través de una interesante resolución del coronamiento, conjuga las diferentes alturas que los edificios linderos tenían en el momento de su construcción.
+La planta baja hoy destinada a galería comercial fue concebida como un gran espacio que albergaba el salón de té, exposición y ventas de la confitería. Flanqueando su vidriera se ubicaban los accesos a los niveles superiores. El diseño original de las plantas altas respondía a la diversidad programática, disponiendo dos sectores —a ambos lados del eje del predio -que podrían leerse como edificios independientes, uno destinado a apartamentos y el otro a un espacio multifuncional en doble altura perteneciente a la confitería que era arrendado para fiestas y acontecimientos culturales, y culminaba en un piso destinado a residencia de los propietarios.
+La fachada se resuelve en una composición unitaria que enuncia la diversidad funcional, en ella se juega con la simetría de un sector-generada a partir del acceso a la confitería y acentuada mediante el gran hueco del salón de fiestas —, y la asimetría del destinado a apartamentos, ambos se vinculaban mediante una espléndida marquesina con luminarias incorporadas —hoy anacrónicamente sustituida— que equilibraba a nivel de planta baja los distintos pesos relativos de los otros niveles.
+En una singularísima resolución, se combinan elementos afines al lenguaje Art Déco, al expresionismo y a la arquitectura racional. El hueco reformula el clásico motivo de la loggia como jerarquizador de la fachada simétrica, pero reinterpretado en clave moderna. Sus columnas se transforman en elementos protagónicos trascendiendo el hueco y estructuran toda la fachada desde la base hasta su culminación, alternando tramos en que aparecen exentas, se vuelven medias columnas, o quedan ocultas por el muro. En la loggia presentan luminarias incorporadas según un magnifico diseño integral, que iluminando el hueco, anunciaban la presencia del salón de fiestas y del balcón de su entrepiso.
+El interior de la confitería estaba resuelto en un Art Déco integral que abarcaba el diseño del pavimento, cielorraso, lambrices, artefactos de iluminación incorporados y mobiliario con una sutileza que lo aproximaba a soluciones racionales y a través de la cual se alcanzaba un ambiente de particular elegancia y suntuosidad.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1937</string>
 			<key>coordinates</key>
 			<dict>
@@ -539,7 +724,16 @@
 			<string>18 de Julio 1252, Carlos Quijano 1342-1344</string>
 			<key>author</key>
 			<string>Arq. Luis Aniceto Goyret</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>
+
+Un lenguaje Art Déco francés poliédrico comanda la resolución de este edificio emplazado en un predio que presenta frente estrecho sobre 18 de Julio, y amplio desarrollo sobre la ex calle Yí. Estas características comandan la resolución de las plantas tipo conformadas por dos amplios y lujosos apartamentos simetrizados respecto al hall de acceso sobre la calle transversal.
+
+A partir del basamento destinado a locales comerciales, la volumetría general subraya estas características, conformando sobre Quijano un bow window totalizador y de amplio desarrollo sobre el eje, rematado por frontón geométrico y flanqueado por otros de menor tamaño en los extremos. Sobre 18 de Julio la tachada abandona el ritmo anterior organizándose en dos sectores bien diferenciados: uno resuelto en base a un bow window que abarca los tres últimos niveles; el otro, que resalta la situación de esquina —vieja tradición de los edificios eclécticos - remata en una torrecilla (como reza el permiso de construcción). Ésta, abierta y sostenida por pesados pilares cuyos redientes invaden el último nivel de las dos fachadas, logra unidad formal de ambas, ya que repite en mayor escala los redientes del bow window sobre 18 de Julio, al tiempo que remata el bow window extremo sobre Quijano.
+Los balcones en herrería artística y las molduras verticales -unas colgantes, otras ascensionales de las plantas tipo, así como los estriados, amplios vanos acartelados y faroles muy clásicos de la planta baja -hoy desaparecidos - completaban el diseño total de fuerte espíritu francés, actualmente alterado por la cartelería comercial que no se adecua a sus pautas.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1931 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -561,7 +755,15 @@
 			<string>Carlos Quijano 1264</string>
 			<key>author</key>
 			<string>Arqtos. Alejandro Ruiz y Pedro Nadal</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Implantada en mitad de un tramo, la obra guarda una estricta alineación en el plano de fachada y con los linderos. La volumetría es tradicional, enriquecida a partir de la incorporación de pequeñas loggias que un alto basamento de granito independiza relativamente de la calle, generando un “elemento intermedio”, propio de la modalidad Art Déco.
+La edificación deriva de la tipología tradicional de vivienda montevideana entre medianeras, organizada en torno a patios y definida por dos circulaciones paralelas; la casa standard. Si bien la articulación interior de la casa standard se modifica en una estructura axial que remata en la escalera que conduce al patio-jardín posterior —y alude a las villas manieristas italianas—, la jerarquización y organización espacial de las habitaciones al frente evidencian la persistencia del tipo, manteniéndose sus componentes tipológico, zaguán, patio principal lateral, zona de recepción al frente abierta a la vereda por intermedio de as dos tradicionales puertas-ventana retranqueadas para conformar las sendas loggias ya mencionadas.
+La fachada presenta proporciones y distribución clásicas, con ornamentación mesurada, alto basamento de granito pulido, fina decoración adosada en tonos azules y dorados, con mayólicas dispuestas en la parte superior, pretil con herrería artística Art Déco, y maceteros geométricos que refuerzan la definición de la zona de ventanas como un sector peculiar y simétrico. La fachada de la casa standard se agiganta en escala y se jerarquiza con el uso de materiales nobles para ser leída en clave monumental: el perfil acartelado dé los vanos y el tratamiento geométrico de tos tradicionales balaustres —que también se agigantan y geometrizan como esferas y cilindros de granito, ponen en evidencia su filiación Déco.
+El tratamiento de la fachada se prolonga en el zaguán con su alto zócalo de granito de varios tonos conformando figuras geométricas que se repiten en el moldurado de sus paramentos y en la puerta cancel de madera y cristal.
+En el interior, las referencias al Lenguaje Art Déco aparecen más atenuadas y sólo en algunos detalles de la decoración, molduras de techos y paredes, elementos de carpintería y vitrales.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1927 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -583,7 +785,18 @@
 			<string>18 de Julio 1333</string>
 			<key>author</key>
 			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Localizado en mitad de un tramo. se destaca por su altura y volumetría, jerarquizando la cuadra. El escalonamiento de volúmenes en los niveles superiores y la acentuación de la verticalidad alcanzan su punto culminante en el remate, en el que se logra cabalmente el efecto de torre exenta lo que remite directamente a la imagen del rascacielos estadounidense.
+Las plantas se organizan según dos ejes de simetría —en el cruce de ambos se localiza el núcleo de circulaciones verticales y  adecuándose al escalonamiento volumétrico, a partir del octavo piso las dimensiones se reducen progresivamente. La planta baja destinada a negocios, busca acentuar el carácter de prolongación de la vereda, facilitando el acceso a la galería mediante el uso de formas receptivas, acordes con el lenguaje Déco.
+
+El edificio presenta un «entrepiso técnico» en el que se ubican servicios instalaciones centralizadas, y donde se hace la transición estructural —de las luces pequeñas de las plantas tipo a las grandes de planta baja—, mediante una viga Vierendel, por primera vez usada en América del Sur, lo que señala la importancia dada al tema tecnológico.
+
+El lenguaje arquitectónico Art Déco acompaña con sobriedad la resolución volumétrica, haciendo uso tanto de los recursos propios de la versión norteamericana como la francesa de la modalidad.
+
+Es clara la estructuración tripartita de basamento, plano de desarrollo y coronamiento. El basamento corresponde a lodos los niveles no destinados a vivienda y se destaca por el color, el material y el gran intercolumnio. Grandes pilastras estriadas y geometrizadas en clave Déco resuelven los dos niveles de negocios, y el gran entablamento se vuelve fachada del entrepiso técnico. El tratamiento de esta zona, logrado por proyección ignica de metales constituye un aporte original dentro de la concepción tecnológica antes mencionada. Un amplio alero cornisa culmina el plano de base y señala el asiento del plano de desarrollo. A partir de allí si surge la imponente verticalidad de la zona de viviendas, subrayada por el moldurado y el ventaneo verticalizante. La decoración se reduce a los balcones de herrería artística de lenguaje Déco y a ciertos remates apuntados en el tramo final. En el interior, un cuidado diseño de pavimentos, vanos, herrería y moldurados se adscribe a una concepción integral del lenguaje.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1929 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -605,7 +818,15 @@
 			<string>Ejido 1381-1385</string>
 			<key>author</key>
 			<string>Arqtos. Antonio Chiarino y Bartolome Tray</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Este edificio emplazado en un estrecho predio entre medianeras, se adscribe plenamente a las pautas del Art Déco francés “poliédrico”. Toda la composición se estructura respecto a un eje de simetría, levemente transgredido en planta. El basamento contiene los importantes vanos acartelados de los salones comerciales —enmarcados por pilastras acanaladas de capitel estilizado- que flanquean el acceso.
+El cuerpo de desarrollo —rigurosamente simétrico— se organiza diferenciando el tratamiento de los distintos niveles, según una composición unitaria que gradúa los niveles de pesantez visual. El primer piso correspondiente a un solo apartamento, jerarquiza et tramo central mediante un bow window abierto con huecos acartelados y rematado en balaustrada geométrica. Los vanos que lo flanquean son también acartelados y se complementan con balcones en herrería artística. A partir del segundo nivel, correspondiente a la planta tipo de dos apartamentos largos y estrechos por piso, se desarrollan
+en los sectores verticales extremos y hasta la culminación del edilicio, dos bow windows de planta triangular —rematados en balaustres geométricos, como un eco del bow window principal— cuyas aristas se subrayan con redientes verticales. En el tramo central, resaltan del plano los balcones en herrería artística, que repiten en el tercer y cuarto nivel la forma del bow window principal en planta.
+El tramo central del último piso recibe un tratamiento diferencial, vano acartelado que lo pone en consonancia con los del primer piso, estriados verticales bajorrelieves con motivos florales preparando la 
+culminación del edificio. Ésta está conformada por una gran pantalla que se eleva sobre la altura general —y se aprovecha para ocultar el tanque de agua en la azotea—,retranqueada levemente por encima del alero del sector que, con su bajorrelieve (canasta con flores) encuadrado, su perfil escalonado y sus resaltes verticales típicamente Déco jerarquiza el tramo central y subraya con contundencia la simetría de la muy estudiada y académica composición.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1929 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -627,7 +848,11 @@
 			<string>Plaza Independencia 1372-1374-1376</string>
 			<key>author</key>
 			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Es un ejemplo sobrio, con un volumen saliente en las plantas superiores conformado por dos bow windows laterales de planta triangular unidos por balcones. Se destaca el tratamiento de la zona de pórticos, con una reformulación del capitel clásico mediante relieves Art Déco.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1928 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -649,7 +874,12 @@
 			<string>San José 885</string>
 			<key>author</key>
 			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano </string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Una fachada netamente adscripta a las pautas del Art Decó francés, en la que se destaca el bow window del primer piso soportado por un monumental bajorrelieve. Sobre el mismo un interesante espacio intermedio jalonado por dos columnas jerarquiza el sector.
+Se destaca la herrería del acceso, y los vitrales, ambos inspirados enlos diseños de la Exposición de París de 1925.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1927 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -671,7 +901,11 @@
 			<string>18 de Julio 857</string>
 			<key>author</key>
 			<string>Arq. José P Carré</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>El edificio del Jockey Club sorprende con el inesperado e integral Art Déco geométrico que se despliega en su interior de exquisita calidad y diseño en la resolución de paramentos cielorrasos, luminarias y equipamiento. El restaurant ha sido restaurado en años recientes llevándolo a su máximo esplendor.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1920 (concurso)</string>
 			<key>coordinates</key>
 			<dict>
@@ -693,7 +927,11 @@
 			<string>Mercedes 822-826</string>
 			<key>author</key>
 			<string>Arq. Luis Noceto</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Interesante edificio con neta estructuración simétrica, en el que se destacan múltiples elementos decorativos adscriptos totalmente al lenguaje Art Decó (particularmente señalables son las rejas de los balcones en herrería con diseños geometrizantes).
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1929 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -715,7 +953,11 @@
 			<string>18 de Julio 932</string>
 			<key>author</key>
 			<string>Arqtos. Rafael Ruano y Julio Pietropinto</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Su fachada tratada como un pórtico monumental —pautado por pilastras acanaladas gigantes - que enmarca una pantalla levemente convexa culminada en relieve figurativo, se asimila tardíamente a expresiones francesas de la modalidad Déco muy cercanas al lenguaje clásico.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>Década del cuarenta</string>
 			<key>coordinates</key>
 			<dict>
@@ -737,7 +979,14 @@
 			<string>18 de Julio 948-940</string>
 			<key>author</key>
 			<string>Arqtos. Juan Aubriot y Ricardo Valabrega</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Monumento Histórico Nacional desde 1989. El edificio Lapido es una de las primeras obras importantes de arquitectura moderna en el Uruguay.
+Fue "uno de los primeros edificios austeros de formas, puros y de una encomiable modernidad que tuvo Montevideo hacia 1930. En su tiempo debe haber causado asombro esa masa blanca, entera, con una repetición de balcones macizos, iguales y superpuestos, como motivo plástico esencial. El edificio Lapido tiene algo más de una docena de pisos y es muy regular hasta las partes más altas, en que se producen retiros y modificaciones que dan lugar a un juego de volúmenes más pequeños, culminación animada cuya finalidad fue, seguramente, evitar un recorte neto de las formas contra el cielo. 
+
+Ejemplo significativo de arquitectura renovadora, que recoge eclécticamente una serie de influencias entre las que se destaca el expresionismo alemán. En una composición que combina sectores escalonados enfatizando la esquina. El ritmo de los balcones macizos e iguales del edificio Lapido produce una repetición poderosa y serena hacia la altura. Presenta sobre la calle Río Branco un tramo resuello en un ascético Art Déco reconocible en su conformación volumétrica.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1929 (proyecto), 1933 (inauguración)</string>
 			<key>coordinates</key>
 			<dict>
@@ -759,7 +1008,11 @@
 			<string>San José 939-941-943</string>
 			<key>author</key>
 			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>La fachada, con estructuración clásica tripartita, presenta en su plano de desarrollo un bow window central que marca el eje de simetría que comanda la composición general. Potentes acanalados verticales pautan los distintos sectores. El coronamiento se realiza a través de un balcón corrido, con interesante reja de herrería de diseño Art Déco francés.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1928 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -781,7 +1034,11 @@
 			<string>San José 920</string>
 			<key>author</key>
 			<string>Arqtos. Alejandro Ruiz y Pedro Nadal</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio estructurado en forma tripartita, con basamento de dos niveles y potente bow window central en el plano de desarrollo. La transición al remate se realiza por un particular tratamiento de vanos (acartelamientos) y un friso corrido en granito. Se aprecian referencias al expresionismo, aunque la concepción general es netamente vinculable al Art Déco francés, evidente en el diseño de la herreria de los vanos. Merece particular atención el remate por sobre el bow window central Véase Edificio Fernández de los mismos autores.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1927 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -803,7 +1060,11 @@
 			<string>Rio Branco 1438</string>
 			<key>author</key>
 			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio con estructuración simétrica que plantea dos sectores diferentes, uno de los cuales es un bow window. Tanto la composición como la decoración (bajorrelieves y herrerías concentradas en el remate) remiten al Art Déco de origen francés.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1927 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -825,7 +1086,11 @@
 			<string>Av. del Libertador 1442</string>
 			<key>author</key>
 			<string>Santiago Porro (figura en fachada)</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio de clara filiación racionalista, con tratamiento volumétrico escalonado que remite a la vertiente norteamericana del Art Déco.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>Década del treinta</string>
 			<key>coordinates</key>
 			<dict>
@@ -847,7 +1112,11 @@
 			<string>18 de Julio 1101-1103</string>
 			<key>author</key>
 			<string>Arq. Enrique Stewart Vargas y Gonzalo García Otero</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio que manifiesta, a través de su volumetría, claras referencias a la arquitectura expresionista. Maneja tanto en su planta baja como en el remate y la cúpula, elementos propios del lenguaje Art Déco, con influencias de la Secesión Vienesa.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1928</string>
 			<key>coordinates</key>
 			<dict>
@@ -869,7 +1138,15 @@
 			<string>Santiago de Chile 1336</string>
 			<key>author</key>
 			<string>Arq. Francisco Vázquez Echeveste</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Ubicado en una importantísima esquina, el edificio Tapié adopta una configuración clásica, basamento depurado —que abarca planta baja y entrepiso—resuello en granito negro, plano de desarrollo conformado por plantas tipo de fachadas idénticas que hacia la parte superior van sumando relieves ascensionales, y un último nivel; resuelto como coronamiento, rematado por una fuerte cornisa. Como acento formal de la esquina, un mirador actualmente alterado en su configuración original- se estructuraba en círculos concéntricos recordando un templete clásico.
+El importante volumen ofrece al espacio público sus fachadas, en una continuidad obtenida —en las plantas altas - en base a la utilización de una amplia curva. Sutiles desfasajes, junto a balcones y terrazas, generan variaciones en el plano. La decoración geométrica concentrada fundamentalmente en la zona curva, refuerza el énfasis composicional localizado en la esquina. A la vez, se observa el uso dela simetría en la resolución de distintos sectores de fachada, lo que se corrobora también en la estructuración de los apartamentos.
+Como tipo arquitectónico de edificio de renta en altura, presenta la planta baja y el entrepiso con función comercial y las diez plantas altas destinadas a vivienda se organizan como dos bloques independientes, con circulaciones verticales propias—incluyendo accesos de servicio—que se unifican a nivel de planta baja en un monumental hall de acceso de doble altura. En las plantas tipo, cuatro apartamentos por piso con una clara sectorización de áreas, presentan notorias diferencias en cuanto a la ubicación de los ambientes principales respecto al espacio público.
+La adscripción al Art Déco en su modalidad norteamericana es clara, si bien combina elementos de raíz expresionista.
+En lo interno, como era habitual en estos programas, se destaca la excelente resolución del hall de acceso, en la que se revela una intención globalizadora, que integra un diseño de alta calidad en todos los elementos. Esto se manifiesta: en el equipamiento incorporado, y muy particularmente en el interesante manejo de la iluminación indirecta.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1933 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -891,7 +1168,15 @@
 			<string>Constituyente 1661-1663-1665</string>
 			<key>author</key>
 			<string>Arqtos. Albérico Isola y Guillermo Armas</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Excepcional edificio, concebido en términos que contemplan particularmente su ubicación en una calificada proa, otorgando a la misma una elevada jerarquía.
+Si bien su concepción general es reconociblemente de carácter expresionista, son muchos los elementos que lo vinculan a la modalidad Art Déco, dentro de las pautas de origen francés.
+Entre ellos, pueden mencionarse algunos de tipo general, como es el tratamiento del sector esquina que se define mediante el sutil desfasaje de sucesivos planos que conforman su decoración básica, desde su arranque en el primer nivel hasta culminar en un remate escalonado. La presencia de aleros sostenidos por columnas en versión Déco en la azotea denota también una vinculación con elementos cercanos al streamline, lo que también puede apreciarse en el uso generalizado de líneas curvas en los balcones y las herrerías de los mismos. La decoración, concentrada en forma de bajorrelieves sobre los vanos de la esquina y en el friso continuo de la planta baja, son también de claro corte Déco francés.
+Las viviendas presentan una clara sectorización funcional de los dos apartamentos que conforman lasplantas tipo, que ubica zonas de relación sobre la calle Constituyente e Íntimas con frente a Rodó.
+El edilicio Lux es un contundente ejemplo de un momento ecléctico, donde distintos lenguajes portadores de significados nuevos podían combinarse en una imagen netamente moderna y calificadora del ámbito urbano.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>Década del treinta</string>
 			<key>coordinates</key>
 			<dict>
@@ -913,7 +1198,14 @@
 			<string>18 de Julio 1645</string>
 			<key>author</key>
 			<string>Arq. Julio Gaggioni</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Desarrollado en subsuelo, planta baja, ocho plantas altas y un último nivel retirado, este edilicio se lee corno un gran volumen prismático retranqueado más de nueve metros sobre la calle Minas, respondiendo al previsto ensanche de la misma.
+En las plantas tipo —un apartamento por piso— las habitaciones, principales se disponen sobre las fachadas, ubicando sobre las medianeras las circulaciones verticales, el patio y los locales de servicio. Los ambientes, inclusive los cuartos de baño se proyectan al exterior a través de un variado sistema de balcones, bow windows y espacios intermedios, que se organizan exclusivamente en función de una voluntad expresiva independizada del destino de los locales.
+En cuanto al lenguaje, el edificio Parma adhiere francamente a un Art Déco francés poliédrico. La potencia de las líneas verticales apoyadas en fuertes ménsulas triangulares es su principal recurso formal, con ellas se resuelve la esquina por medio de redientes que refuerzan la presencia de ángulo y permiten la transición de una fachada a la otra, y también con ellas se enfatizan los sectores verticales extremos de ambas fachadas que, simetrizándolas, cierran la composición.
+La presencia de espacios intermedios - característicos de la modalidad Art Déco— en los dos primeros niveles y en los dos últimos, va pautando la composición en altura, que se remata en los balcones trapezoidales y curvos de la terraza del pent-house retirado. El tratamiento de los balcones logra distintos grados de “pesantez” mediante el uso diferencial de balaustres geométricos, rejas y parapetos con bajorrelieves, y por la presencia de piezas verticales análogas a las que abarcan toda la altura.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1932</string>
 			<key>coordinates</key>
 			<dict>
@@ -935,29 +1227,17 @@
 			<string>18 de Julio 1701</string>
 			<key>author</key>
 			<string>Arq. Julio Vilamajó</string>
-			<key>year</key>
-			<string>1929 (concurso), 1930 (permiso de construcción) </string>
-			<key>coordinates</key>
-			<dict>
-				<key>latitude</key>
-				<string>-34.903236</string>
-				<key>longitude</key>
-				<string>-56.179428</string>
-			</dict>
-			<key>image</key>
-			<string>no_image</string>
-		</dict>
-		<key>45</key>
-		<dict>
-			<key>name</key>
-			<string>Centro de Almaceneros Minoristas</string>
-			<key>program</key>
-			<string>Comercio y vivienda de apartamentos para renta</string>
-			<key>address</key>
-			<string>18 de Julio 1701</string>
-			<key>author</key>
-			<string>Arq. Julio Vilamajó</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Ganado por concurso, este proyecto fue el primero en que Vilamajó abandonó toda referencia lingüística historicista. Esta voluntad de describirse a las pautas de la arquitectura moderna internacional -que signa la última etapa de su obra- se manifiesta en la adopción de un lenguaje renovador que en este caso incluye algunos estilemas propios del Art Déco francés.
+La desaparecida sala cinematográfica que ocupaba el basamento, se adscribía plenamente
+-como lo evidencian el permiso de construcción y fotos de la época a una composición integral Déco de planos ondulados con espectaculares efectos de luz que resaltaban la profundidad y simetría del espacio de múltiple altura. El hall del “biógrafo” ocupaba el resto de la planta baja con entrada desde las dos calles, y sobre éste, un nivel de oficinas completaba el basamento culminado en un fuerte alero horizontal reforzador de la esquina.
+Sobre el alero se dispone un sector horizontal y, a partir de él, el cuerpo de desarrollo —que comprende los tres niveles de plantas tipo destinadas a tres apartamentos por piso- se organiza en sectores diferenciados. La esquina es tratada como un volumen racionalista donde prima la horizontalidad, contenido por dos bow windows corridos —uno sobre cada calle debitarios del Art Déco francés, que aportan fuertes acentos verticales.
+Sobre Magallanes la fachada de los apartamentos se quiebra en un plano zigzagueante muy dinámico, producto de la sucesión de bow windows de planta triangular, también afines a la estética Déco.
+
+A partir de la cornisa totalizadora, se levanta el coronamiento general del edificio - correspondiente a oficinas y portería—, que jerarquiza la situación de esquina dándole mayor altura al sector. Aquí aparecen nuevamente claros elementos del vocabulario Déco francés, como una guarda estriada y las importantes pantallas que rematan los bow windows -que oficiarían de soporte de la cartelera dándoles un fuerte sentido ascensional y aumentando su protagonismo.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1929 (concurso), 1930 (permiso de construcción) </string>
 			<key>coordinates</key>
 			<dict>
@@ -979,7 +1259,16 @@
 			<string>18 de Julio 1745</string>
 			<key>author</key>
 			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Un sobrio edificio de importantes dimensiones, se implanta atendiendo particularmente a su inserción en esquina. Se estructura sobre la base del juego volumétrico generado por los bow windows de cada fachada, conformando un plano vertical ochavado de gran potencia, con el eje resaltado por un bajorrelieve continuo que remite al Art Déco norteamericano.
+La concepción general, si bien se basa en la clásica organización tripartita, permite observar desviaciones de la misma, si bien el basamento y el plano de desarrollo resultan claramente identificables, la zona de remate se desdibuja en tanto los bow windows interrumpen la continuidad del cornisamento del último nivel. Proyectándose por encima del mismo con un particular sentido ascensional que se acentúa en el sector de esquina.
+La fachada sobre 18 de Julio, se organiza simétricamente, presentando en las plantas altas dos contundentes bow windows en sus extremos, que " enmarcan una zona central en a que se ubica una sucesión de balcones que contrastan con la maciza imagen de los cuerpos salientes, por la liviandad que les otorgan las finas herrerías basadas, en clásicos motivos del Art Déco francés.
+La fachada sobre Gaboto, resulta pautada fundamentalmente por los bow windows, que adquieren un particular protagonismo al duplicarse en cantidad y al verse reducido el plano de fachada entre ellos. La sucesión de balcones livianos con herrería Art Déco, no llega a compensar el peso relativo de los cuerpos salientes.
+
+La organización interna del edificio se resuelve por medio de una distribución racional de tres apartamentos por planta, con clara estructuración, y mediante la incorporación de generosos patios de aire y luz.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1929 (permiso de construcción) </string>
 			<key>coordinates</key>
 			<dict>
@@ -1001,7 +1290,13 @@
 			<string>Rivera, Arenal Grande y Jackson</string>
 			<key>author</key>
 			<string></string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>El acondicionamiento de un pequeño espacio, casi residual, originalmente destinado para alojar una réplica de el David de Miguel Ángel —actualmente emplazada frente al Palacio Municipal dio lugar a un raro caso de diseño de un espacio abierto Art Déco. Se trata de un episodio inusual en el espacio urbano, donde la confluencia de vías de tránsito generó una situación de esquina que permitió albergar pequeño espacio cóncavo en el cual se alojó la escultura. La misma se ubicaba en un alto basamento flanqueada por dos elementos decorativos aparentando faros que a su vez reciben artefactos de iluminación eléctrica.
+Las superficies están revestidas con mármoles de veteados diferentes y estucos, lográndose un contrapunto de texturas y colores algo recargado.
+El resultado formal oscila entre el clasicismo de algunas guardas decorativas y el claro diseño Art Déco de algunos componentes como los elementos de iluminación.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>Sin datos</string>
 			<key>coordinates</key>
 			<dict>
@@ -1023,7 +1318,14 @@
 			<string>18 de Julio 2041</string>
 			<key>author</key>
 			<string>Arqtos. Alejandro Ruíz y Pedro Nadal</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>La exuberante fachada combina —según un criterio de composición totalizadora los estilemas más característicos del Art Déco francés directamente extraídos de la Exposición de París de 1925.
+Las plantas tipo  -que albergan dos profundos y estrechos apartamentos por piso, estructurados por larguísimos corredores y servidos por apretados patios de luz y aire, intentan ocultar al exterior su condición repetitiva. Es así que en la fachada, rigurosamente simétrica cada nivel recibe un tratamiento ornamental diferente en aras de una composición global que emula, en la volumetría y organización de sus dos bow windows, el característico motivo del jarrón Déco que desde una base estrecha se va abriendo —en combinación compleja de planos y líneas rectas y curvos— hacia la parte superior.
+Sobre un basamento revestido en mármol —que contiene las dos vidrieras y la puerta de acceso en herrería artística, hoy sustituida, inspirada en los catálogos franceses - , los tres primeros niveles se adscriben con sus volúmenes salientes a esa referencia formal. A ella parecen aludir, como cita, los dos jarrones en volumetría exenta que flanquea, el balcón del tercer piso. El cuarto nivel que con su estriado que simula tallos vegetales, completa el aludido paradigma. Más arriba, la carga ornamental se, va alivianando, mediante la supresión de movimientos de las superficies y la contención de la ornamentación en guarda en el quinto nivel, hasta desaparecer toda decoración en el último piso retranqueado.
+Se resalta entonces esta concepción de la fachada como obra de arte unitaria —olvidada en tiempos más reciente— en la que se integran expresiones artesanales destacables por su diversidad, por su rigurosa adscripción a modelos franceses, y por su alta calidad de diseño y ejecución, a lo que se agrega una pátina envejecida que en este caso acentúa los valores primigenios.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1928 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -1045,7 +1347,17 @@
 			<string>18 de Julio 2095-2099</string>
 			<key>author</key>
 			<string>Arq. Fernando Pou Cardoso</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Un planteo general de estructuración clásica (basamento, desarrollo y remate), aparece aquí claramente vinculado al lenguaje Déco de origen francés, utilizado eclécticamente junto a elementos propios de otros vocabularios.
+
+El basamento se resuelve dentro de la línea de edificación, con utilización de granito como material diferencial. Por sobre él. El plano de desarrollo presenta matices que jerarquizan su primer y último nivel, a través de la utilización de balcones corridos de carácter macizo en un caso y de loggias de clara inspiración clásica en el otro. En la zona intermedia, los balcones con herrerías geométricas alivianan el conjunto. Ello otorga al edificio una singular definición, apreciable también en el particular tratamiento de la zona de esquina, ochavada en planta baja y resuelta en las plantas altas mediante una amplia curva, flanqueada por sendos bow windows.
+
+La composición de ambas fachadas se basa, más allá de la especial condición de la esquina, en un planteo de orden simétrico, en el cual juegan un papel fundamental los bow windows.
+
+En aspectos decorativos, son señalables los múltiples recursos vinculados claramente al Art Déco en su vertiente francesa, ya sea a través de bajorrelieves estratégicamente ubicados, frisos, pilastras acanaladas, redientes, balaustres y rejas geométricas.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1930</string>
 			<key>coordinates</key>
 			<dict>
@@ -1067,7 +1379,15 @@
 			<string>18 de Julio 2102</string>
 			<key>author</key>
 			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Un edificio de reconocible raíz clásica en su concepción global, incorpora con naturalidad y contundencia, numerosos recursos pertenecientes al más genuino Art Déco de origen francés.
+Situado en un predio frentista a tres calles, se estructura sobre la base de un planteo netamente simétrico, tomando como eje el centro de su fachada de mayor desarrollo, sobre la calle Requena. Se reconoce, a pesar de algunas transgresiones, la clásica estructuración tripartita: sobre el basamento –con destino original de comercio y garaje - se elevan las plantas altas destinadas a vivienda que rematan en una zona de coronamiento que incluye la elevación de los bow window y una novedosa fachada calada. El pasaje hacia la zona de coronamiento es pautado por diversos elementos que generan la transición al cuarto piso que contiene el apartamento principal en dos niveles— mediante la incorporación d balcones, bajorrelieves y remedos de cornisamentos.
+El diseño se basa en la incorporación de cuatro potentes bow windows, dos de ellos resuelven a modo de torreones ambas esquinas, mientras que los otros dos se elevan sobre el último nivel, flanqueando el eje de composición que contiene el núcleo de circulación vertical. Potentes acanalados retuerzan los ochavados y los bow windows lo que se torna particularmente significativo en la que enfatiza la esquina de 18 de Julio.
+La simetría que domina la composición general se observa también en la planta tipo, con una muy correcta resolución de dos apartamentos, organizados a partir del núcleo circulatorio.
+Se destaca particularmente en este edificio el excelente diseño de la herrería de su puerta de acceso, que retoma el clásico motivo de la canasta con flores en base al que resuelve la hoja y su envolvente teniendo como indudable referente los diseños en ferronnerie de Edgar Brandt para el “Pabellón del Coleccionista” de la Exposición de París de 1925.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1926 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -1089,7 +1409,16 @@
 			<string>Juan Paullier 1604</string>
 			<key>author</key>
 			<string></string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Una obra en la que interesa particularmente señalar algunos aspectos de su planteo volumétrico. En efecto el, un edificio de gran altura se resuelve, a pesar de estar situado en una esquina, como si estuviera en medio de un tramo. Así su fachada sobre 18 de Julio acentúa la simetría axial, conformando un sector central rehundido, que presenta un estupendo remate claramente afín al Art Déco neoyorquino. La reducción del volumen principal y el agregado de una serie de elementos verticales conducen a una especie de “espolón” escalonado, verdadera culminación del efecto ascensional. 
+
+El sector central está flanqueado por dos volúmenes verticales, muy sobriamente tratados, que culminan en dos cuerpos “clásicos” en el último nivel. Los códigos del Art Déco norteamericano se emplean también en la definición del basamento y del piso intermedio, ritmado sobre la base de óculos octogonales.
+La fachada sobre Paullier, presenta como principal característica, una sucesión de balcones que nacen del sector esquina, diluyéndose en una curva que otorga a este sector una imagen vinculable al streamline.
+La decoración general es muy sobria reduciéndose a la utilización de frisos ranurados en los balcones, y la aplicación de medallones con motivos marinos en los volúmenes salientes, y algunos detalles de extrema sencillez.
+Un gran alero curvo asume —ahora si— la presencia de la esquina en planta baja, mitigando el electo de asimetría que incorpora la ochava en relación al estricto esquema simétrico de las plantas altas.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1930</string>
 			<key>coordinates</key>
 			<dict>
@@ -1111,7 +1440,11 @@
 			<string>Mercedes 1188</string>
 			<key>author</key>
 			<string>Arq. Juan M Mariano</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Interesante edificio que si bien se adscribe a La versión francesa del Art Déco, no se estructura simétricamente. Se destacan el remate superior, el bow window en plantas altas, así como los bajorrelieves y herrerías con motivos propios de la modalidad.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1931 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -1133,7 +1466,11 @@
 			<string>Mercedes 1227-1233</string>
 			<key>author</key>
 			<string>Juan Santos Genovesa</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio claramente adscripto a las pautas del Art Déco en vertiente francesa. Estructurado simétricamente, se destaca su bow window central curvo, el friso continuo debajo de la cornisa de coronamiento y vitrales y herrería con diseños propios de la modalidad.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1926</string>
 			<key>coordinates</key>
 			<dict>
@@ -1155,7 +1492,11 @@
 			<string>Uruguay 1210-1212</string>
 			<key>author</key>
 			<string>Eusebio Perotti</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Concebido simétricamente y con estructura tripartita, presenta una interesante volumetría en base al bow window central, que se prolonga en el interesante remate, los balcones con herrarías geométricas, bajorrelieves y ranurados, adscriptos globalmente al lenguaje Art Déco en su vertiente francesa.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1930 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -1177,7 +1518,11 @@
 			<string>Zelmar Michelini 1297</string>
 			<key>author</key>
 			<string>Arq. Raúl Mainero</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Sobre la horizontalidad del basamento, se genera un fuerte ritmo vertical en el plano de desarrollo, mediante la sucesión de bow windows geométricos --con frente pautado por buñados y rematado en elementos ascensionales- sobre ambas fachadas. Se jerarquiza la esquina con un bow window despegado del basamento que oficia como torre, destacando por su orientación respecto al resto, y por su altura superior.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1930 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -1199,7 +1544,11 @@
 			<string>18 de Julio 1323-1327</string>
 			<key>author</key>
 			<string>Arq. Julio Gaggioni</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio de estructuración tripartita y concebido simétricamente en sus plantas altas. Se adscribe netamente a las pautas del Déco de origen francés, lo que resulta evidente en el tratamiento decorativo y volumétrico. Se destacan especialmente el cornisamento, tos frisos y bajorrelieves, así corno el tratamiento global de sus bow window.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1928 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -1221,7 +1570,11 @@
 			<string>Mercedes 1401-1409</string>
 			<key>author</key>
 			<string>Arq. Alfredo Baldomir</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Destacable edificio con interesante volumetría basada en la incorporación de bow windows en ambas fachadas y jerarquizando la esquina. Se estructura en base a ejes de simetría parciales, y presenta relevantes motivos decorativos Déco; friso superior, ranurados, redientes, herrerías. etcétera.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1930 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -1243,7 +1596,11 @@
 			<string>Joaquín Requena 1339</string>
 			<key>author</key>
 			<string></string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Con clara estructuración tripartita, sus fachadas están signadas por significativos bow windows, uno de los cuales jerarquiza la esquina. Tratamiento decorativo con señalables detalles en remates, frisos, balcones con escalonamientos y herrerías geométricas, acanalados y un sector sobre elevado por Requena, que genera un atractivo juego volumétrico, todo muy propio de un Art Déco cercano a la vertiente estadounidense.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>Década del treinta</string>
 			<key>coordinates</key>
 			<dict>
@@ -1265,7 +1622,11 @@
 			<string>18 de Julio 2267-2271</string>
 			<key>author</key>
 			<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio de tres plantas, académico en su composición, que resalta la simetría mediante dos bow windows con acanalados laterales, bajorrelieves y herrería que se adscriben claramente a la modalidad Art Déco en su vertiente francesa.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1926 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -1287,7 +1648,11 @@
 			<string>Colonia 2287-2289-2291</string>
 			<key>author</key>
 			<string>Arq. Luis Polanco Musso</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Edificio con estructuración tripartita y organización basada en la simetría, presenta bow window central en plantas altas con bajorrelieves Déco en sus chaflanes, vitrales, jambas curvas ranuradas, balaustres rectos y remate con bow window sobre elevado.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1928 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -1309,7 +1674,11 @@
 			<string>18 de Julio 2329</string>
 			<key>author</key>
 			<string>Arq. Juan A. Scasso</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Reforma que agrega un nivel a una construcción existente. La fachada se resuelve en clave Déco en base a la incorporación de un bow window con importante remate geométrico y a la acentuación de los vanos con elementos propios de la modalidad.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1927 (permiso de construcción)</string>
 			<key>coordinates</key>
 			<dict>
@@ -1331,7 +1700,11 @@
 			<string>Durango 1409</string>
 			<key>author</key>
 			<string>Arq. Ricardo Valabrega</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Interesante edificio, con contundente volumetría en base a potentes bow windows que definen tramos de fachada y jerarquizan la esquina ochavada. El manejo formal alude a ciertas manifestaciones expresionistas. Es señalable la herrería de la puerta de acceso.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1930</string>
 			<key>coordinates</key>
 			<dict>
@@ -1353,7 +1726,11 @@
 			<string>Sarandí 554-556</string>
 			<key>author</key>
 			<string>Arqtos. Julio Bastos Kliche y Héctor Mondino</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Sobre un basamento simétrico que comprende la planta baja y el entrepiso- conteniendo grandes vanos vidriados -, se levanta un cuerpo de desarrollo muy sobrio, cuyo efecto radica en la presencia de un cuerpo saliente y en el dinamismo de las líneas inclinadas de los balcones de las plantas tipo que se le adosan, introduciendo una fuerte asimetría en la composición.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1929 (permiso de construcción) </string>
 			<key>coordinates</key>
 			<dict>
@@ -1375,7 +1752,11 @@
 			<string>Ituzaingó 1307-1309-1311</string>
 			<key>author</key>
 			<string>Arq. Rafael Arocena</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Sobre un basamento general en el que se destaca la puerta de acceso en herrería artística y vidrio, el cuerpo de desarrollo se estructura en dos tramos verticales claramente definidos en su tratamiento -en uno priman las líneas horizontales de los balcones, en el otro la ascensionalidad del bow window curvo que abarca tres niveles de altura-, cada uno culminado en un remate diferencial.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1928 (permiso de construcción) </string>
 			<key>coordinates</key>
 			<dict>
@@ -1397,7 +1778,11 @@
 			<string>Juan Carlos Gómez 1331-1337</string>
 			<key>author</key>
 			<string>Arq. Carlos Terra Urioste</string>
-			<key>year</key>
+			<key>fullDescription</key>
+<string>Emplazado en un pequeño predio, la rigurosa simetría de la fachada se señala con el bow window que abarca los tres niveles altos, en el que se destacan los vitrales Déco de sus vanos. El plano de fachada oficia de marco para este elemento protagónico, con dos pilastras monumentales a los lados que conducen la vista desde el basamento hasta el remate de perfil quebrado, que presenta algunas reminiscencias neocoloniales.
+
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+<key>year</key>
 			<string>1928 (permiso de construcción) </string>
 			<key>coordinates</key>
 			<dict>
@@ -1410,5 +1795,59 @@
 			<string>no_image</string>
 		</dict>
 	</dict>
+		<key>66</key>
+		<dict>
+			<key>name</key>
+			<string>Edificio Normandie</string>
+			<key>program</key>
+			<string>Comercio y vivienda de apartamentos para renta</string>
+			<key>address</key>
+			<string>18 de Julio 2222-2224-2226</string>
+			<key>author</key>
+			<string>Arq. Carlos Herrera Mac Lean</string>
+			<key>year</key>
+			<string>Década del treinta</string>
+			<key>fullDescription</key>
+			<string>Dentro de una configuración general clásica, integra trabajos en herrería claramente inspirados en el Art Déco francés.
+				
+Fuente: Guía Art Decó de Montevideo, ELARQA</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.898794</string>
+				<key>longitude</key>
+				<string>-56.167306</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
+		<key>67</key>
+		<dict>
+			<key>name</key>
+			<string>Palacio Salvo</string>
+			<key>program</key>
+			<string>Hotel, oficinas y galería comercial. Actualmente vivienda de apartamentos, oficinas y galería comercial</string>
+			<key>address</key>
+			<string>Plaza Independencia 846-848</string>
+			<key>author</key>
+			<string>Arq. Mario Palanti</string>
+			<key>year</key>
+			<string>1922 (concurso), 1923 (permiso de construcción)</string>
+			<key>fullDescription</key>
+			<string>De estilo Art déco ecléctico, que combina referencias renacentistas con reminiscencias góticas y toques neoclásicos, su silueta característica se ha convertido en un emblema de la ciudad y recordatorio de los años de prosperidad de las primeras décadas del siglo XX. En el subsuelo, hoy ocupado por un garaje, hubo un teatro donde actuaron Joséphine Baker, los Lecuona Cuban Boys y Jorge Negrete, entre muchos otros.
+
+Fue edificado al impulso de los hermanos empresarios Ángel, José y Lorenzo Salvo; diseñado por el arquitecto italiano Mario Palanti e inaugurado el 12 de octubre de 1928. Con sus 95 metros y 27 plantas, fue la segunda torre más alta de Sudamérica de 1928 hasta 1935 cuando fue desplazado del segundo al tercer puesto sudamericano por el Kavanagh de Buenos Aires. Actualmente continúa siendo uno de los edificios más altos de la ciudad. Es Monumento Histórico Nacional desde 1996.Este edificio tiene su hermano gemelo en estilo ecléctico, construido por el mismo arquitecto en Buenos Aires, el Palacio Barolo.
+
+Cuenta con un subsuelo, planta baja, entrepiso, diez pisos altos completos y catorce pisos de torre, alberga 370 unidades habitacionales. Fue construido para funcionar como edificio de oficinas con un sector destinado a hotel y la planta baja dedicada a locales comerciales, con un pasaje que conecta la Plaza Independencia con la calle Andes. Actualmente cuenta con comercios en la planta baja, y los pisos superiores están dedicados a viviendas y oficinas. Gran parte de los elementos ornamentales ubicados en las esquinas fueron retirados, debido a los sucesivos desprendimientos sobre la vía pública.</string>
+			<key>coordinates</key>
+			<dict>
+				<key>latitude</key>
+				<string>-34.906731</string>
+				<key>longitude</key>
+				<string>-56.198387</string>
+			</dict>
+			<key>image</key>
+			<string>no_image</string>
+		</dict>
 </dict>
 </plist>
