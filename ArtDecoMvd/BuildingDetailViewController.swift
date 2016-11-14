@@ -17,8 +17,9 @@ class BuildingDetailViewController: UIViewController {
     @IBOutlet var buildingMapView: MKMapView!
     @IBOutlet var buildingAddressLabel: UITextView!
     @IBOutlet var buildingAboutText: UITextView!
-    @IBOutlet var buildingStateText: UITextView!
     @IBOutlet var favoriteButton: UIButton!
+    @IBOutlet var buildingUseLabel: UILabel!
+    @IBOutlet var buildingImageHeightConstraint: NSLayoutConstraint!
 
     var building: Building?
     var isFavorite : Bool = false
@@ -33,19 +34,44 @@ class BuildingDetailViewController: UIViewController {
     func initializeLayout(){
 
         if let building = self.building{
+
+            // image
             if let image = self.building!.image{
+                if image == Images.noImage{
+                    buildingImageHeightConstraint.constant = 0
+                }
+
                 buildingImage.image = UIImage(named: image)
+            }else{
+                buildingImageHeightConstraint.constant = 0
             }
 
+            // title
             buildingTitleLabel.text = building.name.uppercaseString
             super.title = building.name
-            
+
+            // year - architect
             buildingArchitectLabel.text = "\(building.year) - \(building.architect)"
+            buildingArchitectLabel.font = UIFont(name: kFontLight, size: 15)
+
+            // address
             buildingAddressLabel.text = building.address
 
+            // program
+            if let program = building.program {
+                buildingUseLabel.text = program
+                buildingUseLabel.font = UIFont(name: kFontLight, size: 14)
+            }
+
+            // description
+            buildingAboutText.text = building.fullDescription
+            buildingUseLabel.font = UIFont(name: kFontLight, size: 14)
+
+            // favorite star
             isFavorite = Favorites.sharedInstance.isFavorite(building)
             favoriteButton.setImage(UIImage(named: isFavorite ? Images.favorite : Images.notFavorite), forState: .Normal)
 
+            // map pin
             addAnnotation(building)
         }
 
