@@ -37,5 +37,5 @@ struct Images{
     static let notFavoriteSmaller = "fav"
     static let mapFavorite        = "map_pin_favorite"
     static let mapNotFavorite     = "map_pin"
-    static let mapPinDetails      = "map_pin_details"
+    static let mapPinDetails      = "details_map_pin"
 }
