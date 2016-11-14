@@ -345,9 +345,9 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="oMV-ib-nrp"/>
+                                <exclude reference="osK-bg-Q4a"/>
                                 <exclude reference="MG7-jv-bGs"/>
                                 <exclude reference="nzo-GR-Omh"/>
-                                <exclude reference="osK-bg-Q4a"/>
                             </mask>
                         </variation>
                     </view>
@@ -529,9 +529,9 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="Poi-sI-hon"/>
-                                        <exclude reference="A51-Fu-pWp"/>
                                         <exclude reference="v8h-PD-DWE"/>
+                                        <exclude reference="A51-Fu-pWp"/>
+                                        <exclude reference="Poi-sI-hon"/>
                                         <exclude reference="4Sb-bH-egc"/>
                                     </mask>
                                 </variation>
@@ -776,6 +776,7 @@
                         <outlet property="buildingAddressLabel" destination="XvX-di-m0Y" id="tOB-V3-BsF"/>
                         <outlet property="buildingArchitectLabel" destination="fOB-Ws-mEQ" id="Y1S-EQ-da4"/>
                         <outlet property="buildingImage" destination="5nr-oV-lXw" id="ZQ9-QF-zgb"/>
+                        <outlet property="buildingImageHeightConstraint" destination="kHy-Dt-WUz" id="oaq-mK-T1d"/>
                         <outlet property="buildingMapView" destination="HHW-Nd-dyd" id="gMc-1J-29V"/>
                         <outlet property="buildingTitleLabel" destination="auH-zV-cY5" id="emu-nH-Owl"/>
                         <outlet property="buildingUseLabel" destination="ZLI-Le-Y4f" id="L6E-0C-dn9"/>
@@ -842,7 +843,7 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="158"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1JS-o9-m7q" id="fut-gd-tHA">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="158"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="157"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buildingExample" translatesAutoresizingMaskIntoConstraints="NO" id="NHY-qt-URk">
@@ -992,7 +993,7 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="158"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zAp-c9-HFW" id="kVh-eh-25d">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="158"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="157"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buildingExample" translatesAutoresizingMaskIntoConstraints="NO" id="DTw-bs-vG0">

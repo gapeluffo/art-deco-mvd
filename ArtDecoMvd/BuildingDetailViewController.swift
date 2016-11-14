@@ -19,6 +19,7 @@ class BuildingDetailViewController: UIViewController {
     @IBOutlet var buildingAboutText: UITextView!
     @IBOutlet var favoriteButton: UIButton!
     @IBOutlet var buildingUseLabel: UILabel!
+    @IBOutlet var buildingImageHeightConstraint: NSLayoutConstraint!
 
     var building: Building?
     var isFavorite : Bool = false
@@ -36,7 +37,13 @@ class BuildingDetailViewController: UIViewController {
 
             // image
             if let image = self.building!.image{
+                if image == Images.noImage{
+                    buildingImageHeightConstraint.constant = 0
+                }
+
                 buildingImage.image = UIImage(named: image)
+            }else{
+                buildingImageHeightConstraint.constant = 0
             }
 
             // title

@@ -80,7 +80,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.205597</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>edificio_artigas</string>
 		</dict>
 		<key>4</key>
 		<dict>
@@ -220,7 +220,7 @@ Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.204859</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>edificio_sciarra</string>
 		</dict>
 		<key>9</key>
 		<dict>
@@ -244,7 +244,7 @@ Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.204677</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>palacio_piria</string>
 		</dict>
 		<key>10</key>
 		<dict>
@@ -292,7 +292,7 @@ Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.203056</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>casa_eugenio_barth</string>
 		</dict>
 		<key>12</key>
 		<dict>
@@ -316,7 +316,7 @@ Fuente: http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.201382</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>museo_torres_garcia</string>
 		</dict>
 		<key>13</key>
 		<dict>
