@@ -31,6 +31,7 @@ struct Fonts {
 
 struct Images{
     static let noImage            = "no_image"
+    static let builgingDefault    = "building_default"
     static let favorite           = "fav_selectedx2"
     static let notFavorite        = "favx2"
     static let favoriteSmaller    = "fav_selected"

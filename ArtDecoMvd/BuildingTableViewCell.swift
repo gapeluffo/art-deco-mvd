@@ -36,9 +36,9 @@ class BuildingTableViewCell: UITableViewCell {
         descriptionLabel.font = UIFont(name: kFontMedium, size: 15)
 
         if let image = building.image{
-            backgroundImageView.image = UIImage(named:image)
+            backgroundImageView.image = image == Images.noImage ? UIImage(named:Images.builgingDefault) : UIImage(named:image)
         } else {
-            backgroundImageView.image = UIImage(named:Images.noImage)
+            backgroundImageView.image = UIImage(named:Images.builgingDefault)
         }
         
         if(favoriteButton != nil){

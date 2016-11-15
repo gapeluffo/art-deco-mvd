@@ -21,6 +21,7 @@ class BuildingListViewController: UIViewController {
     @IBOutlet var thisView: UIView!
     @IBOutlet var searchButton: UIBarButtonItem!
     @IBOutlet var buildingGroupOptions: UISegmentedControl!
+    @IBOutlet var buildingGroupOptionsHeightConstraint: NSLayoutConstraint!
     @IBOutlet var buildingGroupOptionView: UIView!
     
     let buildingCellIdentifier      = "BuildingCell"
@@ -62,6 +63,10 @@ class BuildingListViewController: UIViewController {
             self.searchController.searchBar.frame = frame
             self.tableView.tableHeaderView = hide ? nil : self.searchController.searchBar
         }
+
+        buildingGroupOptionsHeightConstraint.constant = hide ? 55 : 0
+        tableView.setContentOffset(CGPointZero, animated:true)
+
     }
 
     @IBAction func buildingGroupOptionValueChanged(sender: UISegmentedControl) {
@@ -91,6 +96,7 @@ class BuildingListViewController: UIViewController {
         textFieldInsideUISearchBarLabel?.font = UIFont(name: kFontLight, size: 14)
 
         searchController.searchBar.setValue("Cancelar", forKey:"_cancelButtonText")
+        self.extendedLayoutIncludesOpaqueBars = true;
 
     }
 
@@ -201,6 +207,16 @@ extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource
 
         cell.configure(getBuildingByIndexPath(indexPath))
         return cell
+    }
+
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        let building = getBuildingByIndexPath(indexPath)
+
+        if let image = building.image {
+            return image == Images.noImage ? 100 : 158
+        }else{
+            return 100
+        }
     }
 
 }
