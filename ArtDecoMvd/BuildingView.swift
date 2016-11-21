@@ -32,11 +32,22 @@ class BuildingView : UIView {
         favoriteButton.setImage(UIImage(named: isFavorite ? Images.favoriteSmaller : Images.notFavoriteSmaller), forState: .Normal)
     }
 
+    @IBAction func gotToDetailsTouchUpInside(sender: AnyObject) {
+        goToDetails()
+    }
+
     @IBAction func detailsTouchUp(sender: AnyObject) {
+        goToDetails()
+    }
+
+    func goToDetails() {
         if delegate != nil {
             delegate.openBuildingDetails(building!)
         }
     }
+
+    
+
 
     func configure(building: BuildingPinAnnotation){
         self.building = building.building

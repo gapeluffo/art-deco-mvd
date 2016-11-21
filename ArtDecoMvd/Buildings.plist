@@ -22,9 +22,9 @@ http://inventariociudadvieja.montevideo.gub.uy/</string>
 			<key>coordinates</key>
 			<dict>
 				<key>latitude</key>
-				<string>-34.906430</string>
+				<string>-34.906283</string>
 				<key>longitude</key>
-				<string>-56.201382</string>
+				<string>-56.211720</string>
 			</dict>
 			<key>image</key>
 			<string>no_image</string>
@@ -229,7 +229,7 @@ http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.200996</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>casa_eugenio_barth</string>
 		</dict>
 		<key>11</key>
 		<dict>
@@ -254,7 +254,7 @@ http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.203056</string>
 			</dict>
 			<key>image</key>
-			<string>casa_eugenio_barth</string>
+			<string>no_image</string>
 		</dict>
 		<key>12</key>
 		<dict>
@@ -654,7 +654,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.190093</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>CINE METRO</string>
 		</dict>
 		<key>25</key>
 		<dict>
@@ -813,7 +813,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.186855</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>EDIFICIO PARELLA</string>
 		</dict>
 		<key>30</key>
 		<dict>
@@ -839,7 +839,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.198797</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>EDIFICIO PARRELLA</string>
 		</dict>
 		<key>31</key>
 		<dict>
@@ -866,7 +866,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.197574</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>CASA RESIDENTES ARTIGAS</string>
 		</dict>
 		<key>32</key>
 		<dict>
@@ -892,7 +892,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.197735</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>jockey club</string>
 		</dict>
 		<key>33</key>
 		<dict>
@@ -1025,7 +1025,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.196518</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>EDIFICIO OLIVER EIRIN</string>
 		</dict>
 		<key>38</key>
 		<dict>
@@ -1051,7 +1051,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.196178</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>edificio rey</string>
 		</dict>
 		<key>39</key>
 		<dict>
@@ -1170,7 +1170,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.181080</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>EDIFICIO LUX</string>
 		</dict>
 		<key>43</key>
 		<dict>
@@ -1300,7 +1300,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.173495</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>ESPACIO URBANO EL DAVID</string>
 		</dict>
 		<key>48</key>
 		<dict>
@@ -1666,7 +1666,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.166421</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>EDIFICIO ARGUL</string>
 		</dict>
 		<key>61</key>
 		<dict>
@@ -1692,7 +1692,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.165245</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>EDIFICIO ROVIRA DE TERUELL</string>
 		</dict>
 		<key>62</key>
 		<dict>
@@ -1718,7 +1718,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.208523</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>EDIFICIO PLAZA ZABALA</string>
 		</dict>
 		<key>63</key>
 		<dict>
@@ -1744,7 +1744,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.203743</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>EDIFICIO ALONSO</string>
 		</dict>
 		<key>64</key>
 		<dict>
@@ -1881,7 +1881,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.167273</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>EDIFICIO PEIRANO</string>
 	</dict>
 		<key>69</key>
 	<dict>
@@ -1912,7 +1912,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.166806</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>EDIFICIO BELLINI</string>
 	</dict>
 		<key>70</key>
 	<dict>
@@ -1943,7 +1943,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA	</string>
 			<string>-56.164456</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>OBELISCO CONSTITUYENTES</string>
 	</dict>
 	<key>71</key>
 	<dict>
@@ -1973,7 +1973,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA	</string>
 			<string>-56.189075</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>EDIFICIO LA LOBA</string>
 	</dict>
 	<key>72</key>
 	<dict>
@@ -2005,7 +2005,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 			<string>-56.157878</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>VIVENDA TAPIE</string>
 	</dict>
 	<key>73</key>
 	<dict>
@@ -2035,7 +2035,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 			<string>-56.162749</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>TRAMO CALLE JUAN RAMON GOMEZ</string>
 	</dict>
 	<key>74</key>
 	<dict>
@@ -2064,7 +2064,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 			<string>-56.155258</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>VIVENDA SOSA DIAS</string>
 	</dict>
 	<key>75</key>
 	<dict>
@@ -2094,7 +2094,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.154391</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>Mercado_Modelo</string>
 	</dict>
 	<key>76</key>
 	<dict>
@@ -2124,7 +2124,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 			<string>-56.143726</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>PALACIO LAMAS</string>
 	</dict>
 	<key>77</key>
 	<dict>
@@ -2187,7 +2187,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 			<string>-56.130937</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>YACHT PLAYA RAMIREZ</string>
 	</dict>
 	<key>79</key>
 	<dict>
@@ -2213,7 +2213,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 			<string>-56.164501</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>IGLESIA ADVENTISTA AV ITALIA 2360</string>
 	</dict>
 	<key>80</key>
 	<dict>
@@ -2242,7 +2242,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.180245</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>EDIFICIO CAUSSI</string>
 	</dict>
 	<key>81</key>
 	<dict>
@@ -2302,7 +2302,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.187130</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>PALACIO SUDAMERICA</string>
 	</dict>
 	<key>83</key>
 	<dict>
@@ -2335,7 +2335,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.193704</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>PALACIO DURAZNO</string>
 	</dict>
 	<key>84</key>
 	<dict>
@@ -2362,7 +2362,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.193302</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>ATENEO POPULAR</string>
 	</dict>
 	<key>85</key>
 	<dict>
@@ -2424,7 +2424,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.163678</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>CONJUNTO BARRIO JARDIN 21 SETIEMBRE 2335</string>
 	</dict>
 	<key>87</key>
 	<dict>
@@ -2457,7 +2457,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.170222</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>CONJUNTO EN PABLO MARIA Y LUIS PIERA 875</string>
 	</dict>
 	<key>88</key>
 	<dict>
@@ -2488,7 +2488,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.169031</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>YACHT PLAYA RAMIREZ</string>
 	</dict>
 	<key>89</key>
 	<dict>
@@ -2515,35 +2515,9 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.173355</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>EDIFICIOS EN JACKSON 1274</string>
 	</dict>
-	<key>90</key>
-	<dict>
-		<key>name</key>
-		<string>Edificios en Jackson 1274-1282</string>
-		<key>program</key>
-		<string>Vivienda de apartamentos para renta</string>
-		<key>address</key>
-		<string>Jackson 1274-1276, 1278, 1282</string>
-		<key>author</key>
-		<string>sin datos</string>
-		<key>year</key>
-		<string>Década del treinta</string>
-		<key>fullDescription</key>
-<string>Tres edificios adscriptos al Art Déco francés con tratamientos sutilmente diferentes, conforman un conjunto unitario. Una interesante utilización de profusos y variados recursos decorativos, con fuerte acentos verticalizantes, otorgan al todo una llamativa originalidad.
 
-Fuente: Guía Art Decó de Montevideo, ELARQA
-</string>
-		<key>coordinates</key>
-		<dict>
-			<key>latitude</key>
-			<string>-34.905692</string>
-			<key>longitude</key>
-			<string>-56.173355</string>
-		</dict>
-		<key>image</key>
-		<string>no_image</string>
-	</dict>
 	<key>91</key>
 	<dict>
 		<key>name</key>
@@ -2569,7 +2543,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.167454</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>PABELLON MUSICA</string>
 	</dict>
 	<key>92</key>
 	<dict>
@@ -2600,7 +2574,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.149330</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>EDIFICIO EL MASTIL</string>
 	</dict>
 	<key>93</key>
 	<dict>
@@ -2627,7 +2601,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.152230</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>EDIFICIO EN ROQUE GRASERAS 737</string>
 	</dict>
 	<key>94</key>
 	<dict>
@@ -2654,8 +2628,1789 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.149741</string>
 		</dict>
 		<key>image</key>
+		<string>GLORIETA GOMENSORO</string>
+	</dict>
+
+
+
+	<key>123</key>
+	<dict>
+		<key>name</key>
+		<string>Garaje en 8 de octubre 2767</string>
+		<key>program</key>
+		<string>Garaje</string>
+		<key>address</key>
+		<string>8 de octubre 2767</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.887669</string>
+			<key>longitude</key>
+			<string>-56.158859</string>
+		</dict>
+		<key>image</key>
 		<string>no_image</string>
 	</dict>
+
+
+		<key>124</key>
+	<dict>
+		<key>name</key>
+		<string>3 Viviendas en calle Jaime Cibils </string>
+		<key>program</key>
+		<string>Vivienda</string>
+		<key>address</key>
+		<string>Jaime Cibils 2729, 2731 y 2733</string>
+		<key>author</key>
+		<string>varios</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.884742</string>
+			<key>longitude</key>
+			<string>-56.156926</string>
+		</dict>
+		<key>image</key>
+		<string>conjunto en jaime cibils</string>
+	</dict>
+
+
+	<key>125</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas Acosta y Recalde</string>
+		<key>program</key>
+		<string>3 viviendas unifamiliares</string>
+		<key>address</key>
+		<string>8 de octubre 3340 y 3342</string>
+		<key>author</key>
+		<string>Arq. Juan M. Aubriot</string>
+		<key>year</key>
+		<string>1926</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.879889</string>
+			<key>longitude</key>
+			<string>-56.148933</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+	<key>126</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Peluffo</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Paysandú 1914-1916</string>
+		<key>author</key>
+		<string>Arq. Julio Etchebarne Bidart</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.897658</string>
+			<key>longitude</key>
+			<string>-56.176871</string>
+		</dict>
+		<key>image</key>
+		<string>Vivienda Peluffo</string>
+	</dict>
+
+
+	<key>127</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Buroni</string>
+		<key>program</key>
+		<string>vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>La paz 1657 esq Gaboto</string>
+		<key>author</key>
+		<string>Arq. Juan M. Aubriot</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.897510</string>
+			<key>longitude</key>
+			<string>-56.182376</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+	<key>128</key>
+	<dict>
+		<key>name</key>
+		<string>Galpones en Cuareim</string>
+		<key>program</key>
+		<string>Dépositos</string>
+		<key>address</key>
+		<string>Cuareim 1920, 1928, 1944</string>
+		<key>author</key>
+		<string>Arq. Juan M. Delgado</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.894539</string>
+			<key>longitude</key>
+			<string>-56.191434</string>
+		</dict>
+		<key>image</key>
+		<string>Galpones en Cuareim</string>
+	</dict>
+
+	<key>129</key>
+	<dict>
+		<key>name</key>
+		<string>Conjunto Carvallido</string>
+		<key>program</key>
+		<string>Dépositos y viviendas unifamiliares para renta</string>
+		<key>address</key>
+		<string>Porongos 2720 al 2742 y Colorado</string>
+		<key>author</key>
+		<string>Constructor César Baragiola</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.879919</string>
+			<key>longitude</key>
+			<string>-56.177532</string>
+		</dict>
+		<key>image</key>
+		<string>conjunto carvallido</string>
+	</dict>
+
+
+	<key>130</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Freccero</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Paysandú 1938</string>
+		<key>author</key>
+		<string>Constructor César Baragiola</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.897238</string>
+			<key>longitude</key>
+			<string>-56.176360</string>
+		</dict>
+		<key>image</key>
+		<string>vivenda freccero</string>
+	</dict>
+
+	<key>131</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Guida</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Miguelete 1938-1940</string>
+		<key>author</key>
+		<string>Arq. Buenaventura Addiego</string>
+		<key>year</key>
+		<string>1927</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.893619</string>
+			<key>longitude</key>
+			<string>-56.177681</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda guida</string>
+	</dict>
+
+
+
+<key>132</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Scarrone</string>
+		<key>program</key>
+		<string>Consultorio y 2 viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Miguelete 1932-1936</string>
+		<key>author</key>
+		<string>Arq. Buenaventura Addiego</string>
+		<key>year</key>
+		<string>1927</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.893712</string>
+			<key>longitude</key>
+			<string>-56.177873</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda scarrone</string>
+	</dict>
+
+
+
+<key>133</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Rodriguez</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Miguelete 1857-1859-1861</string>
+		<key>author</key>
+		<string>Constructor César Baragiola</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.906731</string>
+			<key>longitude</key>
+			<string>-56.198387</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda rodriguez</string>
+	</dict>
+
+
+
+<key>134</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Rodriguez</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Miguelete 1551</string>
+		<key>author</key>
+		<string>Arq. Juan M. Delgado</string>
+		<key>year</key>
+		<string>1927</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.897090</string>
+			<key>longitude</key>
+			<string>-56.184273</string>
+		</dict>
+		<key>image</key>
+		<string>edificio rodriguez</string>
+	</dict>
+
+
+
+<key>135</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Grimoldi</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Canelones 946-950 esq Río Branco</string>
+		<key>author</key>
+		<string>Arq. Julio Gaggioni, Leopoldo J. Tosi (constructor)</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.909116</string>
+			<key>longitude</key>
+			<string>-56.195777</string>
+		</dict>
+		<key>image</key>
+		<string>edificio grimoldi</string>
+	</dict>
+
+
+
+
+
+<key>136</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Gonzalez Machado y Sosa</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Canelones 919-921</string>
+		<key>author</key>
+		<string>Arq. Leopoldo J. Tosi</string>
+		<key>year</key>
+		<string>1931</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.909101</string>
+			<key>longitude</key>
+			<string>-56.196268</string>
+		</dict>
+		<key>image</key>
+		<string>edificio gonzalez machado y sosa</string>
+	</dict>
+
+
+
+
+<key>137</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Apatía</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Canelones 909</string>
+		<key>author</key>
+		<string>Arq. Gonzalo Vázquez Barriere y Rafael Ruano</string>
+		<key>year</key>
+		<string>1928</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.909134</string>
+			<key>longitude</key>
+			<string>-56.196488</string>
+		</dict>
+		<key>image</key>
+		<string>vivenda apatia</string>
+	</dict>
+
+
+
+
+<key>138</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Etcheverry</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Canelones 1099</string>
+		<key>author</key>
+		<string>Arq. Eloy Tejera</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.908814</string>
+			<key>longitude</key>
+			<string>-56.192270</string>
+		</dict>
+		<key>image</key>
+		<string>edificio etcheverry</string>
+	</dict>
+
+
+
+<key>139</key>
+	<dict>
+		<key>name</key>
+		<string>Comité Olímpico (Edificio Bier)</string>
+		<key>program</key>
+		<string>Comercio y vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Canelones 1040-1044</string>
+		<key>author</key>
+		<string>Arq. Eugenio Pecoste</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.908920</string>
+			<key>longitude</key>
+			<string>-56.193599</string>
+		</dict>
+		<key>image</key>
+		<string>comite olimpico edificio bier</string>
+	</dict>
+
+
+
+<key>140</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Vigouroux</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Maldonado 1710</string>
+		<key>author</key>
+		<string>Arqtos. Rodolfo Vigouroux y josé Pedro Sierra Morató</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.908734</string>
+			<key>longitude</key>
+			<string>-56.178210</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda vigouroux</string>
+	</dict>
+
+
+
+<key>141</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Maldonado 930</string>
+		<key>program</key>
+		<string>Comercio y vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Maldonado 930 - 932 - 934</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>sin datos</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.910017</string>
+			<key>longitude</key>
+			<string>-56.195929</string>
+		</dict>
+		<key>image</key>
+		<string>edificio maldonado</string>
+	</dict>
+
+
+	<key>142</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Maldonado 1454</string>
+		<key>program</key>
+		<string>Comercio y 2 viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Maldonado 1454</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.909162</string>
+			<key>longitude</key>
+			<string>-56.184127</string>
+		</dict>
+		<key>image</key>
+		<string>edificio maldonado 1454</string>
+	</dict>
+
+
+	<key>143</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Maldonado 1774</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Maldonado 1774-1776</string>
+		<key>author</key>
+		<string>Balparda y Olivera Calamet</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.908632</string>
+			<key>longitude</key>
+			<string>-56.176814</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda maldonado 1774</string>
+	</dict>
+
+
+		<key>144</key>
+	<dict>
+		<key>name</key>
+		<string>Garaje y estudio Tosi</string>
+		<key>program</key>
+		<string>Garaje y oficinas</string>
+		<key>address</key>
+		<string>Constituyente 1830-1832</string>
+		<key>author</key>
+		<string>Arq. Juan M. Delgado</string>
+		<key>year</key>
+		<string>1931</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.906793</string>
+			<key>longitude</key>
+			<string>-56.176742</string>
+		</dict>
+		<key>image</key>
+		<string>Garaje Tosi</string>
+	</dict>
+
+	
+
+
+	<key>145</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Wilson Ferreria Aldunate 1192</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Wilson Ferreria Aldunate 1192</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.909089</string>
+			<key>longitude</key>
+			<string>-56.195503</string>
+		</dict>
+		<key>image</key>
+		<string>EDIFICIO WILSON FERREIRA ALDUNATE 1192 ESQ RIO BRANCO</string>
+	</dict>
+
+
+		<key>146</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Morelli</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Paraguay 1142-1150</string>
+		<key>author</key>
+		<string>Arq. Arnaldo D´Agosto</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.909942</string>
+			<key>longitude</key>
+			<string>-56.192004</string>
+		</dict>
+		<key>image</key>
+		<string>edificio morelli</string>
+	</dict>
+
+
+	<key>147</key>
+	<dict>
+		<key>name</key>
+		<string>Club Atlético Peñarol</string>
+		<key>program</key>
+		<string>Club deportivo</string>
+		<key>address</key>
+		<string>Durazno 1233</string>
+		<key>author</key>
+		<string>Arq. Julio Vilamajó</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.910435</string>
+			<key>longitude</key>
+			<string>-56.189116</string>
+		</dict>
+		<key>image</key>
+		<string>club atletico peñarol</string>
+	</dict>
+
+	<key>148</key>
+	<dict>
+		<key>name</key>
+		<string>Sede del Movimiento Nacional Gustavo Volpe</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Canelones 1394</string>
+		<key>author</key>
+		<string>Balparda y Olivera Calamet</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.908343</string>
+			<key>longitude</key>
+			<string>-56.185397</string>
+		</dict>
+		<key>image</key>
+		<string>Sede del Movimiento Nacional Gustavo Volpe</string>
+	</dict>
+
+
+	<key>149</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Maldonado 1780</string>
+		<key>program</key>
+		<string>2 viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Maldonado 1780</string>
+		<key>author</key>
+		<string>Constructor José Canavero</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.908629</string>
+			<key>longitude</key>
+			<string>-56.176702</string>
+		</dict>
+		<key>image</key>
+		<string>maldonado 1780</string>
+	</dict>
+
+
+	<key>150</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Aguerre</string>
+		<key>program</key>
+		<string>Comercio y vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br. España 2081</string>
+		<key>author</key>
+		<string>Arqtos. Elzeario Boix y Horacio Terra Arocena</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.908243</string>
+			<key>longitude</key>
+			<string>-56.171178</string>
+		</dict>
+		<key>image</key>
+		<string>edificio aguerre</string>
+	</dict>
+
+	<key>151</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Pablo de María 1111-1115-1119</string>
+		<key>program</key>
+		<string>Viviendas de apartamentos para renta</string>
+		<key>address</key>
+		<string>Pablo de María 1111-1115-1119</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.907924</string>
+			<key>longitude</key>
+			<string>-56.170747</string>
+		</dict>
+		<key>image</key>
+		<string>edificio en pablo de maria 1111</string>
+	</dict>
+
+
+	<key>152</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en Br. España 2236</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br. España 2236</string>
+		<key>author</key>
+		<string>Tddei, Colombo y Savi</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.909555</string>
+			<key>longitude</key>
+			<string>-56.167467</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda br españa 2236</string>
+	</dict>
+
+	<key>153</key>
+	<dict>
+		<key>name</key>
+		<string>Conjunto de viviendas en Br España 2275-2283</string>
+		<key>program</key>
+		<string>Viviendas de apartamentos para renta</string>
+		<key>address</key>
+		<string>Br España 2275-2277-2279-2281-2283</string>
+		<key>author</key>
+		<string>Arq. Arnaldo D´Agosto</string>
+		<key>year</key>
+		<string>Década del treinta</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.909827</string>
+			<key>longitude</key>
+			<string>-56.166519</string>
+		</dict>
+		<key>image</key>
+		<string>conjunto de viviendas en br españa 2275 2283</string>
+	</dict>
+
+
+
+<key>154</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Staricco</string>
+		<key>program</key>
+		<string>Comercio y vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br España 2297-2299 esq Acevedo Díaz</string>
+		<key>author</key>
+		<string>Arq. Julio Vilamajó</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.910077</string>
+			<key>longitude</key>
+			<string>-56.165764</string>
+		</dict>
+		<key>image</key>
+		<string>edificio staricco</string>
+	</dict>
+
+
+
+<key>155</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas Goycochea y Conjunto de viviendas Beatti</string>
+		<key>program</key>
+		<string>Viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Acevedo Díaz 1011-1007-1003-1001; San Salvador 2281-2285</string>
+		<key>author</key>
+		<string>varios</string>
+		<key>year</key>
+		<string>varias</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.910286</string>
+			<key>longitude</key>
+			<string>-56.165679</string>
+		</dict>
+		<key>image</key>
+		<string>vivenda goycochea y conjunto</string>
+	</dict>
+
+
+
+<key>156</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas en Lauro Müller 1985 y 1987</string>
+		<key>program</key>
+		<string>Viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Lauro Müller 1985 y 1987</string>
+		<key>author</key>
+		<string>Bello y Reborati</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.912684</string>
+			<key>longitude</key>
+			<string>-56.171801</string>
+		</dict>
+		<key>image</key>
+		<string>viviendas en lauro muller 1985</string>
+	</dict>
+
+
+
+<key>157</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Sanguinetti</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Bulevar Artigas 1388</string>
+		<key>author</key>
+		<string>Arqtos. Carlos y Esteban Tosi</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.903096</string>
+			<key>longitude</key>
+			<string>-56.163916</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda sanguinetti</string>
+	</dict>
+
+
+
+
+
+<key>158</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Polvarini</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br. Artigas 1249</string>
+		<key>author</key>
+		<string>Arq. Julio Bastos Kliche y Héctor Mondino</string>
+		<key>year</key>
+		<string>1931</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.904691</string>
+			<key>longitude</key>
+			<string>-56.163995</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda polvarini</string>
+	</dict>
+
+
+
+
+<key>159</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda dr. Burghi</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br. Artigas 1034</string>
+		<key>author</key>
+		<string>Arq. Eloy Tejera</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.909576</string>
+			<key>longitude</key>
+			<string>-56.163227</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda dr burghi</string>
+	</dict>
+
+
+
+
+<key>160</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Pietra - Tejera</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br. España 2465</string>
+		<key>author</key>
+		<string>Arq. Eloy Tejera</string>
+		<key>year</key>
+		<string>1926</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.911511</string>
+			<key>longitude</key>
+			<string>-56.161396</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda pietra tejera</string>
+	</dict>
+
+
+
+<key>161</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas Arricar-Labat</string>
+		<key>program</key>
+		<string>dos viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Br España 2842</string>
+		<key>author</key>
+		<string>Arqtos. Evaldo Roure y Edmundo Marinero</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.914517</string>
+			<key>longitude</key>
+			<string>-56.151827</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda arricar labat</string>
+	</dict>
+
+
+
+<key>162</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas de los Reyes</string>
+		<key>program</key>
+		<string>dos viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Juan María Pérez 2873 y 2879</string>
+		<key>author</key>
+		<string>Arq. Juan M. Aubriot</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.917879</string>
+			<key>longitude</key>
+			<string>-56.150998</string>
+		</dict>
+		<key>image</key>
+		<string>viviendas de los reyes</string>
+	</dict>
+
+
+
+<key>163</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Senatore</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br. Artigas 1291</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>sin datos</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.905191</string>
+			<key>longitude</key>
+			<string>-56.163976</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda senatore</string>
+	</dict>
+
+
+	<key>164</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en Br Artigas 1231</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br Artigas 1231</string>
+		<key>author</key>
+		<string>Arq. Edmundo Mainero</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.906134</string>
+			<key>longitude</key>
+			<string>-56.163870</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda br artigas 1231</string>
+	</dict>
+
+
+	<key>165</key>
+	<dict>
+		<key>name</key>
+		<string>Edificios del Banco Italiano del Uruguay</string>
+		<key>program</key>
+		<string>Vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Br Artigas 1043 y 1045 esq Hugo Prato</string>
+		<key>author</key>
+		<string>Balparda y Olivera Calamet</string>
+		<key>year</key>
+		<string>1931</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.909064</string>
+			<key>longitude</key>
+			<string>-56.163546</string>
+		</dict>
+		<key>image</key>
+		<string>edificios banco italiano del uruguay</string>
+	</dict>
+
+
+		<key>166</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Rolando</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br España 2418</string>
+		<key>author</key>
+		<string>Arq. Eloy Tejera</string>
+		<key>year</key>
+		<string>1928</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.911243</string>
+			<key>longitude</key>
+			<string>-56.162475</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda rolando</string>
+	</dict>
+
+	
+
+
+	<key>167</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Arq. Ramón Añón</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br España 2444</string>
+		<key>author</key>
+		<string>Arq. Ramón Añón</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.911466</string>
+			<key>longitude</key>
+			<string>-56.161990</string>
+		</dict>
+		<key>image</key>
+		<string>vivenda arq. añon</string>
+	</dict>
+
+
+		<key>168</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Rey</string>
+		<key>program</key>
+		<string>Comercio y viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Libertad 2455 esq Br España</string>
+		<key>author</key>
+		<string>Arq. Eloy Tejera</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.911879</string>
+			<key>longitude</key>
+			<string>-56.160075</string>
+		</dict>
+		<key>image</key>
+		<string>edificio rey</string>
+	</dict>
+
+
+	<key>169</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas Revuelta y Rossi</string>
+		<key>program</key>
+		<string>Club deportivo</string>
+		<key>address</key>
+		<string>Br España 2527-2529 y 2533</string>
+		<key>author</key>
+		<string>Arq. Eloy Tejera</string>
+		<key>year</key>
+		<string>1928</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.912140</string>
+			<key>longitude</key>
+			<string>-56.159287</string>
+		</dict>
+		<key>image</key>
+		<string>viviendas revuelta y rossi</string>
+	</dict>
+
+	<key>170</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Laguarda</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Br España 2571-2573</string>
+		<key>author</key>
+		<string>Ing. Julio Compte y Riqué</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.912345</string>
+			<key>longitude</key>
+			<string>-56.158609</string>
+		</dict>
+		<key>image</key>
+		<string>edificio laguarda</string>
+	</dict>
+
+
+	<key>171</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en Dighiero 2498</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Dighiero 2498</string>
+		<key>author</key>
+		<string>Tomás Angeloro</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.912723</string>
+			<key>longitude</key>
+			<string>-56.159107</string>
+		</dict>
+		<key>image</key>
+		<string>Vivienda dighiero 2498</string>
+	</dict>
+
+
+	<key>172</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en Franzini 994</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Franzini 994</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.912707</string>
+			<key>longitude</key>
+			<string>-56.158914</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda en franzini 994</string>
+	</dict>
+
+	<key>173</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Maisonnave</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Sarmiento 2493-2495</string>
+		<key>author</key>
+		<string>Ing. Luis Caselli</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.914385</string>
+			<key>longitude</key>
+			<string>-56.159707</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda maissonave</string>
+	</dict>
+
+
+	<key>174</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas cristina y Langone</string>
+		<key>program</key>
+		<string>Viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Enrique Muñoz 906-908-912</string>
+		<key>author</key>
+		<string>Ing. Luis Caselli</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.914128</string>
+			<key>longitude</key>
+			<string>-56.157491</string>
+		</dict>
+		<key>image</key>
+		<string>viviendas cristina y langone</string>
+	</dict>
+
+	<key>175</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en Br España 2637</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Br España 2637</string>
+		<key>author</key>
+		<string>Arq. Eloy Tejera</string>
+		<key>year</key>
+		<string>Década del treinta</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.912936</string>
+			<key>longitude</key>
+			<string>-56.156704</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda en br españa 2637</string>
+	</dict>
+
+
+
+<key>176</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en Luis de la Torre 967</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Luis de la Torre 967</string>
+		<key>author</key>
+		<string>Arq. Eloy Tejera</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.912794</string>
+			<key>longitude</key>
+			<string>-56.156320</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda luis torre 967</string>
+	</dict>
+
+
+
+<key>178</key>
+	<dict>
+		<key>name</key>
+		<string>Conjunto en Br España 2684;2688;2690-2692;2696</string>
+		<key>program</key>
+		<string>Viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Br España 2684;2688;2690-2692;2696</string>
+		<key>author</key>
+		<string>Arq. Eloy Tejera</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.913696</string>
+			<key>longitude</key>
+			<string>-56.155286</string>
+		</dict>
+		<key>image</key>
+		<string>conjunto en br españa 2684</string>
+	</dict>
+
+
+
+<key>179</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en Jaime Zudañez 2582-2587</string>
+		<key>program</key>
+		<string>Viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Jaime Zudañez 2582-2587</string>
+		<key>author</key>
+		<string>Taddei, Colombo y Savi</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.916096</string>
+			<key>longitude</key>
+			<string>-56.156411</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda en zudañez 2582</string>
+	</dict>
+
+
+
+<key>180</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en Solano Antuña 2671</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Solano Antuña 2671</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.917305</string>
+			<key>longitude</key>
+			<string>-56.156004</string>
+		</dict>
+		<key>image</key>
+		<string>solano antuña 2671</string>
+	</dict>
+
+
+
+
+
+<key>181</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en Solano Antuña 2677</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Solano Antuña 2677</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.917416</string>
+			<key>longitude</key>
+			<string>-56.155853</string>
+		</dict>
+		<key>image</key>
+		<string>solano antuña 2677</string>
+	</dict>
+
+
+
+
+<key>182</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas en Solano Antuña 2837 y 2841</string>
+		<key>program</key>
+		<string>Viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Solano Antuña 2837 y 2841</string>
+		<key>author</key>
+		<string>Bello y Reborati</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.918637</string>
+			<key>longitude</key>
+			<string>-56.152106</string>
+		</dict>
+		<key>image</key>
+		<string>viviendas solano antuña 2841</string>
+	</dict>
+
+
+
+
+<key>183</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en Solano Antuña 2755 y Berro 704</string>
+		<key>program</key>
+		<string>Viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Solano Antuña 2755 y Berro 704</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.918304</string>
+			<key>longitude</key>
+			<string>-56.153622</string>
+		</dict>
+		<key>image</key>
+		<string>viviendas en solano antuña 2755 y berro 704</string>
+	</dict>
+
+
+
+<key>184</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Morales</string>
+		<key>program</key>
+		<string>vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Juan Maria Perez 2758-2760</string>
+		<key>author</key>
+		<string>Bello y Reborati</string>
+		<key>year</key>
+		<string>1928</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.917444</string>
+			<key>longitude</key>
+			<string>-56.153274</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda morales</string>
+	</dict>
+
+
+
+<key>185</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas Schiaffino</string>
+		<key>program</key>
+		<string>viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Tomás Diago 701,705,709</string>
+		<key>author</key>
+		<string>Bello y Reborati</string>
+		<key>year</key>
+		<string>1928</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.918366</string>
+			<key>longitude</key>
+			<string>-56.152978</string>
+		</dict>
+		<key>image</key>
+		<string>viviendas schiaffino</string>
+	</dict>
+
+
+
+<key>186</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda en 21 de setiembre 2916</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>21 de setiembre 2916</string>
+		<key>author</key>
+		<string>J. Santos Genovese</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.919503</string>
+			<key>longitude</key>
+			<string>-56.153989</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda 21 setiembre 2916</string>
+	</dict>
+
+
+	<key>187</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas en Roque Graseras 658 y 660</string>
+		<key>program</key>
+		<string>Viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Roque Graseras 658 y 660</string>
+		<key>author</key>
+		<string>Arq. José Bordoni</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.919575</string>
+			<key>longitude</key>
+			<string>-56.152052</string>
+		</dict>
+		<key>image</key>
+		<string>vivienda en roque graseras 658</string>
+	</dict>
+
+
+	<key>188</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Valles de la Sierra</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Roque Graseras 684</string>
+		<key>author</key>
+		<string>Arq. Juan M. Delgado</string>
+		<key>year</key>
+		<string>1928</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.919177</string>
+			<key>longitude</key>
+			<string>-56.151914</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+		<key>189</key>
+	<dict>
+		<key>name</key>
+		<string>Viviendas en Roque Graseras 721,725,729</string>
+		<key>program</key>
+		<string>Viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Roque Graseras 721,725,729</string>
+		<key>author</key>
+		<string>Bello Reborati</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.918254</string>
+			<key>longitude</key>
+			<string>-56.151839</string>
+		</dict>
+		<key>image</key>
+		<string>viviendas en roque graseras 721 725 729</string>
+	</dict>
+
+
+	<key>190</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Casamayou</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Juan Benito Blanco 709</string>
+		<key>author</key>
+		<string>Arq. Eduardo Casamayou</string>
+		<key>year</key>
+		<string>1928</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.918771</string>
+			<key>longitude</key>
+			<string>-56.151012</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
 	</dict>
 </dict>
 </plist>
