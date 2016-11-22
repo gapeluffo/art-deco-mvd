@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF986ABB1840C12E583035616018B4F7"
+               BlueprintIdentifier = "4AB0B9B1FA6CB53E7228EAE5F404C3E6"
                BuildableName = "Pods_ArtDecoMvd.framework"
                BlueprintName = "Pods-ArtDecoMvd"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EF986ABB1840C12E583035616018B4F7"
+            BlueprintIdentifier = "4AB0B9B1FA6CB53E7228EAE5F404C3E6"
             BuildableName = "Pods_ArtDecoMvd.framework"
             BlueprintName = "Pods-ArtDecoMvd"
             ReferencedContainer = "container:Pods.xcodeproj">

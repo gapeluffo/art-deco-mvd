@@ -27,7 +27,7 @@ http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.211720</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>hotel_don</string>
 		</dict>
 		<key>3</key>
 		<dict>
@@ -90,7 +90,7 @@ Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.211927</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>aduana</string>
 		</dict>
 		<key>6</key>
 		<dict>
@@ -122,7 +122,7 @@ Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.213561</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>vignale</string>
 		</dict>
 		<key>7</key>
 		<dict>
@@ -154,7 +154,7 @@ Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.206061</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>garage_rincon</string>
 		</dict>
 		<key>8</key>
 		<dict>
@@ -254,7 +254,7 @@ http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.203056</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>plaza_matriz</string>
 		</dict>
 		<key>12</key>
 		<dict>
@@ -304,7 +304,7 @@ http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.210544</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>manzanares</string>
 		</dict>
 		<key>14</key>
 		<dict>
@@ -329,7 +329,7 @@ http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.208973</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>mac_lean</string>
 		</dict>
 		<key>15</key>
 		<dict>
@@ -354,7 +354,7 @@ http://inventariociudadvieja.montevideo.gub.uy/</string>
 				<string>-56.213561</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>catagliata</string>
 		</dict>
 		<key>16</key>
 		<dict>
@@ -4411,6 +4411,615 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<string>no_image</string>
 	</dict>
 
+		<key>100</key>
+	<dict>
+		<key>name</key>
+		<string>Banco Caja Obrera</string>
+		<key>program</key>
+		<string>Sede bancaria</string>
+		<key>address</key>
+		<string>Treinta y Tres 1427, esquina 25 de Mayo</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>sin datos</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.906143</string>
+			<key>longitude</key>
+			<string>-56.205890</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+	<key>101</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Santiago de Chile 1276</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Santiago de Chile 1276</string>
+		<key>author</key>
+		<string>Arqtos. Gonzalo Vázquez Barrière y Rafael Ruano</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.907818</string>
+			<key>longitude</key>
+			<string>-56.185248</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+		<key>102</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Chiarino</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>San José 1494-1496</string>
+		<key>author</key>
+		<string>Arqtos. Antonio Chiarino y Bartolomé Triay</string>
+		<key>year</key>
+		<string>1926</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.906335</string>
+			<key>longitude</key>
+			<string>-56.183408</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+	<key>103</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Pérez Moré</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Soriano 1547-1549</string>
+		<key>author</key>
+		<string>Víctor de Angeli (firma técnica), Juan P. Pérez Moré (constructor)</string>
+		<key>year</key>
+		<string>1928</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.907155</string>
+			<key>longitude</key>
+			<string>-56.182245</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+	<key>104</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Guiguens</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Colonia 1495-1497 esq. Vazquez</string>
+		<key>author</key>
+		<string>Ing. Julio Compte y Riqué y Humberto Bonomi</string>
+		<key>year</key>
+		<string>1928</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.904024</string>
+			<key>longitude</key>
+			<string>-56.183985</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+	<key>105</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Guiguens</string>
+		<key>program</key>
+		<string>Dos viviendas unifamiliares con acceso común</string>
+		<key>address</key>
+		<string>Colonia 1493</string>
+		<key>author</key>
+		<string>Ing. Julio Compte y Riqué y Humberto Bonomi</string>
+		<key>year</key>
+		<string>1927</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.904024</string>
+			<key>longitude</key>
+			<string>-56.183985</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+	<key>106</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Brunet</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>18 de julio 1551-1563 esq Tacuarembó</string>
+		<key>author</key>
+		<string>Arq. Lepoldo Tosi</string>
+		<key>year</key>
+		<string>1927</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.904413</string>
+			<key>longitude</key>
+			<string>-56.182440</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+	<key>107</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Tacuarembó 1416</string>
+		<key>program</key>
+		<string>Vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Tacuarembó 1416</string>
+		<key>author</key>
+		<string>Juan González (proyectista), Santiago Porro (contratista)</string>
+		<key>year</key>
+		<string>1932</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.904986</string>
+			<key>longitude</key>
+			<string>-56.182174</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+	<key>108</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio del Campo</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>18 de julio 1627-1629</string>
+		<key>author</key>
+		<string>Arq. Jorge Herrán</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.903863</string>
+			<key>longitude</key>
+			<string>-56.180990</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+	<key>109</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Gallo</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Minas 1487</string>
+		<key>author</key>
+		<string>Arq. Julio Bauzá</string>
+		<key>year</key>
+		<string>1926</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.903089</string>
+			<key>longitude</key>
+			<string>-56.181045</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+
+<key>110</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Colonia esq Magallanes</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Colonia 1701-1705-1707 esq Magallanes</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.902400</string>
+			<key>longitude</key>
+			<string>-56.180005</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+
+<key>111</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Magallanes </string>
+		<key>program</key>
+		<string>Comercio, oficinas y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Magallanes 1424</string>
+		<key>author</key>
+		<string>Arqtos. Gualberto Rodríguez Larreta (firma técnica), Juan Scapusio (constructor)</string>
+		<key>year</key>
+		<string>1931</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.902605</string>
+			<key>longitude</key>
+			<string>-56.179946</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+
+<key>112</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Gari</string>
+		<key>program</key>
+		<string>Comercio y vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Uruguay 1750</string>
+		<key>author</key>
+		<string>Ing. Armando Gari</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.900502</string>
+			<key>longitude</key>
+			<string>-56.180041</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+
+<key>113</key>
+	<dict>
+		<key>name</key>
+		<string>Liceo Francés</string>
+		<key>program</key>
+		<string>Centro educativo</string>
+		<key>address</key>
+		<string>18 de julio 1772</string>
+		<key>author</key>
+		<string>Arq. Luis García Arocena</string>
+		<key>year</key>
+		<string>1937</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.902713</string>
+			<key>longitude</key>
+			<string>-56.177980</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+
+
+
+<key>114</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Gaboto esq Colonia</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Gaboto 1501 - 1505 - 1511 esq. Colonia</string>
+		<key>author</key>
+		<string>Arq. Eloy Tejera</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.901703</string>
+			<key>longitude</key>
+			<string>-56.179498</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+
+
+<key>115</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Scognamiglio</string>
+		<key>program</key>
+		<string>Oficina y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>Juan A. Rodriguez 1442-1444-1446</string>
+		<key>author</key>
+		<string>Arq. Arnaldo D´Agosto</string>
+		<key>year</key>
+		<string>1931</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.902674</string>
+			<key>longitude</key>
+			<string>-56.175026</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+
+
+<key>116</key>
+	<dict>
+		<key>name</key>
+		<string>Vivienda Cervieri</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Juan. D Jackson 1408</string>
+		<key>author</key>
+		<string>Arq. Ricardo Valabrega</string>
+		<key>year</key>
+		<string>1930</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.903879</string>
+			<key>longitude</key>
+			<string>-56.173574</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+
+<key>117</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Martino</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>18 de julio 1969-1971</string>
+		<key>author</key>
+		<string>Arq. Enrique Rivas</string>
+		<key>year</key>
+		<string>1932</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.900867</string>
+			<key>longitude</key>
+			<string>-56.173225</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+
+<key>118</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio en Colonia esq M.C. Martinez</string>
+		<key>program</key>
+		<string>Comercio y vivienda unifamiliar</string>
+		<key>address</key>
+		<string>Colonia 2045 - 2047 - 2049</string>
+		<key>author</key>
+		<string>sin datos</string>
+		<key>year</key>
+		<string>1929</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.899135</string>
+			<key>longitude</key>
+			<string>-56.171777</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+
+<key>119</key>
+	<dict>
+		<key>name</key>
+		<string>Liceo 14 (Vivienda Ramponi)</string>
+		<key>program</key>
+		<string>Original (vivienda unifamiliar), actual (liceo)</string>
+		<key>address</key>
+		<string>8 de octubre 3390</string>
+		<key>author</key>
+		<string>Arq. Alfredo Lavignasse</string>
+		<key>year</key>
+		<string>1922</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.879706</string>
+			<key>longitude</key>
+			<string>-56.147939</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+	<key>120</key>
+	<dict>
+		<key>name</key>
+		<string>Casa Degli Italiani</string>
+		<key>program</key>
+		<string>Vivienda unifamiliar</string>
+		<key>address</key>
+		<string>8 de octubre 2655</string>
+		<key>author</key>
+		<string>Arq. Luis Goyret</string>
+		<key>year</key>
+		<string>Década del treinta</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.886613</string>
+			<key>longitude</key>
+			<string>-56.157863</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+	<key>121</key>
+	<dict>
+		<key>name</key>
+		<string>Tramo en calle Estero Bellaco</string>
+		<key>program</key>
+		<string>Viviendas unifamiliares</string>
+		<key>address</key>
+		<string>Estero Bellaco 2617-2621; 2623-2627; 2629; 2631-2633</string>
+		<key>author</key>
+		<string>Varios</string>
+		<key>year</key>
+		<string>Varios</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.885787</string>
+			<key>longitude</key>
+			<string>-56.162582</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+
+		<key>122</key>
+	<dict>
+		<key>name</key>
+		<string>Edificio Valls</string>
+		<key>program</key>
+		<string>Comercio y vivienda de apartamentos para renta</string>
+		<key>address</key>
+		<string>8 de octubre 2759-2761-2763</string>
+		<key>author</key>
+		<string>Arq. Luis Rodolfo Crocco</string>
+		<key>year</key>
+		<string>1926</string>
+		<key>fullDescription</key>
+		<string></string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<string>-34.886353</string>
+			<key>longitude</key>
+			<string>-56.157697</string>
+		</dict>
+		<key>image</key>
+		<string>no_image</string>
+	</dict>
+
+	
 	</dict>
 </dict>
 </plist>

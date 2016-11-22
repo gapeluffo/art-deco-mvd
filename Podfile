@@ -8,6 +8,8 @@ target 'ArtDecoMvd' do
   # Pods for ArtDecoMvd
   pod 'DZNEmptyDataSet'
 
+  pod 'XLMediaZoom'
+
   target 'ArtDecoMvdTests' do
     inherit! :search_paths
     # Pods for testing

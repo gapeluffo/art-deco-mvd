@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import XLMediaZoom
 
 class BuildingDetailViewController: UIViewController {
     
@@ -28,7 +29,8 @@ class BuildingDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         buildingMapView.delegate = self
-        initializeLayout();
+        initializeLayout()
+        setupTapGestureToImageView()
     }
 
     func initializeLayout(){
@@ -83,6 +85,22 @@ class BuildingDetailViewController: UIViewController {
             isFavorite = !isFavorite
             favoriteButton.setImage(UIImage(named: isFavorite ? Images.favorite : Images.notFavorite), forState: .Normal)
         }
+    }
+
+    func setupTapGestureToImageView() {
+        let tapGestureRecognizer = UITapGestureRecognizer(target:self, action:#selector(BuildingDetailViewController.imageTapped))
+
+        buildingImage.userInteractionEnabled = true
+        buildingImage.addGestureRecognizer(tapGestureRecognizer)
+
+    }
+
+
+
+    func imageTapped() {
+        let imageZoom = XLMediaZoom(animationTime: 0.5, image: buildingImage, blurEffect: true)
+        view.addSubview(imageZoom)
+        imageZoom.show()
     }
 }
 
