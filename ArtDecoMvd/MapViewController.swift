@@ -53,7 +53,7 @@ class MapViewController: UIViewController {
     }
 
     override func viewWillAppear(animated: Bool) {
-        refreshMap();
+        refreshMapAnnotations();
     }
     
     @IBAction func pinOptionsChanged(sender: AnyObject) {
@@ -145,7 +145,7 @@ extension MapViewController {
         }
     }
 
-    func refreshMap(){
+    func refreshMapAnnotations(){
         allAnnotations.removeAll()
         mapView.removeAnnotations(mapView.annotations)
         addPins()
@@ -223,6 +223,10 @@ extension MapViewController : BuildingViewDelegate{
 
         buildingDetailViewController.building = building
         self.navigationController?.pushViewController(buildingDetailViewController, animated: true)
+    }
+
+    func refreshMap() {
+        refreshMapAnnotations()
     }
 }
 

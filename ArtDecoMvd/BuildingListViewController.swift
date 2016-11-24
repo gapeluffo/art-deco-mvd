@@ -213,9 +213,9 @@ extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource
         let building = getBuildingByIndexPath(indexPath)
 
         if let image = building.image {
-            return image == Images.noImage ? 100 : 158
+            return CGFloat(image == Images.noImage ? kBuildingCellHeightNoImage : kBuildingCellHeight)
         }else{
-            return 100
+            return CGFloat(kBuildingCellHeightNoImage)
         }
     }
 

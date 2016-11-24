@@ -14,6 +14,8 @@ let kFontMedium    = "Avenir-Medium"
 let kFontRegular   = "Avenir"
 let kFontHeavy     = "Avenir-Heavy"
 
+let kBuildingCellHeight        = 158
+let kBuildingCellHeightNoImage = 100
 
 struct Colors {
 

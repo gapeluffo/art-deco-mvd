@@ -99,6 +99,8 @@ class BuildingDetailViewController: UIViewController {
 
     func imageTapped() {
         let imageZoom = XLMediaZoom(animationTime: 0.5, image: buildingImage, blurEffect: true)
+        let screenSize: CGRect = UIScreen.mainScreen().bounds
+        imageZoom.center = CGPoint(x: screenSize.width/2, y: screenSize.height/2)
         view.addSubview(imageZoom)
         imageZoom.show()
     }

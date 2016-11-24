@@ -37,9 +37,12 @@ class FavoritesViewController: UIViewController{
     }
     
     func initializeFavorites(){
-        favorites = Building.loadBuildings().filter{ building in
-            return Favorites.sharedInstance.isFavorite(building)
-        }
+        favorites = Building.loadBuildings()
+            .filter{ building in
+                return Favorites.sharedInstance.isFavorite(building)
+            }.sort({
+                $0.name < $1.name
+            })
     }
     
 }
@@ -62,7 +65,13 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 157
+        let building = favorites[indexPath.row]
+
+        if let image = building.image {
+            return CGFloat(image == Images.noImage ? kBuildingCellHeightNoImage : kBuildingCellHeight)
+        }else{
+            return CGFloat(kBuildingCellHeightNoImage)
+        }
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

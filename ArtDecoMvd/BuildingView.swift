@@ -10,6 +10,7 @@ import MapKit
 
 protocol BuildingViewDelegate {
     func openBuildingDetails(building:Building)
+    func refreshMap()
 }
 
 class BuildingView : UIView {
@@ -30,6 +31,10 @@ class BuildingView : UIView {
 
         isFavorite = !isFavorite
         favoriteButton.setImage(UIImage(named: isFavorite ? Images.favoriteSmaller : Images.notFavoriteSmaller), forState: .Normal)
+
+        if delegate != nil {
+            delegate.refreshMap()
+        }
     }
 
     @IBAction func gotToDetailsTouchUpInside(sender: AnyObject) {
