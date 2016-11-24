@@ -525,41 +525,6 @@ Guía Art Decó de Montevideo, ELARQA
 			<key>image</key>
 			<string>edificio arijon</string>
 		</dict>
-		<key>21</key>
-		<dict>
-			<key>name</key>
-			<string>Edificio Frugoni</string>
-			<key>program</key>
-			<string>Comercio y vivienda de apartamentos para renta</string>
-			<key>address</key>
-			<string>Uruguay 930-934</string>
-			<key>author</key>
-			<string>Arq. Mauricio Cravotto</string>
-			<key>fullDescription</key>
-<string>Un programa complejo que comprende tres plantas destinadas a comercio —incluyendo el subsuelo y tres a vivienda para renta es abordado por Mauricio Cravotto, revelando tempranamente varias constantes de su obra claridad, sencillez, e inspirada racionalidad. El resultado revela una cálida y exquisita sensibilidad que incorpora el Art Déco como lenguaje moderno.
-
-Una estructuración de inspiración clásica se descubre al analizar el diseño general del edificio, predominio total de la simetría y planteo tripartito de fachada con sugestivas variaciones que confieren singularidad a su imagen. En efecto, el bow window del primer piso jerarquiza el basamento e inicia el plano de desarrollo. Éste retoma su perfil en los pisos superiores mediante balcones que se corresponden con ahuecamientos del plano de fachada en su tramo central. El conjunto se aliviana además por el uso de barandas en herrería de diseño geométrico de clara inspiración Déco.
-
-Sin que exista un plano de coronamiento, se identifica un remate superior que eleva los cuerpos laterales escalonados hacia el centro de la fachada en un gesto que acentúa un discreto sentido ascensional. El diseño general apela a la simetría también en la organización planimétrica, lo que se reconoce en las
-sucesivas plantas ya sea en relación con la disposición de las circulaciones, accesos, lucernarios, como en la organización interna de los apartamentos.
-
-El edificio incorpora claros recursos propios de la arquitectura Déco, con predominio de motivos geométricos destacables en el bow window del primer piso por su zigzagueante vidriera con vitrales también Déco, en las barandas interiores y exteriores, y en particular todo el tratamiento del acceso central del comercio
-
-En la fachada sobre ambos accesos laterales, se incorporan bajorrelieves alusivos a la familia y el trabajo, realizados por el escultor Severino Pose.
-
-Fuente: Guía Art Decó de Montevideo, ELARQA</string>
-			<key>year</key>
-			<string>1927 (permiso de construcción) </string>
-			<key>coordinates</key>
-			<dict>
-				<key>latitude</key>
-				<string>-34.903197</string>
-				<key>longitude</key>
-				<string>-56.196629</string>
-			</dict>
-			<key>image</key>
-			<string>no_image</string>
-		</dict>
 		<key>22</key>
 		<dict>
 			<key>name</key>
@@ -1432,7 +1397,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.169144</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>18 esquina paullier</string>
 		</dict>
 		<key>52</key>
 		<dict>
@@ -1770,7 +1735,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.203526</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>EDIFICIO CARVE URIOSTE</string>
 		</dict>
 		<key>65</key>
 		<dict>
