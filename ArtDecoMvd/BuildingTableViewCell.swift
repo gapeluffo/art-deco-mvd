@@ -30,7 +30,14 @@ class BuildingTableViewCell: UITableViewCell {
         self.building = building
 
         nameLabel.text = building.name
-        descriptionLabel.text = "\(building.year) - \(building.architect)"
+
+        if building.year != "" {
+            descriptionLabel.text = "\(building.year)"
+        }
+
+        if building.architect != "" {
+            descriptionLabel.text = descriptionLabel.text! + " - \(building.architect)"
+        }
         
         nameLabel.font = UIFont(name: kFontHeavy, size: 18)
         descriptionLabel.font = UIFont(name: kFontMedium, size: 15)

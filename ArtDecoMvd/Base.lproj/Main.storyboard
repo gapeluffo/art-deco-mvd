@@ -150,18 +150,18 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="64"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1g6-T8-Cck" id="e2L-a4-ErA">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="63.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="63"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b5R-Ka-RlB">
-                                            <rect key="frame" x="15" y="11" width="34" height="23.5"/>
+                                            <rect key="frame" x="15" y="11" width="34" height="24"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GbW-dS-JCN">
-                                            <rect key="frame" x="15" y="34.5" width="45" height="18"/>
+                                            <rect key="frame" x="15" y="35" width="45" height="18"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="13"/>
                                             <nil key="textColor"/>
@@ -601,7 +601,7 @@
                                                     <constraint firstAttribute="height" constant="160" id="8Jj-S0-l2R"/>
                                                 </constraints>
                                             </mapView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="LK6-Yt-sJK">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="LK6-Yt-sJK">
                                                 <rect key="frame" x="20" y="742" width="560" height="157"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -652,7 +652,7 @@
                                                 <color key="textColor" red="0.054901960780000002" green="0.14901960780000001" blue="0.35686274509999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Av 18 de Julio 1111" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XvX-di-m0Y">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Av 18 de Julio 1111" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XvX-di-m0Y">
                                                 <rect key="frame" x="20" y="514.5" width="560" height="36"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -870,7 +870,7 @@
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1930 - Federico Guiria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNK-oc-o8a">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1930 - Federico Guiria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNK-oc-o8a">
                                                     <rect key="frame" x="10" y="127.5" width="302" height="22"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="24" id="E7N-rl-CRW"/>
@@ -1173,6 +1173,6 @@
         <image name="tabMap" width="25" height="26"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HuQ-LS-LQG"/>
+        <segue reference="HWe-rG-N2d"/>
     </inferredMetricsTieBreakers>
 </document>

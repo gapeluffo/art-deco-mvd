@@ -53,7 +53,14 @@ class BuildingDetailViewController: UIViewController {
             super.title = building.name
 
             // year - architect
-            buildingArchitectLabel.text = "\(building.year) - \(building.architect)"
+            if building.year != "" {
+                buildingArchitectLabel.text = "\(building.year)"
+            }
+
+            if building.architect != "" {
+                buildingArchitectLabel.text = buildingArchitectLabel.text! + " - \(building.architect)"
+            }
+
             buildingArchitectLabel.font = UIFont(name: kFontLight, size: 15)
 
             // address

@@ -813,7 +813,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.186855</string>
 			</dict>
 			<key>image</key>
-			<string>EDIFICIO PARELLA</string>
+			<string>EDIFICIO PARRELLA</string>
 		</dict>
 		<key>30</key>
 		<dict>
@@ -1291,7 +1291,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 
 			Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 			<key>year</key>
-			<string>Sin datos</string>
+			<string></string>
 			<key>coordinates</key>
 			<dict>
 				<key>latitude</key>
@@ -2198,7 +2198,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 		<key>address</key>
 		<string>Avenida Italia 2360</string>
 		<key>author</key>
-		<string>Sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>Década del 30</string>
 		<key>fullDescription</key>
@@ -2346,7 +2346,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Rio Negro 1180</string>
 		<key>author</key>
-		<string>Sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>Década del treinta</string>
 		<key>fullDescription</key>
@@ -2373,7 +2373,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Constituyente 1959</string>
 		<key>author</key>
-		<string>Sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>Década del treinta</string>
 		<key>fullDescription</key>
@@ -2499,7 +2499,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Jackson 1274-1276, 1278, 1282</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>Década del treinta</string>
 		<key>fullDescription</key>
@@ -2527,7 +2527,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Parque Rodó</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>Década del treinta</string>
 		<key>fullDescription</key>
@@ -2585,7 +2585,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Roque Graseras 72, 725, 729</string>
 		<key>author</key>
-		<string>Sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>Década del treinta</string>
 		<key>fullDescription</key>
@@ -2612,7 +2612,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Plaza Gomensoro</string>
 		<key>author</key>
-		<string>Sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>Década del treinta</string>
 		<key>fullDescription</key>
@@ -2642,7 +2642,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>8 de octubre 2767</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>1930</string>
 		<key>fullDescription</key>
@@ -3121,9 +3121,9 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Maldonado 930 - 932 - 934</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>fullDescription</key>
 		<string></string>
 		<key>coordinates</key>
@@ -3147,7 +3147,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Maldonado 1454</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>1930</string>
 		<key>fullDescription</key>
@@ -3227,7 +3227,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Wilson Ferreria Aldunate 1192</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>1930</string>
 		<key>fullDescription</key>
@@ -3381,7 +3381,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Pablo de María 1111-1115-1119</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>1930</string>
 		<key>fullDescription</key>
@@ -3706,9 +3706,9 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Br. Artigas 1291</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>fullDescription</key>
 		<string></string>
 		<key>coordinates</key>
@@ -3941,7 +3941,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Franzini 994</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>1930</string>
 		<key>fullDescription</key>
@@ -4125,7 +4125,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Solano Antuña 2671</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>1930</string>
 		<key>fullDescription</key>
@@ -4154,7 +4154,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Solano Antuña 2677</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>1930</string>
 		<key>fullDescription</key>
@@ -4210,7 +4210,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Solano Antuña 2755 y Berro 704</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>1930</string>
 		<key>fullDescription</key>
@@ -4420,9 +4420,9 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Treinta y Tres 1427, esquina 25 de Mayo</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>fullDescription</key>
 		<string></string>
 		<key>coordinates</key>
@@ -4678,7 +4678,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Colonia 1701-1705-1707 esq Magallanes</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>1930</string>
 		<key>fullDescription</key>
@@ -4898,7 +4898,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>address</key>
 		<string>Colonia 2045 - 2047 - 2049</string>
 		<key>author</key>
-		<string>sin datos</string>
+		<string></string>
 		<key>year</key>
 		<string>1929</string>
 		<key>fullDescription</key>
