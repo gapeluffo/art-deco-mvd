@@ -387,7 +387,7 @@ Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.198474</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>palacio rinaldi</string>
 		</dict>
 		<key>17</key>
 		<dict>
@@ -418,7 +418,7 @@ Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.198774</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>edificio laborde</string>
 		</dict>
 		<key>18</key>
 		<dict>
@@ -455,7 +455,7 @@ Guía Art Decó de Montevideo, ELARQA
 				<string>-56.197407</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>bazar mitre</string>
 		</dict>
 		<key>19</key>
 		<dict>
@@ -489,7 +489,7 @@ Guía Art Decó de Montevideo, ELARQA
 				<string>-56.198523</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>edificio andes</string>
 		</dict>
 		<key>20</key>
 		<dict>
@@ -523,7 +523,7 @@ Guía Art Decó de Montevideo, ELARQA
 				<string>-56.195508</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>edificio arijon</string>
 		</dict>
 		<key>21</key>
 		<dict>
@@ -589,7 +589,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 				<string>-56.192711</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>edificio darnaud</string>
 		</dict>
 		<key>23</key>
 		<dict>
@@ -621,7 +621,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.191166</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>cine radio city</string>
 		</dict>
 		<key>24</key>
 		<dict>
@@ -687,7 +687,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.189879</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>confiteria americana</string>
 		</dict>
 		<key>26</key>
 		<dict>
@@ -717,7 +717,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.189063</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>edificio goret</string>
 		</dict>
 		<key>27</key>
 		<dict>
@@ -750,7 +750,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.188891</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>vivienda barrella</string>
 		</dict>
 		<key>28</key>
 		<dict>
@@ -783,7 +783,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.187413</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>palacio diaz</string>
 		</dict>
 		<key>29</key>
 		<dict>
@@ -839,7 +839,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.198797</string>
 			</dict>
 			<key>image</key>
-			<string>EDIFICIO PARRELLA</string>
+			<string>edificio del castillo plaza independencia</string>
 		</dict>
 		<key>31</key>
 		<dict>
@@ -944,7 +944,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.196227</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>auditorio sodre</string>
 		</dict>
 		<key>35</key>
 		<dict>
@@ -973,7 +973,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.195885</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>palacio lapido</string>
 		</dict>
 		<key>36</key>
 		<dict>
@@ -999,7 +999,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA</string>
 				<string>-56.195982</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>edificio rogberg</string>
 		</dict>
 		<key>37</key>
 		<dict>
@@ -1850,7 +1850,7 @@ Cuenta con un subsuelo, planta baja, entrepiso, diez pisos altos completos y cat
 				<string>-56.198387</string>
 			</dict>
 			<key>image</key>
-			<string>no_image</string>
+			<string>palacio salvo</string>
 		</dict>
 		<key>68</key>
 		<dict>
@@ -2364,37 +2364,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 		<key>image</key>
 		<string>ATENEO POPULAR</string>
 	</dict>
-	<key>85</key>
-	<dict>
-		<key>name</key>
-		<string>Vázquez Barrière y Ruano</string>
-		<key>program</key>
-		<string>Oficinas y vivienda de apartamentos para renta</string>
-		<key>address</key>
-		<string>Constituyente 1959</string>
-		<key>author</key>
-		<string></string>
-		<key>year</key>
-		<string>Década del treinta</string>
-		<key>fullDescription</key>
-<string>Emplazado en un terreno de grandes dimensiones, la composición responde a una estricta simetría axial en su fachada y en la resolución de sus plantas. 
 
-En planta baja, la puerta en herrería artística y vidrio se encuentra resaltando el eje de simetría y coronada por una importante marquesina Déco de líneas curvas en hierro.
-
-La estructuración unitaria de fachada (a partir de un sector central enmarcado), conduce a un tratamiento diferencial de las plantas tipo correspondientes a cuatro apartamentos por piso. El centro generador de la fachada queda jerarquizado por cuatro pilastras monumentales.
-
-Fuente: Guía Art Decó de Montevideo, ELARQA
-</string>
-		<key>coordinates</key>
-		<dict>
-			<key>latitude</key>
-			<string>-34.907234</string>
-			<key>longitude</key>
-			<string>-56.174867</string>
-		</dict>
-		<key>image</key>
-		<string>no_image</string>
-	</dict>
 	<key>86</key>
 	<dict>
 		<key>name</key>
@@ -2758,7 +2728,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.182376</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>edificio buroni</string>
 	</dict>
 
 
@@ -4433,7 +4403,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.205890</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>banco caja obrera</string>
 	</dict>
 
 
@@ -4511,7 +4481,7 @@ Fuente: Guía Art Decó de Montevideo, ELARQA
 			<string>-56.182245</string>
 		</dict>
 		<key>image</key>
-		<string>no_image</string>
+		<string>64 - Soriano 1547</string>
 	</dict>
 
 	<key>104</key>
