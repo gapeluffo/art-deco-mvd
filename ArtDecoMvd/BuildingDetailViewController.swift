@@ -20,7 +20,9 @@ class BuildingDetailViewController: UIViewController {
     @IBOutlet var buildingAboutText: UITextView!
     @IBOutlet var favoriteButton: UIButton!
     @IBOutlet var buildingUseLabel: UILabel!
+    @IBOutlet var buildingImageRatioConstraint: NSLayoutConstraint!
     @IBOutlet var buildingImageHeightConstraint: NSLayoutConstraint!
+    
 
     var building: Building?
     var isFavorite : Bool = false
@@ -40,11 +42,17 @@ class BuildingDetailViewController: UIViewController {
             // image
             if let image = self.building!.image{
                 if image == Images.noImage{
+                    buildingImage.frame.size.height = 0
+                    buildingImageRatioConstraint.active = false
                     buildingImageHeightConstraint.constant = 0
+                } else {
+                    buildingImage.image = UIImage(named: image)
+                    buildingImageHeightConstraint.active = false
                 }
 
-                buildingImage.image = UIImage(named: image)
             }else{
+                buildingImage.frame.size.height = 0
+                buildingImageRatioConstraint.active = false
                 buildingImageHeightConstraint.constant = 0
             }
 

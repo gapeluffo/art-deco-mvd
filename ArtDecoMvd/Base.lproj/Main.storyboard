@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -586,7 +587,8 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="5nr-oV-lXw">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="203"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="203" id="kHy-Dt-WUz"/>
+                                                    <constraint firstAttribute="height" constant="203" id="A2r-NQ-ipg"/>
+                                                    <constraint firstAttribute="width" secondItem="5nr-oV-lXw" secondAttribute="height" multiplier="600:203" id="Jel-uW-2vc"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDIFICIO ARTIGAS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auH-zV-cY5">
@@ -598,7 +600,7 @@
                                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HHW-Nd-dyd">
                                                 <rect key="frame" x="0.0" y="297.5" width="600" height="160"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="160" id="8Jj-S0-l2R"/>
+                                                    <constraint firstAttribute="width" secondItem="HHW-Nd-dyd" secondAttribute="height" multiplier="15:4" id="WaI-vp-eq8"/>
                                                 </constraints>
                                             </mapView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="LK6-Yt-sJK">
@@ -793,7 +795,8 @@
                         <outlet property="buildingAddressLabel" destination="XvX-di-m0Y" id="tOB-V3-BsF"/>
                         <outlet property="buildingArchitectLabel" destination="fOB-Ws-mEQ" id="Y1S-EQ-da4"/>
                         <outlet property="buildingImage" destination="5nr-oV-lXw" id="ZQ9-QF-zgb"/>
-                        <outlet property="buildingImageHeightConstraint" destination="kHy-Dt-WUz" id="oaq-mK-T1d"/>
+                        <outlet property="buildingImageHeightConstraint" destination="A2r-NQ-ipg" id="Eft-J6-Cih"/>
+                        <outlet property="buildingImageRatioConstraint" destination="Jel-uW-2vc" id="RNc-TK-L6w"/>
                         <outlet property="buildingMapView" destination="HHW-Nd-dyd" id="gMc-1J-29V"/>
                         <outlet property="buildingTitleLabel" destination="auH-zV-cY5" id="emu-nH-Owl"/>
                         <outlet property="buildingUseLabel" destination="ZLI-Le-Y4f" id="L6E-0C-dn9"/>
@@ -852,7 +855,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="158"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1JS-o9-m7q" id="fut-gd-tHA">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="158"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="157"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buildingExample" translatesAutoresizingMaskIntoConstraints="NO" id="NHY-qt-URk">
@@ -1003,7 +1006,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="158"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zAp-c9-HFW" id="kVh-eh-25d">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="158"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="157"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buildingExample" translatesAutoresizingMaskIntoConstraints="NO" id="DTw-bs-vG0">
